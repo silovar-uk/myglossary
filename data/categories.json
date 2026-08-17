@@ -1,4 +1,5 @@
 {
+  "hero-interview": ["行動科学", "コーチング", "組織開発"],
   "placeholder": ["Web", "UI", "フォーム"],
   "tooltip": ["Web", "UI", "ガイダンス"],
   "modal": ["Web", "UI", "オーバーレイ"],
