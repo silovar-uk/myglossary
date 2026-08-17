@@ -1,5 +1,25 @@
 [
   {
+    "id": "wordmark",
+    "term": "ワードマーク",
+    "english": "Wordmark",
+    "reading": "わーどまーく",
+    "oneLine": "ブランド名などの文字そのものを、固有の書体・字形・組み方で識別記号として見せるロゴ表現。",
+    "detail": "ブランディングやグラフィックデザインでいうワードマークは、会社名・商品名・サービス名などの『文字』を主役にしたロゴ表現。別のシンボルやアイコンに頼らず、書体、字形、文字間、大小、色などのタイポグラフィによって固有性をつくる。『ロゴタイプ（logotype）』とほぼ同義で使われることも多い。一方、頭文字だけで構成するものはレターマーク、図形や記号を中心にしたものはシンボルマーク／ロゴマークなどと呼び分けられる。\n\nなお、商標制度の文脈でいう word mark や『標準文字』は意味が異なる。たとえば特許庁の標準文字制度は、文字だけで構成され、特別な書体・色・図形的表現について権利を求めない商標を扱う制度。デザイン上のワードマークはむしろ文字の見た目そのものをブランド表現として設計するため、同じ『文字のマーク』でも文脈を分けて理解すると混乱しにくい。",
+    "example": "ブランド名『ABC』を、既成フォントでそのまま打つのではなく、Aの形を独自に調整し、文字間や太さまで固定して毎回同じ形で使う。この文字ロゴ部分がワードマーク。",
+    "context": "ロゴを『文字部分』と『図形・シンボル部分』に分けて考えるときに役立つ用語。ブランドガイドラインやロゴ制作の会話で、何を指しているかを明確にしやすい。",
+    "learnedAt": "2026-08-17",
+    "tags": ["デザイン", "ブランディング", "ロゴ", "タイポグラフィ"],
+    "related": [],
+    "relations": {"similar": [], "contrast": []},
+    "visual": "",
+    "sources": [
+      {"label": "Adobe Learn｜Design a wordmark", "url": "https://www.adobe.com/learn/indesign/web/wordmark-logo"},
+      {"label": "Collins English Dictionary｜wordmark", "url": "https://www.collinsdictionary.com/dictionary/english/wordmark"},
+      {"label": "特許庁｜商標法第5条第3項に規定する標準文字について", "url": "https://www.jpo.go.jp/system/laws/rule/guideline/trademark/syouhyou_5_3.html"}
+    ]
+  },
+  {
     "id": "syncopation",
     "term": "シンコペーション",
     "english": "Syncopation",
