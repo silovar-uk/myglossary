@@ -176,10 +176,10 @@ function decorateAll() {
 }
 
 function decorateCards() {
-  document.querySelectorAll('[data-term-id]').forEach((card) => {
+  document.querySelectorAll('#termList .term-row[data-term-id], #recentList .term-card[data-term-id]').forEach((card) => {
     const id = card.dataset.termId;
     if (!id) return;
-    let indicator = card.querySelector(':scope > .favorite-indicator');
+    let indicator = card.querySelector('.favorite-indicator');
     const favorite = taxonomyState.favorites.has(id);
     if (favorite && !indicator) {
       indicator = document.createElement('span');
@@ -212,6 +212,9 @@ function decorateDetail() {
 
   const path = categoryPathFor(term);
   const favorite = taxonomyState.favorites.has(id);
+  const signature = JSON.stringify([id, favorite, path]);
+  if (tools.dataset.signature === signature) return;
+  tools.dataset.signature = signature;
   tools.innerHTML = `
     <button class="favorite-button ${favorite ? 'is-favorite' : ''}" type="button" data-favorite-toggle="${escapeTaxonomy(id)}" aria-pressed="${favorite}">${favorite ? '★ お気に入り' : '☆ お気に入り'}</button>
     ${path.length ? `<div class="detail-category-trail" aria-label="分類">${path.map((segment) => `<span>${escapeTaxonomy(segment)}</span>`).join('')}</div>` : ''}
