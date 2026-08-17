@@ -1,5 +1,27 @@
 [
   {
+    "id": "multi-stakeholder-management",
+    "term": "マルチ・ステークホルダー・マネジメント",
+    "english": "Multi-stakeholder management / Multi-stakeholder engagement",
+    "reading": "まるちすてーくほるだーまねじめんと",
+    "oneLine": "立場・利害・権限の異なる複数の関係者を可視化し、対話・役割分担・合意形成を設計して共通の成果へ動かすマネジメント。",
+    "detail": "マルチ・ステークホルダー・マネジメントは、プロジェクトや施策に影響を与える、または影響を受ける複数の関係者を特定し、それぞれの関心、期待、影響力、権限、利害関係を把握したうえで、適切な関与方法を設計する考え方。単に関係者へ情報共有するだけではなく、誰をどの段階で巻き込むか、誰が決めるか、誰へ相談するか、どこで対立が起こりうるかを整理し、継続的に関係を調整していく。\n\n特に『マルチ』が重要になるのは、ステークホルダー同士の要求が一致しない場面。行政、企業、地域住民、利用者、スポンサーなどは、それぞれ異なる目的や制約を持つため、全員の意見をそのまま足し合わせても解決にはならない。影響力や関心度をマッピングし、共通利益と対立点を分け、意思決定のルールや役割を明確にしながら合意可能な範囲を広げる。必要なのは“人当たりのよい調整”よりも、関係者間の構造を捉えて参加・対話・決定の仕組みを設計すること。",
+    "example": "大規模な試合イベントを実施するとき、クラブ内の各部署だけでなく、スポンサー、スタジアム、自治体、警察・消防、交通事業者、出店者、メディア、来場者、地域住民などが関係する。それぞれについて『何を重視するか』『何を決められるか』『何に影響されるか』を整理し、事前協議、役割分担、承認ルート、情報共有の頻度、対立時の判断基準まで設計する。これがマルチ・ステークホルダー・マネジメント。",
+    "misconception": "関係者全員の要望を同じ比重で受け入れ、全員を満足させることではない。影響力・関心・正当性・役割などを整理し、異なる利害を透明なプロセスで扱いながら、目的達成に必要な関与と意思決定を設計することが中心。",
+    "context": "関係者が多い案件を『調整が大変』で終わらせず、誰と誰の利害がどう結びついているかを構造として捉えるために役立つ概念。",
+    "learnedAt": "2026-08-17",
+    "tags": ["プロジェクトマネジメント", "ステークホルダー", "合意形成", "ガバナンス"],
+    "categoryPath": ["ビジネス", "プロジェクトマネジメント", "ステークホルダー"],
+    "related": [],
+    "relations": {"similar": [], "contrast": []},
+    "visual": "",
+    "sources": [
+      {"label": "PMI｜Project Stakeholder Management", "url": "https://www.pmi.org/learning/library/project-stakeholder-management-5216"},
+      {"label": "UNDP｜Multi-Stakeholder Engagement Processes", "url": "https://www.undp.org/publications/multi-stakeholder-engagement-processes"},
+      {"label": "OECD｜Ensuring efficient stakeholder engagement", "url": "https://www.oecd.org/en/publications/compendium-of-international-organisations-practices_846a5fa0-en/full-report/component-11.html"}
+    ]
+  },
+  {
     "id": "forecasting",
     "term": "フォアキャスティング",
     "english": "Forecasting",
@@ -224,7 +246,7 @@
     "related": ["dialog", "popup"],
     "relations": {"similar": ["dialog"], "contrast": ["dialog"]},
     "visual": "modal",
-    "sources": [{"label": "W3C WAI-ARIA APG", "url": "https://www.w3.org/WAI/ARIA/apg/patterns/dialog-modal/"}]
+    "sources": [{"label": "W3C WAI-ARIA APG", "url": "https://www.w3.org/WAI-ARIA/apg/patterns/dialog-modal/"}]
   },
   {
     "id": "dialog",
@@ -240,7 +262,7 @@
     "related": ["modal", "popup"],
     "relations": {"similar": ["modal"], "contrast": ["modal"]},
     "visual": "dialog",
-    "sources": [{"label": "MDN <dialog>", "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/dialog"}, {"label": "W3C WAI-ARIA APG", "url": "https://www.w3.org/WAI/ARIA/apg/patterns/dialog-modal/"}]
+    "sources": [{"label": "MDN <dialog>", "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/dialog"}, {"label": "W3C WAI-ARIA APG", "url": "https://www.w3.org/WAI-ARIA/apg/patterns/dialog-modal/"}]
   },
   {
     "id": "popup",
@@ -272,7 +294,7 @@
     "related": ["pull-down", "popup"],
     "relations": {"similar": ["pull-down"], "contrast": []},
     "visual": "dropdown",
-    "sources": [{"label": "W3C Disclosure Navigation", "url": "https://www.w3.org/WAI/ARIA/apg/patterns/disclosure/examples/disclosure-navigation/"}]
+    "sources": [{"label": "W3C Disclosure Navigation", "url": "https://www.w3.org/WAI-ARIA/apg/patterns/disclosure/examples/disclosure-navigation/"}]
   },
   {
     "id": "pull-down",
@@ -288,7 +310,7 @@
     "related": ["dropdown"],
     "relations": {"similar": ["dropdown"], "contrast": []},
     "visual": "pull-down",
-    "sources": [{"label": "W3C Disclosure Navigation", "url": "https://www.w3.org/WAI/ARIA/apg/patterns/disclosure/examples/disclosure-navigation/"}]
+    "sources": [{"label": "W3C Disclosure Navigation", "url": "https://www.w3.org/WAI-ARIA/apg/patterns/disclosure/examples/disclosure-navigation/"}]
   },
   {
     "id": "accordion",
@@ -304,7 +326,7 @@
     "related": ["dropdown", "drawer"],
     "relations": {"similar": [], "contrast": []},
     "visual": "accordion",
-    "sources": [{"label": "W3C WAI-ARIA APG", "url": "https://www.w3.org/WAI/ARIA/apg/patterns/accordion/"}, {"label": "W3C Disclosure Pattern", "url": "https://www.w3.org/WAI/ARIA/apg/patterns/disclosure/"}]
+    "sources": [{"label": "W3C WAI-ARIA APG", "url": "https://www.w3.org/WAI-ARIA/apg/patterns/accordion/"}, {"label": "W3C Disclosure Pattern", "url": "https://www.w3.org/WAI-ARIA/apg/patterns/disclosure/"}]
   },
   {
     "id": "toggle",
