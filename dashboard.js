@@ -33,7 +33,11 @@ function prepareCompactHeroLayout() {
         <div class="random-hero-actions">
           <button class="primary-button" id="heroRandomOpen" type="button" disabled>詳しく見る</button>
           <button class="ghost-button" id="heroRandomNext" type="button" disabled>別の1語</button>
+          <button class="ghost-button" id="heroRandomSources" type="button" aria-expanded="false" aria-controls="heroRandomSourcesMenu" hidden>
+            <span aria-hidden="true">↗</span> 参考URL
+          </button>
         </div>
+        <div id="heroRandomSourcesMenu" class="hero-random-sources-menu" hidden></div>
       </div>
       <div class="random-hero-visual-wrap" id="heroRandomVisualWrap" hidden>
         <p class="random-hero-visual-label">INTERACTIVE SAMPLE</p>
@@ -41,6 +45,8 @@ function prepareCompactHeroLayout() {
       </div>
     </div>
   `;
+
+  mountHeroSourceStyles();
 
   const todayPanel = document.querySelector('#todayTerm')?.closest('.dashboard-panel');
   todayPanel?.remove();
@@ -53,6 +59,58 @@ function prepareCompactHeroLayout() {
   if (practiceTitle) practiceTitle.textContent = 'クイズで思い出す';
   const practiceCopy = practiceHeading?.querySelector(':scope > p');
   if (practiceCopy) practiceCopy.textContent = '説明や見た目から、言葉を短く思い出す。';
+}
+
+function mountHeroSourceStyles() {
+  if (document.querySelector('#heroSourceStyles')) return;
+  const style = document.createElement('style');
+  style.id = 'heroSourceStyles';
+  style.textContent = `
+    .hero-random-sources-menu {
+      width: min(100%, 560px);
+      margin-top: 10px;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      background: rgba(255,253,248,.96);
+      padding: 8px;
+      box-shadow: 0 14px 32px rgba(31, 28, 23, .08);
+    }
+    .hero-random-sources-menu[hidden] { display: none; }
+    .hero-random-sources-menu a {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      border-radius: 8px;
+      padding: 10px 11px;
+      color: inherit;
+      text-decoration: none;
+      font-size: 12px;
+      line-height: 1.45;
+    }
+    .hero-random-sources-menu a:hover,
+    .hero-random-sources-menu a:focus-visible {
+      background: var(--accent-soft);
+      color: var(--accent);
+      outline: none;
+    }
+    .hero-random-sources-menu a + a { border-top: 1px solid var(--line); }
+    .hero-random-sources-menu a span:last-child {
+      flex: 0 0 auto;
+      color: var(--accent);
+      font-weight: 800;
+    }
+    #heroRandomSources > span {
+      margin-right: 2px;
+      font-weight: 800;
+    }
+    @media (max-width: 620px) {
+      .random-hero-actions { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      #heroRandomSources { grid-column: 1 / -1; }
+      .hero-random-sources-menu { width: 100%; }
+    }
+  `;
+  document.head.appendChild(style);
 }
 
 async function initDashboard() {
@@ -95,15 +153,21 @@ function renderRandomHero() {
   const oneLineTarget = document.querySelector('#heroRandomOneLine');
   const openButton = document.querySelector('#heroRandomOpen');
   const nextButton = document.querySelector('#heroRandomNext');
+  const sourcesButton = document.querySelector('#heroRandomSources');
+  const sourcesMenu = document.querySelector('#heroRandomSourcesMenu');
   const visualWrap = document.querySelector('#heroRandomVisualWrap');
   const visualTarget = document.querySelector('#heroRandomVisual');
-  if (!hero || !termTarget || !englishTarget || !oneLineTarget || !openButton || !nextButton || !visualWrap || !visualTarget) return;
+  if (!hero || !termTarget || !englishTarget || !oneLineTarget || !openButton || !nextButton || !sourcesButton || !sourcesMenu || !visualWrap || !visualTarget) return;
 
   const term = pickDashboardRandomTerm();
   if (!term) {
     termTarget.textContent = 'まだ用語がない。';
     englishTarget.textContent = 'MY GLOSSARY';
     oneLineTarget.textContent = '最初の用語を追加すると、ここにランダム表示される。';
+    sourcesButton.hidden = true;
+    sourcesButton.setAttribute('aria-expanded', 'false');
+    sourcesMenu.hidden = true;
+    sourcesMenu.innerHTML = '';
     visualTarget.innerHTML = '';
     visualWrap.hidden = true;
     hero.classList.remove('has-visual');
@@ -117,6 +181,8 @@ function renderRandomHero() {
   openButton.dataset.termId = term.id;
   nextButton.disabled = dashboardState.terms.length < 2;
 
+  renderHeroSources(term, sourcesButton, sourcesMenu);
+
   const sampleMarkup = term.visual && typeof renderVisual === 'function'
     ? renderVisual(term.visual)
     : '';
@@ -127,6 +193,38 @@ function renderRandomHero() {
   if (sampleMarkup && typeof activateSamples === 'function') {
     window.requestAnimationFrame(activateSamples);
   }
+}
+
+function renderHeroSources(term, button, menu) {
+  const sources = Array.isArray(term.sources)
+    ? term.sources.filter((source) => source?.url)
+    : [];
+
+  button.setAttribute('aria-expanded', 'false');
+  menu.hidden = true;
+  menu.innerHTML = '';
+
+  if (!sources.length) {
+    button.hidden = true;
+    return;
+  }
+
+  button.hidden = false;
+  menu.innerHTML = sources.map((source, index) => `
+    <a href="${escapeDashboard(source.url)}" target="_blank" rel="noopener noreferrer">
+      <span>${escapeDashboard(source.label || `参考URL ${index + 1}`)}</span>
+      <span aria-hidden="true">↗</span>
+    </a>
+  `).join('');
+}
+
+function toggleHeroSources() {
+  const button = document.querySelector('#heroRandomSources');
+  const menu = document.querySelector('#heroRandomSourcesMenu');
+  if (!button || !menu || button.hidden) return;
+  const willOpen = menu.hidden;
+  menu.hidden = !willOpen;
+  button.setAttribute('aria-expanded', String(willOpen));
 }
 
 function favoriteIds() {
@@ -245,6 +343,10 @@ function escapeDashboard(value) {
 document.addEventListener('click', (event) => {
   if (event.target.closest('#heroRandomNext')) {
     renderRandomHero();
+    return;
+  }
+  if (event.target.closest('#heroRandomSources')) {
+    toggleHeroSources();
     return;
   }
   if (event.target.closest('[data-favorite-toggle]')) {
