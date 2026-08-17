@@ -1,5 +1,27 @@
 [
   {
+    "id": "hermeneutical-injustice",
+    "term": "解釈的不正義",
+    "english": "Hermeneutical injustice",
+    "reading": "かいしゃくてきふせいぎ",
+    "oneLine": "自分の経験を理解・説明するための共有概念や言葉が社会に欠けていることで、不当に理解しにくい立場に置かれること。",
+    "detail": "哲学者ミランダ・フリッカー（Miranda Fricker）が2007年の著書『Epistemic Injustice』で整理した「認識的不正義」の一種。社会には、経験を理解したり他者へ伝えたりするための共有された概念・言葉・解釈の枠組みがある。ところが、その共有資源を形づくる過程で一部の人びとの経験が十分に反映されないと、その人は自分に起きていることをうまく意味づけたり説明したりできず、不利な立場に置かれる。これが解釈的不正義。\n\n重要なのは、単に本人の語彙力が足りないという話ではないこと。社会の側に、その経験を捉えるための概念が欠けている、または十分に共有されていないことが問題になる。フリッカーは、社会的に周縁化された人びとほど共有された解釈資源をつくる力を持ちにくく、その結果として自分たちの経験が理解可能な形になりにくいという構造に注目した。つまり「うまく説明できない人」の問題ではなく、「説明するための言葉を社会がまだ持っていない／十分に認めていない」という側の不正義を見る概念。",
+    "example": "「セクシュアル・ハラスメント」という概念が社会に広く共有される以前、職場で性的な言動による苦痛を受けても、それを単なる『嫌な出来事』『自分が気にしすぎているだけ』としか捉えられず、共通の問題として説明しにくい状況があった。経験は存在しているのに、それを適切に理解し共有するための概念が不足している。このような状態が解釈的不正義の代表例として論じられる。",
+    "misconception": "「自分の気持ちをうまく言葉にできないこと」すべてを指すわけではない。共有された解釈資源の欠落や偏りによって、ある人や集団が自分の社会的経験を理解・伝達するうえで不当に不利になることがポイント。",
+    "context": "個人の説明力だけを見るのではなく、『その経験を説明する言葉や概念を、社会の側は用意できているか』と問い直すための概念。新しい言葉が生まれること自体が、見えなかった経験を社会的に見えるようにする場合がある。",
+    "learnedAt": "2026-08-18",
+    "tags": ["哲学", "社会認識論", "認識的不正義", "権力"],
+    "categoryPath": ["人文・社会", "哲学", "社会認識論"],
+    "related": [],
+    "relations": {"similar": [], "contrast": []},
+    "visual": "",
+    "sources": [
+      {"label": "Miranda Fricker (2007)｜Hermeneutical Injustice, Oxford Academic", "url": "https://academic.oup.com/book/32817/chapter-abstract/275001188"},
+      {"label": "Stanford Encyclopedia of Philosophy｜Social Epistemology", "url": "https://plato.stanford.edu/entries/epistemology-social/"},
+      {"label": "Routledge Encyclopedia of Philosophy｜Epistemic Injustice", "url": "https://www.rep.routledge.com/articles/thematic/epistemic-injustice/v-1/sections/hermeneutical-injustice"}
+    ]
+  },
+  {
     "id": "multi-stakeholder-management",
     "term": "マルチ・ステークホルダー・マネジメント",
     "english": "Multi-stakeholder management / Multi-stakeholder engagement",
