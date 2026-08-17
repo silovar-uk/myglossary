@@ -1,5 +1,25 @@
 [
   {
+    "id": "hero-interview",
+    "term": "ヒーロー・インタビュー",
+    "english": "Hero Interview / High-point interview",
+    "reading": "ひーろーいんたびゅー",
+    "oneLine": "成功した体験を具体的に語ってもらい、強みや再現できる行動を引き出す質問法。",
+    "detail": "本人がうまくいった場面や充実していた体験を『ヒーロー』として振り返り、何が起きたか、何をしたか、どんな強みが働いたかを具体的に言葉にしていくインタビュー手法。日本の人材開発では、Appreciative Inquiry（AI／肯定的探究）の「ハイポイント・インタビュー」を分かりやすくしたエクササイズとして紹介されている例がある。成功要因を本人の言葉で掘り起こすことで、次に再現したい行動や強みを見つけやすくする。なお、行動経済学そのものの標準用語というより、行動科学・コーチング・組織開発に近い実践概念として扱う方が正確。",
+    "example": "イベント施策がうまくいった担当者に、『一番手応えがあった瞬間は？』『そのとき自分は何をしていた？』『周囲はどう動いていた？』『もう一度やるなら何を再現する？』と聞き、成功を生んだ行動を具体化する。",
+    "context": "『行動経済学の用語』として気になった言葉。調べると、より近い領域は行動科学・コーチング・組織開発で、成功体験を再現可能な行動へ変換するための質問法だった。",
+    "learnedAt": "2026-08-17",
+    "tags": ["行動科学", "コーチング", "組織開発", "リフレクション"],
+    "related": [],
+    "relations": {"similar": [], "contrast": []},
+    "visual": "",
+    "sources": [
+      {"label": "Learning Design Members｜ヒーロー・インタビュー", "url": "https://jhclub.jmam.co.jp/acv/magazine/content?content_id=14358"},
+      {"label": "日立システムズ｜自律型人材をつくるチームマネジメント", "url": "https://www.hitachi-systems.com/report/story/izumi/08.html"},
+      {"label": "出版書誌データベース｜リフレクション入門", "url": "https://www.books.or.jp/book-details/9784762028496"}
+    ]
+  },
+  {
     "id": "placeholder",
     "term": "プレースホルダー",
     "english": "Placeholder",
