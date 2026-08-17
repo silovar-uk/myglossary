@@ -1,7 +1,53 @@
 const dashboardState = {
   terms: [],
-  favoriteKey: 'myglossary:favorites:v1'
+  favoriteKey: 'myglossary:favorites:v1',
+  heroRandomId: ''
 };
+
+function prepareCompactHeroLayout() {
+  const hero = document.querySelector('.hero');
+  const glossary = document.querySelector('.glossary-section');
+  const tagFilters = document.querySelector('#tagFilters');
+  if (!hero || !glossary || !tagFilters) return;
+
+  const searchShell = hero.querySelector('.search-shell');
+  const heroMeta = hero.querySelector('.hero-meta');
+  if (searchShell) {
+    const tools = document.createElement('div');
+    tools.className = 'glossary-tools';
+    tools.setAttribute('aria-label', '用語を探す');
+    tools.appendChild(searchShell);
+    if (heroMeta) tools.appendChild(heroMeta);
+    glossary.insertBefore(tools, tagFilters);
+  }
+
+  hero.innerHTML = `
+    <div class="random-hero" aria-live="polite">
+      <div class="random-hero-main">
+        <p class="eyebrow">RANDOM DISCOVERY</p>
+        <h1 id="heroRandomTerm">1語、ひいてみる。</h1>
+        <p class="random-hero-english" id="heroRandomEnglish">MY GLOSSARY</p>
+        <p class="random-hero-copy" id="heroRandomOneLine">登録した用語から、ランダムに1つ表示する。</p>
+      </div>
+      <div class="random-hero-actions">
+        <button class="primary-button" id="heroRandomOpen" type="button" disabled>詳しく見る</button>
+        <button class="ghost-button" id="heroRandomNext" type="button" disabled>別の1語</button>
+      </div>
+    </div>
+  `;
+
+  const todayPanel = document.querySelector('#todayTerm')?.closest('.dashboard-panel');
+  todayPanel?.remove();
+
+  const randomPracticeCard = document.querySelector('#randomTerm')?.closest('.practice-card');
+  randomPracticeCard?.remove();
+
+  const practiceHeading = document.querySelector('.practice-section .section-heading');
+  const practiceTitle = document.querySelector('#practice-title');
+  if (practiceTitle) practiceTitle.textContent = 'クイズで思い出す';
+  const practiceCopy = practiceHeading?.querySelector(':scope > p');
+  if (practiceCopy) practiceCopy.textContent = '説明や見た目から、言葉を短く思い出す。';
+}
 
 async function initDashboard() {
   try {
@@ -13,6 +59,7 @@ async function initDashboard() {
     console.error('Failed to load dashboard data:', error);
   }
 
+  renderRandomHero();
   renderDashboardFavorites();
   renderTodayTerm();
   mountMisconceptionField();
@@ -23,6 +70,40 @@ async function initDashboard() {
     new MutationObserver(() => window.requestAnimationFrame(decorateMisconception))
       .observe(detail, { childList: true, subtree: true });
   }
+}
+
+function pickDashboardRandomTerm() {
+  if (!dashboardState.terms.length) return null;
+  const candidates = dashboardState.terms.length > 1
+    ? dashboardState.terms.filter((term) => term.id !== dashboardState.heroRandomId)
+    : dashboardState.terms;
+  const term = candidates[Math.floor(Math.random() * candidates.length)];
+  dashboardState.heroRandomId = term.id;
+  return term;
+}
+
+function renderRandomHero() {
+  const termTarget = document.querySelector('#heroRandomTerm');
+  const englishTarget = document.querySelector('#heroRandomEnglish');
+  const oneLineTarget = document.querySelector('#heroRandomOneLine');
+  const openButton = document.querySelector('#heroRandomOpen');
+  const nextButton = document.querySelector('#heroRandomNext');
+  if (!termTarget || !englishTarget || !oneLineTarget || !openButton || !nextButton) return;
+
+  const term = pickDashboardRandomTerm();
+  if (!term) {
+    termTarget.textContent = 'まだ用語がない。';
+    englishTarget.textContent = 'MY GLOSSARY';
+    oneLineTarget.textContent = '最初の用語を追加すると、ここにランダム表示される。';
+    return;
+  }
+
+  termTarget.textContent = term.term;
+  englishTarget.textContent = term.english || '—';
+  oneLineTarget.textContent = term.oneLine;
+  openButton.disabled = false;
+  openButton.dataset.termId = term.id;
+  nextButton.disabled = dashboardState.terms.length < 2;
 }
 
 function favoriteIds() {
@@ -139,6 +220,10 @@ function escapeDashboard(value) {
 }
 
 document.addEventListener('click', (event) => {
+  if (event.target.closest('#heroRandomNext')) {
+    renderRandomHero();
+    return;
+  }
   if (event.target.closest('[data-favorite-toggle]')) {
     window.setTimeout(renderDashboardFavorites, 0);
   }
@@ -152,4 +237,5 @@ window.addEventListener('storage', (event) => {
 });
 window.addEventListener('hashchange', () => window.requestAnimationFrame(decorateMisconception));
 
+prepareCompactHeroLayout();
 initDashboard();
