@@ -9,6 +9,7 @@
   <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="./styles.css">
   <link rel="stylesheet" href="./visuals.css">
+  <link rel="stylesheet" href="./learning.css">
 </head>
 <body>
   <a class="skip-link" href="#main">本文へ移動</a>
@@ -55,6 +56,30 @@
       <div id="recentList" class="term-grid"></div>
     </section>
 
+    <section class="section practice-section" aria-labelledby="practice-title">
+      <div class="section-heading">
+        <div>
+          <p class="section-kicker">PRACTICE</p>
+          <h2 id="practice-title">思い出す</h2>
+        </div>
+        <p>読むだけで終わらせず、短く思い出す。</p>
+      </div>
+      <div class="practice-grid">
+        <article class="practice-card">
+          <p class="practice-card-kicker">RANDOM TERM</p>
+          <h3>ランダムに1語</h3>
+          <p>登録済みの用語から1つ選ぶ。意味を思い出してから詳細を開く。</p>
+          <button class="ghost-button" id="randomTerm" type="button">1語ひく</button>
+        </article>
+        <article class="practice-card">
+          <p class="practice-card-kicker">MINI QUIZ</p>
+          <h3>これ、なんて言う？</h3>
+          <p>説明やUIサンプルを見て、4択から用語を当てる。</p>
+          <button class="primary-button" id="openQuiz" type="button">クイズを始める</button>
+        </article>
+      </div>
+    </section>
+
     <section class="section glossary-section" aria-labelledby="all-title">
       <div class="section-heading section-heading--stack-mobile">
         <div>
@@ -76,6 +101,19 @@
     <article class="dialog-card">
       <button class="dialog-close" id="closeTerm" type="button" aria-label="閉じる">×</button>
       <div id="termDetail"></div>
+    </article>
+  </dialog>
+
+  <dialog id="quizDialog" class="quiz-dialog">
+    <article class="quiz-card">
+      <div class="quiz-head">
+        <div>
+          <p class="section-kicker">MINI QUIZ</p>
+          <h2>これ、なんて言う？</h2>
+        </div>
+        <button class="dialog-close" id="closeQuiz" type="button" aria-label="クイズを閉じる">×</button>
+      </div>
+      <div id="quizContent"></div>
     </article>
   </dialog>
 
@@ -124,5 +162,6 @@
   </footer>
 
   <script src="./app.js" defer></script>
+  <script src="./learning.js" defer></script>
 </body>
 </html>
