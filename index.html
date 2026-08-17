@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="./visuals.css">
   <link rel="stylesheet" href="./learning.css">
   <link rel="stylesheet" href="./taxonomy.css">
+  <link rel="stylesheet" href="./dashboard.css">
 </head>
 <body>
   <a class="skip-link" href="#main">本文へ移動</a>
@@ -46,15 +47,40 @@
       </div>
     </section>
 
-    <section class="section" aria-labelledby="recent-title">
+    <section class="section dashboard-section" aria-labelledby="dashboard-title">
       <div class="section-heading">
         <div>
-          <p class="section-kicker">RECENTLY LEARNED</p>
-          <h2 id="recent-title">最近学んだ言葉</h2>
+          <p class="section-kicker">MY GLOSSARY TODAY</p>
+          <h2 id="dashboard-title">いま見るもの</h2>
         </div>
-        <p>辞書ではなく、学習ログとして眺める。</p>
+        <p>探す・戻る・思い出すを、最初の画面で。</p>
       </div>
-      <div id="recentList" class="term-grid"></div>
+
+      <div class="dashboard-grid">
+        <article class="dashboard-panel dashboard-recent">
+          <div class="dashboard-panel-head">
+            <h3>最近追加</h3>
+            <span>RECENT</span>
+          </div>
+          <div id="recentList" class="term-grid"></div>
+        </article>
+
+        <article class="dashboard-panel">
+          <div class="dashboard-panel-head">
+            <h3>お気に入り</h3>
+            <span>FAVORITES</span>
+          </div>
+          <div id="favoritePreview" class="dashboard-mini-list"></div>
+        </article>
+
+        <article class="dashboard-panel">
+          <div class="dashboard-panel-head">
+            <h3>今日の1語</h3>
+            <span>TODAY</span>
+          </div>
+          <div id="todayTerm"></div>
+        </article>
+      </div>
     </section>
 
     <section class="section practice-section" aria-labelledby="practice-title">
@@ -165,5 +191,6 @@
   <script src="./app.js" defer></script>
   <script src="./learning.js" defer></script>
   <script src="./taxonomy.js" defer></script>
+  <script src="./dashboard.js" defer></script>
 </body>
 </html>
