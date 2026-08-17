@@ -1,0 +1,23 @@
+{
+  "placeholder": ["Web", "UI", "フォーム"],
+  "tooltip": ["Web", "UI", "ガイダンス"],
+  "modal": ["Web", "UI", "オーバーレイ"],
+  "dialog": ["Web", "UI", "オーバーレイ"],
+  "popup": ["Web", "UI", "オーバーレイ"],
+  "dropdown": ["Web", "UI", "コントロール"],
+  "pull-down": ["Web", "UI", "コントロール"],
+  "accordion": ["Web", "UI", "開閉・展開"],
+  "toggle": ["Web", "UI", "コントロール"],
+  "switch": ["Web", "UI", "コントロール"],
+  "toast": ["Web", "UI", "フィードバック"],
+  "snackbar": ["Web", "UI", "フィードバック"],
+  "breadcrumb": ["Web", "UI", "ナビゲーション"],
+  "global-navigation": ["Web", "UI", "ナビゲーション"],
+  "local-navigation": ["Web", "UI", "ナビゲーション"],
+  "drawer": ["Web", "UI", "ナビゲーション"],
+  "hero": ["Web", "UI", "コンテンツ表現"],
+  "breakpoint": ["Web", "レイアウト", "レスポンシブ"],
+  "progress-bar": ["Web", "UI", "フィードバック"],
+  "spinner": ["Web", "UI", "フィードバック"],
+  "feedforward": ["デザイン", "UX", "インタラクション原則"]
+}
