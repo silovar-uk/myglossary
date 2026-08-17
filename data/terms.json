@@ -1,5 +1,45 @@
 [
   {
+    "id": "visuospatial-sketchpad",
+    "term": "視空間スケッチパッド",
+    "english": "Visuospatial sketchpad",
+    "reading": "しかんくうすけっちぱっど",
+    "oneLine": "形・位置・動きなど、視覚的・空間的な情報を一時的に保持し、頭の中で操作するワーキングメモリの仕組み。",
+    "detail": "Baddeleyらのワーキングメモリモデルで、視覚情報や空間情報を短時間保ち、必要に応じて操作する下位システム。たとえば物の形を思い浮かべる、地図上の位置関係を保つ、頭の中で図形を回転させる、といった処理に関わる。単なる『目で見た記憶』ではなく、いま考えるために視覚・空間情報を一時的に置いておく作業領域として捉えると分かりやすい。\n\nワーキングメモリモデルでは、言葉や音声を扱う『音韻ループ』とは別系統の仕組みとして位置づけられる。現代の研究では視覚情報と空間情報の内部構造をさらに細かく分けて考える議論もあるため、完全に一枚岩の箱というより、視覚・空間系の短期保持をまとめた理論上の枠組みとして理解するのがよい。",
+    "example": "初めて行く会場までの地図を数秒見てから歩き始め、頭の中で『次の角を右、その後まっすぐ』と位置関係を保つ。こうした視覚・空間情報の一時保持に、視空間スケッチパッドが関わると考えられる。",
+    "context": "ワーキングメモリを『一つの短期記憶箱』ではなく、扱う情報の種類ごとに役割分担する仕組みとして理解するときの主要概念。",
+    "learnedAt": "2026-08-17",
+    "tags": ["認知心理学", "認知科学", "記憶", "ワーキングメモリ"],
+    "related": ["phonological-loop"],
+    "relations": {"similar": [], "contrast": []},
+    "visual": "",
+    "sources": [
+      {"label": "Baddeley (1992)｜Working memory, Science / PubMed", "url": "https://pubmed.ncbi.nlm.nih.gov/1736359/"},
+      {"label": "Baddeley (1998)｜Working memory, PubMed", "url": "https://pubmed.ncbi.nlm.nih.gov/9759336/"},
+      {"label": "Baddeley (2003)｜Working memory: looking back and looking forward", "url": "https://doi.org/10.1038/nrn1201"}
+    ]
+  },
+  {
+    "id": "phonological-loop",
+    "term": "音韻ループ",
+    "english": "Phonological loop",
+    "reading": "おんいんるーぷ",
+    "oneLine": "言葉や音声の情報を短時間保ち、頭の中で繰り返すことで維持するワーキングメモリの仕組み。",
+    "detail": "Baddeleyらのワーキングメモリモデルで、話し言葉や音の並びなど、音韻的な情報を短時間保持する下位システム。典型的には、音声情報を短時間保つ『音韻ストア』と、頭の中で言い直すことで記憶痕跡を更新する『構音リハーサル』という二つの働きから説明される。電話番号を覚えるために何度も心の中で復唱する感覚が代表例。\n\n読むときにも、文字を頭の中で音へ変換して保持することで利用できると考えられている。語彙獲得との関連も示されており、特に新しい語の音の並びを一時的に保つ役割が注目されてきた。一方、すべての言語的短期記憶をこの仕組みだけで説明できるわけではなく、ワーキングメモリ研究には他のモデルもある。",
+    "example": "店員から『整理番号は 5817 です』と聞き、入力するまで『ごー・はち・いち・なな』と頭の中で繰り返す。この音声情報の一時保持と反復が、音韻ループの代表的な働き。",
+    "context": "『頭の中で声に出さず繰り返すと覚えやすい』現象を、ワーキングメモリの仕組みとして説明するときに役立つ概念。",
+    "learnedAt": "2026-08-17",
+    "tags": ["認知心理学", "認知科学", "記憶", "ワーキングメモリ"],
+    "related": ["visuospatial-sketchpad"],
+    "relations": {"similar": [], "contrast": []},
+    "visual": "",
+    "sources": [
+      {"label": "Baddeley (1992)｜Working memory, Science / PubMed", "url": "https://pubmed.ncbi.nlm.nih.gov/1736359/"},
+      {"label": "Baddeley (2003)｜Working memory: looking back and looking forward", "url": "https://doi.org/10.1038/nrn1201"},
+      {"label": "Baddeley (2012)｜Working Memory: Theories, Models, and Controversies", "url": "https://doi.org/10.1146/annurev-psych-120710-100422"}
+    ]
+  },
+  {
     "id": "wordmark",
     "term": "ワードマーク",
     "english": "Wordmark",
