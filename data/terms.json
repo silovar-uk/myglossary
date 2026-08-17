@@ -1,5 +1,46 @@
 [
   {
+    "id": "forecasting",
+    "term": "フォアキャスティング",
+    "english": "Forecasting",
+    "reading": "ふぉあきゃすてぃんぐ",
+    "oneLine": "現在や過去のデータ・傾向を起点に、その延長線上で将来に何が起こりそうかを予測する考え方。",
+    "detail": "フォアキャスティングは、現在までに観測できる事実、過去の実績、トレンド、因果関係などを出発点にして、将来の状態を見通す考え方。統計モデルや時系列分析のような定量的な方法だけでなく、専門家判断などの定性的な方法も含まれる。大事なのは、『こうなりたい』という目標を先に置くのではなく、『今の状況から考えると、この先はどうなりそうか』を考える点。\n\n戦略や未来設計では、現在から未来へ向かって考えるフォアキャスティングと、望ましい未来から現在へ逆算するバックキャスティングを対比して使うことが多い。フォアキャスティングは、現在の延長にある比較的近い未来を考えるときには有効だが、長期になるほど制度・技術・価値観など前提そのものが変わり、現在のトレンドをそのまま延ばすだけでは見通しにくくなる。",
+    "example": "来季の来場者数を考えるとき、直近数年の来場実績、曜日、対戦相手、販売進捗、天候などのデータから『この条件なら何人くらい来そうか』を予測する。これは現在までの情報から未来を読むフォアキャスティング。",
+    "context": "未来を考えるとき、『今から先を見る』方法と『理想の未来から逆算する』方法を区別するために覚えておきたい概念。",
+    "learnedAt": "2026-08-17",
+    "tags": ["戦略", "未来予測", "計画", "意思決定"],
+    "categoryPath": ["ビジネス", "戦略", "未来設計"],
+    "related": ["backcasting"],
+    "relations": {"similar": [], "contrast": ["backcasting"]},
+    "visual": "",
+    "sources": [
+      {"label": "UK Government Office for Science｜The Futures Toolkit", "url": "https://www.gov.uk/government/publications/futures-toolkit-for-policy-makers-and-analysts/the-futures-toolkit-html"},
+      {"label": "Petropoulos et al.｜Forecasting: theory and practice", "url": "https://arxiv.org/abs/2012.03854"}
+    ]
+  },
+  {
+    "id": "backcasting",
+    "term": "バックキャスティング",
+    "english": "Backcasting",
+    "reading": "ばっくきゃすてぃんぐ",
+    "oneLine": "実現したい未来の状態を先に描き、そこから現在へさかのぼって必要な条件や行動を考える方法。",
+    "detail": "バックキャスティングは、まず『将来どうなっていたいか』という望ましい到達点を置き、そこへ到達するには何が必要だったはずかを未来から現在へ逆向きにたどる考え方。未来を予測して当てることが目的ではなく、望ましい未来を実現するための道筋、条件、節目、政策や行動を明らかにすることが目的になる。\n\n現在の延長線から未来を予測するフォアキャスティングに対し、バックキャスティングは現在の制約をいったん離れて未来側から考える。そのため、現状のトレンドを続けるだけでは到達できない大きな変化や、長期的な戦略・サステナビリティ・組織ビジョンなどを考える場面と相性がよい。実際には、望む未来を描く→現在との差を整理する→必要な変化を未来から逆順に並べる→今やることへ落とす、という流れで使える。",
+    "example": "『5年後、平日開催でも安定して多くの人が来場し、若い層が継続的にスタジアムへ来る状態をつくる』と未来像を置く。そこから逆算して、4年後に必要な習慣化、3年後の会員・CRM基盤、2年後の来場体験改善、今年着手すべき施策を考える。これがバックキャスティング。",
+    "misconception": "未来予測の精度を上げる手法ではない。『最も起こりそうな未来』を当てるのではなく、『実現したい未来』を先に置いて、そのために必要な条件と行動を逆算する。",
+    "context": "長期目標を『今できることの積み上げ』だけで考えると発想が小さくなりやすい。理想側から現在を見るための思考法として、フォアキャスティングと対で覚える。",
+    "learnedAt": "2026-08-17",
+    "tags": ["戦略", "未来設計", "計画", "意思決定"],
+    "categoryPath": ["ビジネス", "戦略", "未来設計"],
+    "related": ["forecasting"],
+    "relations": {"similar": [], "contrast": ["forecasting"]},
+    "visual": "",
+    "sources": [
+      {"label": "UK Government Office for Science｜The Futures Toolkit: Backcasting", "url": "https://www.gov.uk/government/publications/futures-toolkit-for-policy-makers-and-analysts/the-futures-toolkit-html"},
+      {"label": "John B. Robinson (1990)｜Futures under glass", "url": "https://doi.org/10.1016/0016-3287(90)90018-D"}
+    ]
+  },
+  {
     "id": "meaningful-reception-learning",
     "term": "有意味受容学習",
     "english": "Meaningful reception learning",
@@ -279,7 +320,7 @@
     "related": ["switch", "accordion"],
     "relations": {"similar": ["switch"], "contrast": []},
     "visual": "toggle",
-    "sources": [{"label": "W3C Button Pattern", "url": "https://www.w3.org/WAI/ARIA/apg/patterns/button/"}]
+    "sources": [{"label": "W3C Button Pattern", "url": "https://www.w3.org/WAI-ARIA/apg/patterns/button/"}]
   },
   {
     "id": "switch",
@@ -295,7 +336,7 @@
     "related": ["toggle"],
     "relations": {"similar": ["toggle"], "contrast": []},
     "visual": "switch",
-    "sources": [{"label": "W3C Switch Pattern", "url": "https://www.w3.org/WAI/ARIA/apg/patterns/switch/"}]
+    "sources": [{"label": "W3C Switch Pattern", "url": "https://www.w3.org/WAI-ARIA/apg/patterns/switch/"}]
   },
   {
     "id": "toast",
@@ -311,7 +352,7 @@
     "related": ["snackbar", "popup"],
     "relations": {"similar": ["snackbar"], "contrast": []},
     "visual": "toast",
-    "sources": [{"label": "W3C Alert Pattern", "url": "https://www.w3.org/WAI/ARIA/apg/patterns/alert/"}]
+    "sources": [{"label": "W3C Alert Pattern", "url": "https://www.w3.org/WAI-ARIA/apg/patterns/alert/"}]
   },
   {
     "id": "snackbar",
@@ -327,7 +368,7 @@
     "related": ["toast"],
     "relations": {"similar": ["toast"], "contrast": []},
     "visual": "snackbar",
-    "sources": [{"label": "Material Design 3", "url": "https://m3.material.io/"}, {"label": "W3C Alert Pattern", "url": "https://www.w3.org/WAI/ARIA/apg/patterns/alert/"}]
+    "sources": [{"label": "Material Design 3", "url": "https://m3.material.io/"}, {"label": "W3C Alert Pattern", "url": "https://www.w3.org/WAI-ARIA/apg/patterns/alert/"}]
   },
   {
     "id": "breadcrumb",
@@ -343,7 +384,7 @@
     "related": ["global-navigation", "local-navigation"],
     "relations": {"similar": [], "contrast": []},
     "visual": "breadcrumb",
-    "sources": [{"label": "W3C Breadcrumb Pattern", "url": "https://www.w3.org/WAI/ARIA/apg/patterns/breadcrumb/"}]
+    "sources": [{"label": "W3C Breadcrumb Pattern", "url": "https://www.w3.org/WAI-ARIA/apg/patterns/breadcrumb/"}]
   },
   {
     "id": "global-navigation",
@@ -359,7 +400,7 @@
     "related": ["local-navigation", "breadcrumb", "drawer"],
     "relations": {"similar": ["local-navigation"], "contrast": []},
     "visual": "global-navigation",
-    "sources": [{"label": "W3C Disclosure Navigation", "url": "https://www.w3.org/WAI/ARIA/apg/patterns/disclosure/examples/disclosure-navigation/"}]
+    "sources": [{"label": "W3C Disclosure Navigation", "url": "https://www.w3.org/WAI-ARIA/apg/patterns/disclosure/examples/disclosure-navigation/"}]
   },
   {
     "id": "local-navigation",
@@ -375,7 +416,7 @@
     "related": ["global-navigation", "breadcrumb"],
     "relations": {"similar": ["global-navigation"], "contrast": []},
     "visual": "local-navigation",
-    "sources": [{"label": "W3C Disclosure Navigation", "url": "https://www.w3.org/WAI/ARIA/apg/patterns/disclosure/examples/disclosure-navigation/"}]
+    "sources": [{"label": "W3C Disclosure Navigation", "url": "https://www.w3.org/WAI-ARIA/apg/patterns/disclosure/examples/disclosure-navigation/"}]
   },
   {
     "id": "drawer",
