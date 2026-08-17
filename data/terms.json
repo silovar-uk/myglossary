@@ -1,5 +1,26 @@
 [
   {
+    "id": "syncopation",
+    "term": "シンコペーション",
+    "english": "Syncopation",
+    "reading": "しんこぺーしょん",
+    "oneLine": "本来強くなる位置を外し、弱拍や拍の間へアクセントをずらして、リズムに揺さぶりや推進力を生むこと。",
+    "detail": "音楽では、拍子には『強く感じやすい位置／弱く感じやすい位置』という階層がある。シンコペーションは、その予想されるアクセントを弱拍やオフビートへ移したり、休符やタイで強拍を避けたりして、通常の拍の重心を一時的にずらすリズム上の仕掛け。単に速い・複雑なリズムという意味ではなく、『来るはずのところに来ない／別のところが強くなる』という期待とのずれが核にある。\n\n比喩として使うなら、この構造をそのまま借りて『予定調和の位置をあえて外すこと』『一定の流れの途中に、意図的な引っかかりや意外なアクセントを置くこと』を表せる。たとえば文章なら、均一に説明を続けず短い一文を突然差し込む。プレゼンなら、定石どおりの結論位置を少しずらして問いを先に置く。企画なら、期待されるタイミングではなく少し早く／遅く仕掛ける。こうした比喩用法は音楽理論上の専門定義ではなく、シンコペーションの『期待される重心をずらす』性質を他領域へ拡張した表現として捉えると分かりやすい。",
+    "example": "音楽：4拍子で強く感じやすい拍をあえて避け、拍と拍の間や弱い位置に音を置く。\n比喩：『このプレゼンはシンコペーションが効いている』＝一定の説明リズムの中で、意外な位置に短い問いや強い言葉を置き、聞き手の予想を少し外している。",
+    "context": "音楽用語としての意味を土台に、『予想される位置をあえて外す』『流れの中に意図的なずれをつくる』という比喩としても使える概念として整理した。",
+    "learnedAt": "2026-08-17",
+    "tags": ["音楽", "リズム", "表現", "比喩"],
+    "related": [],
+    "relations": {"similar": [], "contrast": []},
+    "visual": "",
+    "sources": [
+      {"label": "Open Music Theory｜Syncopation in pop/rock music", "url": "https://openmusictheory.github.io/syncopation.html"},
+      {"label": "Cambridge Dictionary｜syncopation", "url": "https://dictionary.cambridge.org/dictionary/english/syncopation"},
+      {"label": "Merriam-Webster｜syncopation", "url": "https://www.merriam-webster.com/dictionary/syncopation"},
+      {"label": "Merriam-Webster｜syncopate", "url": "https://www.merriam-webster.com/dictionary/syncopate"}
+    ]
+  },
+  {
     "id": "hero-interview",
     "term": "ヒーロー・インタビュー",
     "english": "Hero Interview / High-point interview",
