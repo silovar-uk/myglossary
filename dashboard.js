@@ -23,15 +23,21 @@ function prepareCompactHeroLayout() {
 
   hero.innerHTML = `
     <div class="random-hero" aria-live="polite">
-      <div class="random-hero-main">
-        <p class="eyebrow">RANDOM DISCOVERY</p>
-        <h1 id="heroRandomTerm">1語、ひいてみる。</h1>
-        <p class="random-hero-english" id="heroRandomEnglish">MY GLOSSARY</p>
-        <p class="random-hero-copy" id="heroRandomOneLine">登録した用語から、ランダムに1つ表示する。</p>
+      <div class="random-hero-content">
+        <div class="random-hero-main">
+          <p class="eyebrow">RANDOM DISCOVERY</p>
+          <h1 id="heroRandomTerm">1語、ひいてみる。</h1>
+          <p class="random-hero-english" id="heroRandomEnglish">MY GLOSSARY</p>
+          <p class="random-hero-copy" id="heroRandomOneLine">登録した用語から、ランダムに1つ表示する。</p>
+        </div>
+        <div class="random-hero-actions">
+          <button class="primary-button" id="heroRandomOpen" type="button" disabled>詳しく見る</button>
+          <button class="ghost-button" id="heroRandomNext" type="button" disabled>別の1語</button>
+        </div>
       </div>
-      <div class="random-hero-actions">
-        <button class="primary-button" id="heroRandomOpen" type="button" disabled>詳しく見る</button>
-        <button class="ghost-button" id="heroRandomNext" type="button" disabled>別の1語</button>
+      <div class="random-hero-visual-wrap" id="heroRandomVisualWrap" hidden>
+        <p class="random-hero-visual-label">INTERACTIVE SAMPLE</p>
+        <div class="random-hero-visual" id="heroRandomVisual"></div>
       </div>
     </div>
   `;
@@ -83,18 +89,24 @@ function pickDashboardRandomTerm() {
 }
 
 function renderRandomHero() {
+  const hero = document.querySelector('.random-hero');
   const termTarget = document.querySelector('#heroRandomTerm');
   const englishTarget = document.querySelector('#heroRandomEnglish');
   const oneLineTarget = document.querySelector('#heroRandomOneLine');
   const openButton = document.querySelector('#heroRandomOpen');
   const nextButton = document.querySelector('#heroRandomNext');
-  if (!termTarget || !englishTarget || !oneLineTarget || !openButton || !nextButton) return;
+  const visualWrap = document.querySelector('#heroRandomVisualWrap');
+  const visualTarget = document.querySelector('#heroRandomVisual');
+  if (!hero || !termTarget || !englishTarget || !oneLineTarget || !openButton || !nextButton || !visualWrap || !visualTarget) return;
 
   const term = pickDashboardRandomTerm();
   if (!term) {
     termTarget.textContent = 'まだ用語がない。';
     englishTarget.textContent = 'MY GLOSSARY';
     oneLineTarget.textContent = '最初の用語を追加すると、ここにランダム表示される。';
+    visualTarget.innerHTML = '';
+    visualWrap.hidden = true;
+    hero.classList.remove('has-visual');
     return;
   }
 
@@ -104,6 +116,17 @@ function renderRandomHero() {
   openButton.disabled = false;
   openButton.dataset.termId = term.id;
   nextButton.disabled = dashboardState.terms.length < 2;
+
+  const sampleMarkup = term.visual && typeof renderVisual === 'function'
+    ? renderVisual(term.visual)
+    : '';
+  visualTarget.innerHTML = sampleMarkup;
+  visualWrap.hidden = !sampleMarkup;
+  hero.classList.toggle('has-visual', Boolean(sampleMarkup));
+
+  if (sampleMarkup && typeof activateSamples === 'function') {
+    window.requestAnimationFrame(activateSamples);
+  }
 }
 
 function favoriteIds() {
