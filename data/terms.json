@@ -1,5 +1,27 @@
 [
   {
+    "id": "bruce-mau-design",
+    "term": "Bruce Mau Design",
+    "english": "Bruce Mau Design (BMD)",
+    "reading": "ぶるーすまうでざいん",
+    "oneLine": "1985年にブルース・マウがトロントで創設した、ブランド戦略からビジュアル・デジタル・空間まで横断するデザインスタジオ。",
+    "detail": "Bruce Mau Design（BMD）は、ブランドや組織の変化をデザインによって前進させることを掲げる、カナダ発のマルチディシプリナリーなブランド＆デザインスタジオ。1985年にデザイナーのBruce Mauがトロントで創設した。2026年時点の公式サイトでは、ブランド・アイデンティティ、Webやモーションなどのデジタル、書籍などのエディトリアル、サイン・環境グラフィック・体験設計、パッケージ、リサーチやステークホルダー・エンゲージメントを含むビジョニングまでをサービスとして掲げている。\n\n特徴は、ロゴやグラフィックだけを単体でつくるのではなく、戦略、言語、空間、デジタル、組織内の合意形成までを一つのブランド体験として扱うこと。公式サイトは、Bruce Mauが示したデザイン思考や『An Incomplete Manifesto for Growth』の考え方が、現在のBMDの実践にも引き続き影響を与えているとしている。現在はトロントとニューヨークに拠点を持ち、Stagwell Networkの一員。",
+    "example": "THE ONITSUKAのプロジェクトでは、BMDはブランド戦略とビジュアル・アイデンティティだけでなく、キャンペーンのアートディレクション、Webサイト、広告、日本でのローンチ、ニューヨーク・SoHoの店舗デザインまで担当した。『ブランドをロゴとしてではなく、接触体験全体として設計する』BMDの仕事の広がりが分かりやすい例。",
+    "misconception": "創設者Bruce Mau本人の現在の個人活動と、Bruce Mau Designという組織をそのまま同一視しない。BMDは彼が1985年に創設したスタジオで、現在も彼の方法論に影響を受けている一方、2026年時点の公式サイトではStagwell Networkの一員として活動している。",
+    "context": "ブランド戦略、グラフィック、空間、デジタルを横断して扱うデザイン会社の事例として覚えておきたい企業。",
+    "learnedAt": "2026-08-18",
+    "tags": ["企業", "デザイン", "ブランディング", "デザインスタジオ"],
+    "categoryPath": ["企業", "デザイン", "ブランド・デザイン"],
+    "related": ["wordmark"],
+    "relations": {"similar": [], "contrast": []},
+    "visual": "",
+    "sources": [
+      {"label": "Bruce Mau Design｜About", "url": "https://www.brucemaudesign.com/about"},
+      {"label": "Bruce Mau Design｜Contact", "url": "https://www.brucemaudesign.com/contact"},
+      {"label": "Bruce Mau Design｜THE ONITSUKA", "url": "https://www.brucemaudesign.com/work/the-onitsuka"}
+    ]
+  },
+  {
     "id": "hermeneutical-injustice",
     "term": "解釈的不正義",
     "english": "Hermeneutical injustice",
@@ -198,8 +220,8 @@
     "sources": [
       {"label": "Open Music Theory｜Syncopation in pop/rock music", "url": "https://openmusictheory.github.io/syncopation.html"},
       {"label": "Cambridge Dictionary｜syncopation", "url": "https://dictionary.cambridge.org/dictionary/english/syncopation"},
-      {"label": "Merriam-Webster｜syncopation", "url": "https://www.merriam-webster.com/dictionary/syncopation"},
-      {"label": "Merriam-Webster｜syncopate", "url": "https://www.merriam-webster.com/dictionary/syncopate"}
+      {"label": "Merriam-Webster｜syncopation", "url": "https://www.merriam-webster.com/dictionary/english/syncopation"},
+      {"label": "Merriam-Webster｜syncopate", "url": "https://www.merriam-webster.com/dictionary/english/syncopate"}
     ]
   },
   {
