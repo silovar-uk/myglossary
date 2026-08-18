@@ -1,5 +1,27 @@
 [
   {
+    "id": "three-js",
+    "term": "three.js",
+    "english": "three.js",
+    "reading": "すりーじぇいえす",
+    "oneLine": "Webブラウザ上で3Dコンテンツを扱いやすくするJavaScriptライブラリ。",
+    "detail": "three.jsは、Webページ上で3D表現をつくるためのJavaScriptライブラリ。多くの場合はWebGLを使って描画するが、WebGLそのものとは別物。WebGLが点・線・三角形などを低レベルに描画する仕組みなのに対し、three.jsはシーン、カメラ、ライト、影、マテリアル、テクスチャ、3D座標計算などを扱うための高水準な部品を提供し、3D表現をかなり少ないコードで組み立てやすくする。\n\n基本構成は、3D空間を入れるScene、どこから見るかを決めるCamera、実際に画面へ描画するRendererの3つ。そこへ立方体などのGeometryと見た目を決めるMaterialを組み合わせたMeshを追加したり、glTFなどの3Dモデルを読み込んだりして表現をつくる。Webサイトの演出、商品3Dビューア、データ可視化、インタラクティブコンテンツ、ブラウザゲームなど幅広い用途がある。npm＋ビルドツールで導入する方法が公式では推奨されており、CDNから読み込むこともできる。",
+    "example": "Webページにサッカースタジアムの3Dモデルを置き、マウスやタッチで視点を回転させる。座席ブロックをクリックすると席種や価格を表示する、といったインタラクティブな3D座席案内をブラウザ上で実装できる。",
+    "misconception": "three.jsは3Dモデルを作るモデリングソフトでも、WebGLそのものでもない。3DモデルはBlenderなどで制作して読み込むことも多く、three.jsは主にそれらをブラウザ上へ配置・描画・操作するためのライブラリ。",
+    "context": "Web制作で『ブラウザ上に立体物を置く』『3D空間を操作する』実装を考えるとき、WebGLを直接書くより入りやすい代表的な選択肢として覚えておきたい。",
+    "learnedAt": "2026-08-18",
+    "tags": ["Web", "JavaScript", "3D", "WebGL"],
+    "categoryPath": ["Web", "JavaScript", "3D"],
+    "related": [],
+    "relations": {"similar": [], "contrast": []},
+    "visual": "",
+    "sources": [
+      {"label": "three.js Manual｜Fundamentals", "url": "https://threejs.org/manual/en/fundamentals.html"},
+      {"label": "three.js Manual｜Creating a scene", "url": "https://threejs.org/manual/en/creating-a-scene.html"},
+      {"label": "three.js Manual｜Installation", "url": "https://threejs.org/manual/en/installation.html"}
+    ]
+  },
+  {
     "id": "bruce-mau-design",
     "term": "Bruce Mau Design",
     "english": "Bruce Mau Design (BMD)",
