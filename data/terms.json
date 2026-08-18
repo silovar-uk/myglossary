@@ -274,7 +274,7 @@
     "related": ["placeholder", "popup"],
     "relations": {"similar": [], "contrast": []},
     "visual": "tooltip",
-    "sources": [{"label": "W3C WAI-ARIA APG", "url": "https://www.w3.org/WAI-ARIA/apg/patterns/tooltip/"}]
+    "sources": [{"label": "W3C WAI-ARIA APG", "url": "https://www.w3.org/WAI/ARIA/apg/patterns/tooltip/"}]
   },
   {
     "id": "modal",
