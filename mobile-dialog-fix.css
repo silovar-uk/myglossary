@@ -1,0 +1,21 @@
+/* Keep term-detail scrolling inside the modal on touch devices. */
+html:has(.term-dialog[open]),
+body:has(.term-dialog[open]) {
+  overflow: hidden;
+}
+
+.term-dialog {
+  overflow-x: hidden;
+  overflow-y: auto;
+  overscroll-behavior-y: contain;
+  -webkit-overflow-scrolling: touch;
+  touch-action: pan-y;
+  max-height: calc(100dvh - 32px);
+}
+
+@media (max-width: 760px) {
+  .term-dialog {
+    width: calc(100vw - 20px);
+    max-height: calc(100dvh - 20px);
+  }
+}
