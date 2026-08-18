@@ -220,8 +220,8 @@
     "sources": [
       {"label": "Open Music Theory｜Syncopation in pop/rock music", "url": "https://openmusictheory.github.io/syncopation.html"},
       {"label": "Cambridge Dictionary｜syncopation", "url": "https://dictionary.cambridge.org/dictionary/english/syncopation"},
-      {"label": "Merriam-Webster｜syncopation", "url": "https://www.merriam-webster.com/dictionary/english/syncopation"},
-      {"label": "Merriam-Webster｜syncopate", "url": "https://www.merriam-webster.com/dictionary/english/syncopate"}
+      {"label": "Merriam-Webster｜syncopation", "url": "https://www.merriam-webster.com/dictionary/syncopation"},
+      {"label": "Merriam-Webster｜syncopate", "url": "https://www.merriam-webster.com/dictionary/syncopate"}
     ]
   },
   {
@@ -274,7 +274,7 @@
     "related": ["placeholder", "popup"],
     "relations": {"similar": [], "contrast": []},
     "visual": "tooltip",
-    "sources": [{"label": "W3C WAI-ARIA APG", "url": "https://www.w3.org/WAI/ARIA/apg/patterns/tooltip/"}]
+    "sources": [{"label": "W3C WAI-ARIA APG", "url": "https://www.w3.org/WAI-ARIA/apg/patterns/tooltip/"}]
   },
   {
     "id": "modal",
