@@ -1,5 +1,48 @@
 [
   {
+    "id": "grey-hair-consulting",
+    "term": "グレイヘアコンサルティング",
+    "english": "Grey Hair consulting / Grey Hair projects",
+    "reading": "ぐれいへあこんさるてぃんぐ",
+    "oneLine": "未知の問題への発明よりも、似た問題を何度も解いてきた経験・判断・勘所そのものを価値として提供するコンサルティング。",
+    "detail": "グレイヘア・コンサルティングは、プロフェッショナルサービス研究で知られるDavid H. Maisterが整理した『Brains / Grey Hair / Procedure』という仕事類型のうち、Grey Hairに近いコンサルティングを指す表現。ここでの“grey hair”は文字どおり白髪の年長者という意味ではなく、過去に似た状況を何度も経験し、どこで問題が起きやすいか、何を優先すべきかを判断できる経験知の比喩。\n\nMaisterの整理では、Brainsは『新しい問題に新しい解法をつくる』創造性・最先端の専門性を売る仕事、Grey Hairは問題自体は完全な未知ではないが複雑で、クライアントが十分な経験を持たないため『私たちは以前にもこれを経験したことがある』という知識・経験・判断を売る仕事、Procedureは既知の手順を効率よく実行する仕事に近い。Grey Hairでも成果物は個別にカスタマイズされるが、問題の型や初期作業の一部は既知なので、シニアだけで完結せず一部を若手へ委譲する余地もある。\n\n現在『グレイヘア・コンサルティング』という言い方は、経験豊富な元経営者やシニア専門家が前面に立つ少人数型・アソシエイト型のコンサルモデルを指して使われる場合もある。ただしMaister本来の論点は、担当者の年齢ではなく『クライアントが何にお金を払っているのか——新規の知的発明か、蓄積された経験か、効率的な手続きか』という仕事の性質にある。",
+    "example": "企業が初めて大規模な事業再編を行うとき、理論上の新発明よりも『過去に何社も再編を経験し、反発が起きるポイントや経営陣が見落としやすい論点を知っている人』を求めることがある。このとき価値の中心は分析作業そのものより、経験から得たパターン認識と判断にある。これがGrey Hair型の典型。",
+    "misconception": "『年配のコンサルタントが担当すること』そのものではない。また『頭を使わない既知問題』でもない。複雑で個別性の高い問題だが、似た問題を解いた経験が大きな価値を持つことがポイント。Maisterの分類では、仕事の種類を表す概念として理解する方が正確。",
+    "context": "コンサルティングの価値を『頭の良さ』だけで捉えず、Expertise（新しい解法を生む専門性）、Experience（過去の類似経験からくる判断）、Efficiency（既知手順を効率よく実行する力）のどこに価値がある案件かを見分けるための概念。",
+    "learnedAt": "2026-08-21",
+    "tags": ["コンサルティング", "プロフェッショナルサービス", "経験知", "ビジネスモデル"],
+    "categoryPath": ["ビジネス", "コンサルティング", "プロフェッショナルサービス"],
+    "related": ["marvin-bower"],
+    "relations": {"similar": [], "contrast": []},
+    "visual": "",
+    "sources": [
+      {"label": "Simon & Schuster｜Managing The Professional Service Firm", "url": "https://www.simonandschuster.com/books/Managing-The-Professional-Service-Firm/David-H-Maister/9781416586364"},
+      {"label": "Google Books｜Managing The Professional Service Firm", "url": "https://books.google.com/books/about/Managing_The_Professional_Service_Firm.html?id=1VEs-0Vz2YgC"}
+    ]
+  },
+  {
+    "id": "marvin-bower",
+    "term": "マービン・バウアー",
+    "english": "Marvin Bower",
+    "reading": "まーびんばうあー",
+    "oneLine": "McKinseyを単なる助言会社ではなく、厳しい職業倫理と人材育成を持つ『専門職ファーム』へ形づくった経営コンサルタント。",
+    "detail": "Marvin Bower（1903–2003）は、現代マネジメント・コンサルティングの形成に大きな影響を与えた人物。Harvard Law SchoolとHarvard Business Schoolで学び、1933年にJames O. McKinseyの会社へ参加。創業者James McKinseyの死後、現在のMcKinsey & Companyにつながる組織を再構築し、1950年から1967年までManaging Directorを務めた。Harvard Business Schoolは彼を『father of modern management consulting』と位置づけている。\n\nバウアーの重要性は、個々の分析手法よりも『コンサルティングをどんな職業にするか』を設計したことにある。法律事務所のような専門職モデルを参考に、顧客をcustomerではなくclientとして扱い、クライアントの利益を優先すること、機密を守ること、独立した判断をすること、ファーム全体で共通の価値観を持つことを重視した。McKinseyの歴史では、1936年にBowerが“obligation to dissent”——クライアントや社内に対して、正しいと信じることを必要なら反対意見として述べる義務——を明確にしたとされる。\n\n人材面でも、既に経験を積んだ専門家だけを採るのではなく、有力ビジネススクールの若い卒業生を採用してファーム内で育成する方式や、一定期間で昇進できなければ外へ出るup-or-outの仕組みを発展させた。これによってMcKinseyは、個人の名人芸だけに依存するのではなく、価値観・採用・育成・評価・知識共有を一体化した組織として拡大できるようになった。James O. McKinseyが会社の創業者であるのに対し、Bowerは『現代のMcKinseyという制度・文化をつくった人物』として捉えると分かりやすい。",
+    "example": "クライアントの経営者が望む結論と、調査から導かれる結論が食い違ったとき、契約を失うことを恐れて迎合するのではなく、根拠を示して『それは違う』と伝える。Bowerが重視したobligation to dissentは、コンサルタントを単なる御用聞きではなく、独立した専門職として考える姿勢を象徴している。",
+    "misconception": "McKinsey & Companyそのものを1926年に創業した人物ではない。創業者はJames O. McKinsey。Bowerは1933年に加わり、創業者の死後にファームを再構築し、その職業倫理・人材モデル・組織文化を確立した人物。また『グレイヘア・コンサルティング』という分類を提唱したのはBowerではなくDavid Maister。",
+    "context": "コンサル業界を理解するとき、フレームワークだけでなく『なぜ大手ファームが若手を大量採用して育成するのか』『なぜクライアントへの独立した異論が職業倫理になるのか』『なぜ会社ではなくファームと呼ぶのか』といった制度の思想をたどる入口になる人物。",
+    "learnedAt": "2026-08-21",
+    "tags": ["人物", "コンサルティング", "McKinsey", "プロフェッショナルファーム"],
+    "categoryPath": ["人物", "ビジネス", "コンサルティング"],
+    "related": ["grey-hair-consulting"],
+    "relations": {"similar": [], "contrast": []},
+    "visual": "",
+    "sources": [
+      {"label": "McKinsey & Company｜History of our firm", "url": "https://www.mckinsey.com/about-us/overview/history-of-our-firm"},
+      {"label": "Harvard Business School｜Marvin Bower", "url": "https://www.hbs.edu/leadership/20th-century-leaders/details?profile=marvin_bower"},
+      {"label": "Wiley｜McKinsey's Marvin Bower", "url": "https://www.wiley-vch.de/en/areas-interest/finance-economics-law/business-management-13ba/general-introductory-business-management-13ba0/mckinsey-39-s-marvin-bower-978-0-471-65285-4"}
+    ]
+  },
+  {
     "id": "series-connection",
     "term": "直列",
     "english": "Serial / Linear sequence",
