@@ -1,5 +1,27 @@
 [
   {
+    "id": "ducking",
+    "term": "ダッキング",
+    "english": "Ducking (audio)",
+    "reading": "だっきんぐ",
+    "oneLine": "ある音を目立たせるため、その音をきっかけに別の音の音量を一時的に下げるミキシング処理。",
+    "detail": "ダッキング（ducking）は、音響・ミキシングで、優先したい音が鳴ったときに別の音のレベルを自動または半自動で下げ、音同士がぶつからないようにする処理。典型例はナレーションが始まるとBGMが下がり、話し終わると元の音量へ戻る動き。ラジオ、動画、ポッドキャスト、店内放送などで使われるほか、音楽制作ではキックが鳴る瞬間だけベースや他のトラックを下げ、低域のスペースを空けたり、意図的な“ポンピング”感を作ったりする。\n\nよく使われる実現方法がサイドチェイン・コンプレッション。下げたいトラックにコンプレッサーを挿し、別トラックの音を外部サイドチェイン入力として使うと、そのトリガー音が鳴ったときだけ対象トラックが圧縮される。Abletonのマニュアルでも、ボイスオーバーを常に前へ出すために背景音楽を下げる例をduckingとして説明している。\n\nただし、ダッキングとサイドチェインは完全な同義語ではない。ダッキングは『ある音に応じて別の音を引っ込める』という効果・動作を指し、サイドチェインは外部信号で処理を制御する仕組み。Adobe PremiereのAuto Duckingのように、検出結果から音量キーフレームを自動生成してBGMを下げる実装もあるため、コンプレッサーを使わなくてもダッキングは成立する。",
+    "example": "動画でナレーターが話し始めた瞬間、BGMを-12dBほど下げ、話し終わったら滑らかに元へ戻す。音楽制作なら、キックをトリガーにしてベースを一瞬だけ下げ、キックのアタックを埋もれにくくする。どちらもダッキングの例。",
+    "misconception": "『ダッキング＝フェードアウト』ではない。フェードは時間に沿って音量を上げ下げする操作で、ダッキングは別の音やイベントをきっかけに対象音を一時的に引っ込めること。また『ダッキング＝サイドチェイン・コンプレッション』とも限らず、サイドチェインは代表的な実現方法の一つ。",
+    "context": "複数の音が同時に鳴るとき、『どちらかを常に小さくする』のではなく、必要な瞬間だけ一方に道を譲らせる考え方。動画編集のBGM調整から、キックとベースの住み分けまでつながる基本的なミックス概念。",
+    "learnedAt": "2026-08-22",
+    "tags": ["音楽", "音響", "ミキシング", "サイドチェイン"],
+    "categoryPath": ["芸術", "音楽", "音響・ミキシング"],
+    "related": [],
+    "relations": {"similar": [], "contrast": []},
+    "visual": "",
+    "sources": [
+      {"label": "Ableton Live 12 Manual｜Compressor Tips: Mixing a Voiceover", "url": "https://www.ableton.com/en/live-manual/12/live-audio-effect-reference/"},
+      {"label": "Ableton｜サイドチェインを理解する（前編）", "url": "https://www.ableton.com/ja/blog/sidechain-compression-part-1/"},
+      {"label": "Adobe Premiere｜Automatically duck audio", "url": "https://helpx.adobe.com/au/premiere/desktop/add-audio-effects/adjust-volume-and-levels/automatically-duck-audio.html"}
+    ]
+  },
+  {
     "id": "arbitrage",
     "term": "アービトラージ",
     "english": "Arbitrage",
