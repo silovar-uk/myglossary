@@ -1,5 +1,47 @@
 [
   {
+    "id": "descender",
+    "term": "ディセンダー",
+    "english": "Descender",
+    "reading": "でぃせんだー",
+    "oneLine": "g・j・p・q・y などの小文字で、ベースラインより下へ伸びる文字の部分。",
+    "detail": "ディセンダー（descender）は、タイポグラフィで文字の一部がベースラインより下へ伸びている部分を指す。代表的なのは小文字の g、j、p、q、y。Adobeの用語集でも、これらの小文字でベースラインより下へ下がる部分として定義されており、書体によっては大文字の J や Q もベースラインより下へ出ることがある。\n\n文字を見るときは、ベースラインを基準にすると構造が分かりやすい。多くの文字はベースライン上に乗り、b や h のように上へ伸びる部分はアセンダー、g や p のように下へ伸びる部分はディセンダーになる。つまり『どれくらい下へはみ出しているか』ではなく、『ベースラインをまたいで下側に伸びる字形部分』という位置関係の用語。\n\nUIやロゴ、見出しの文字揃えでは、文字の外接矩形だけを見ると、ディセンダーを持つ文字が入った行だけ下に大きく見えることがある。そのため、文字を視覚的に揃えるときは単純な箱の上下ではなく、ベースラインやx-heightなどのタイポグラフィ上の基準を見ると違和感の原因を説明しやすい。",
+    "example": "英単語『type』では、t・y・p・e のうち y と p の下側がベースラインを越えて伸びる。この下へ伸びた部分がディセンダー。UIで2つの文字ラベルを並べたとき、片方だけ p や y が含まれていても、文字列全体の下端ではなくベースラインが揃っていれば、タイポグラフィとしては整っている場合がある。",
+    "misconception": "『文字の下半分』全体をディセンダーとは呼ばない。ベースラインより下へ伸びる部分だけを指す。また、フォントの数値として扱う descent / descender metric と、目に見える字形のディセンダーは文脈によって区別されることがある。",
+    "context": "UIの微調整で文字の縦位置や揃い方を見るとき、『なぜpやgが入ると下側だけ違って見えるのか』を説明するための基本語として覚えておきたい。",
+    "learnedAt": "2026-08-23",
+    "tags": ["デザイン", "タイポグラフィ", "文字", "UI"],
+    "categoryPath": ["デザイン", "タイポグラフィ", "文字構造"],
+    "related": ["baseline"],
+    "relations": {"similar": [], "contrast": []},
+    "visual": "",
+    "sources": [
+      {"label": "Adobe｜Typographic Terms", "url": "https://www.adobe.com/studio/print/pdf/typographic_terms.pdf"},
+      {"label": "Adobe Fonts FAQ｜Typographic glossary", "url": "https://helpx.adobe.com/uk/fonts/faq.html"}
+    ]
+  },
+  {
+    "id": "baseline",
+    "term": "ベースライン",
+    "english": "Baseline",
+    "reading": "べーすらいん",
+    "oneLine": "文字の大部分がその上に乗る、タイポグラフィ上の仮想的な基準線。",
+    "detail": "ベースライン（baseline）は、タイポグラフィで文字を配置するときの水平な基準線。Adobeは『書体の大多数の文字がその上に乗る仮想線』と説明している。ノートの罫線の上に文字を書くイメージに近いが、実際の印刷物や画面上に線が描かれている必要はなく、文字を揃えるための見えない基準として存在する。\n\n小文字の a、x、n などの多くはベースライン上で終わる一方、g、j、p、q、y のディセンダーはベースラインより下へ伸びる。逆に b、d、h などにはx-heightより上へ伸びるアセンダーがある。タイポグラフィでは、このベースライン、x-height、cap height、ascender、descenderといった複数の水平基準を組み合わせて、文字の縦方向の構造を考える。\n\nUIでもベースラインは重要。サイズの異なる文字やアイコン付きラベルを横に並べたとき、箱の中央を機械的に揃えるより、文字のベースラインを意識した方が自然に見えることがある。『数値上は中央なのに、なんとなく文字が上下にずれて見える』とき、ベースラインを確認すると原因を説明できる場合がある。",
+    "example": "『12 NEWS』のように数字と英字を横並びにするとき、それぞれの要素のボックス中央ではなく、文字が立っているベースラインを合わせると一列に整って見えやすい。また p や y の下端はベースラインより下へ出るため、文字列全体の一番下を基準に揃えると、別の行と不自然にずれることがある。",
+    "misconception": "ベースラインは文字列の『一番下の線』ではない。ディセンダーを持つ文字はベースラインより下へ伸びる。またline-heightの上下中央や要素ボックスの下端とも別の概念。",
+    "context": "UIの文字位置を1〜2px単位で調整するとき、単なるboxの中央揃えではなく『文字そのものがどの線に乗っているか』を見るための基準として使える。",
+    "learnedAt": "2026-08-23",
+    "tags": ["デザイン", "タイポグラフィ", "文字", "UI"],
+    "categoryPath": ["デザイン", "タイポグラフィ", "文字構造"],
+    "related": ["descender"],
+    "relations": {"similar": [], "contrast": []},
+    "visual": "",
+    "sources": [
+      {"label": "Adobe｜Typographic Terms", "url": "https://www.adobe.com/studio/print/pdf/typographic_terms.pdf"},
+      {"label": "Adobe Express｜Typography key words", "url": "https://www.adobe.com/express/learn/blog/key-words-for-designers"}
+    ]
+  },
+  {
     "id": "ducking",
     "term": "ダッキング",
     "english": "Ducking (audio)",
@@ -478,7 +520,7 @@
     "sources": [
       {"label": "Open Music Theory｜Syncopation in pop/rock music", "url": "https://openmusictheory.github.io/syncopation.html"},
       {"label": "Cambridge Dictionary｜syncopation", "url": "https://dictionary.cambridge.org/dictionary/english/syncopation"},
-      {"label": "Merriam-Webster｜syncopation", "url": "https://www.merriam-webster.com/dictionary/syncopation"},
+      {"label": "Merriam-Webster｜syncopation", "url": "https://www.merriam-webster.com/dictionary/english/syncopation"},
       {"label": "Merriam-Webster｜syncopate", "url": "https://www.merriam-webster.com/dictionary/syncopate"}
     ]
   },
@@ -836,6 +878,6 @@
     "related": ["tooltip"],
     "relations": {"similar": [], "contrast": []},
     "visual": "feedforward",
-    "sources": [{"label": "Don Norman, The Design of Everyday Things", "url": "https://jnd.org/books/the-design-of-everyday-things-revised-and-expanded-edition/"}]
+    "sources": [{"label": "Don Norman, The Design of Everyday Things", "url": "https://jnd.org/books/the-design-of-everything-revised-and-expanded-edition/"}]
   }
 ]
