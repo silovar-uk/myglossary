@@ -520,7 +520,7 @@
     "sources": [
       {"label": "Open Music Theory｜Syncopation in pop/rock music", "url": "https://openmusictheory.github.io/syncopation.html"},
       {"label": "Cambridge Dictionary｜syncopation", "url": "https://dictionary.cambridge.org/dictionary/english/syncopation"},
-      {"label": "Merriam-Webster｜syncopation", "url": "https://www.merriam-webster.com/dictionary/english/syncopation"},
+      {"label": "Merriam-Webster｜syncopation", "url": "https://www.merriam-webster.com/dictionary/syncopation"},
       {"label": "Merriam-Webster｜syncopate", "url": "https://www.merriam-webster.com/dictionary/syncopate"}
     ]
   },
@@ -878,6 +878,6 @@
     "related": ["tooltip"],
     "relations": {"similar": [], "contrast": []},
     "visual": "feedforward",
-    "sources": [{"label": "Don Norman, The Design of Everyday Things", "url": "https://jnd.org/books/the-design-of-everything-revised-and-expanded-edition/"}]
+    "sources": [{"label": "Don Norman, The Design of Everyday Things", "url": "https://jnd.org/books/the-design-of-everyday-things-revised-and-expanded-edition/"}]
   }
 ]
