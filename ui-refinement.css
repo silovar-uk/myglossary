@@ -1,1 +1,229 @@
-/* placeholder */
+/* UI refinement layer — quiet, precise, low-noise */
+:root {
+  --bg: #f4f3ee;
+  --paper: #fffefa;
+  --ink: #20211e;
+  --muted: #6f716b;
+  --line: #deddd6;
+  --line-strong: #c8c7bf;
+  --accent: #24483a;
+  --accent-soft: #edf2ef;
+  --warm: #b8843e;
+  --shadow: 0 12px 32px rgba(32, 33, 30, .07);
+  --radius: 10px;
+}
+
+body {
+  background: var(--bg);
+}
+
+/* Brand: remove decorative noise, keep identity */
+.brand-wrap { gap: 12px; }
+.brand { gap: 9px; }
+.brand-mark {
+  width: 30px;
+  height: 30px;
+  border: 1px solid var(--line-strong);
+  border-radius: 6px;
+  background: transparent;
+  color: var(--accent);
+  font-size: 16px;
+  transform: none;
+}
+.brand-name { font-size: 16px; letter-spacing: -.015em; }
+.brand-note { color: var(--muted); }
+
+/* Labels should support hierarchy, not decorate it */
+.eyebrow,
+.section-kicker,
+.practice-card-kicker,
+.random-hero-visual-label,
+.dashboard-panel-head span,
+.today-card .today-label,
+.quiz-prompt-label,
+.detail-eyebrow {
+  color: var(--muted);
+  letter-spacing: .12em;
+}
+
+/* Search: stable position, one focus signal */
+.search-shell {
+  border-radius: 10px;
+  background: var(--paper);
+  box-shadow: none;
+  transition: border-color .15s ease, box-shadow .15s ease;
+}
+.search-shell:focus-within {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px rgba(36, 72, 58, .09);
+  transform: none;
+}
+.search-icon { color: var(--muted); font-size: 24px; }
+kbd { background: transparent; border-color: var(--line); }
+
+/* Surfaces: fewer card personalities */
+.term-card,
+.dashboard-panel,
+.practice-card,
+.random-hero-visual-wrap,
+.taxonomy-shell {
+  border-radius: 10px;
+  background: var(--paper);
+  box-shadow: none;
+}
+.term-card {
+  transition: border-color .15s ease, background .15s ease;
+}
+.term-card:hover,
+.term-card:focus-visible {
+  transform: none;
+  border-color: var(--line-strong);
+  background: #fff;
+  box-shadow: none;
+}
+.dashboard-recent .term-card { border-radius: 8px; }
+
+/* List rows: interaction should not move the layout */
+.term-row {
+  padding: 18px 4px;
+  transition: background .15s ease, border-color .15s ease;
+}
+.term-row:hover,
+.term-row:focus-visible {
+  padding-left: 4px;
+  padding-right: 4px;
+  background: rgba(255, 255, 255, .5);
+}
+
+/* Controls: reduce pill overuse and motion */
+.ghost-button,
+.primary-button,
+.filter-chip,
+.taxonomy-action,
+.category-chip,
+.favorite-button,
+.related-link,
+.dashboard-term-button {
+  border-radius: 7px;
+}
+.ghost-button,
+.primary-button,
+.text-button {
+  transition: background .15s ease, border-color .15s ease, color .15s ease;
+}
+.ghost-button:hover,
+.primary-button:hover {
+  transform: none;
+}
+.ghost-button { background: transparent; }
+
+.filter-chip {
+  padding: 6px 10px;
+  background: transparent;
+}
+.filter-chip.is-active {
+  background: var(--accent-soft);
+  border-color: var(--accent);
+  color: var(--accent);
+}
+.term-tag {
+  border: 1px solid var(--line);
+  border-radius: 5px;
+  background: transparent;
+  padding: 3px 6px;
+  color: var(--muted);
+  font-weight: 600;
+}
+
+/* Taxonomy: one accent system instead of warm + green competing */
+.taxonomy-action.is-active,
+.favorite-button.is-favorite {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+.favorite-button:hover,
+.favorite-button:focus-visible {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+.favorite-indicator { color: var(--accent); }
+
+/* Dialogs: less floating-object styling, more reading surface */
+.term-dialog,
+.add-dialog,
+.quiz-dialog {
+  border-radius: 12px;
+  box-shadow: 0 18px 56px rgba(24, 25, 22, .2);
+}
+.term-dialog::backdrop,
+.add-dialog::backdrop,
+.quiz-dialog::backdrop {
+  background: rgba(24, 25, 22, .38);
+  backdrop-filter: none;
+}
+.dialog-close {
+  width: 36px;
+  height: 36px;
+  border-radius: 7px;
+  font-size: 18px;
+}
+.detail-block { padding: 20px 0; }
+.context-note,
+.quiz-feedback {
+  border-left-color: var(--line-strong);
+  border-radius: 0 7px 7px 0;
+  background: #f6f5f0;
+}
+
+/* Forms */
+.add-card input,
+.add-card textarea,
+.quiz-prompt,
+.quiz-choice {
+  border-radius: 7px;
+}
+.add-card input:focus,
+.add-card textarea:focus {
+  box-shadow: 0 0 0 3px rgba(36, 72, 58, .08);
+}
+
+/* Consistent keyboard focus */
+button:focus-visible,
+a:focus-visible,
+.filter-chip:focus-visible,
+.category-chip:focus-visible,
+.taxonomy-action:focus-visible,
+.favorite-button:focus-visible,
+.related-link:focus-visible,
+.dashboard-term-button:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+/* Tighter, repeatable vertical rhythm */
+.section { padding-top: 48px; padding-bottom: 48px; }
+.section-heading { margin-bottom: 22px; }
+.dashboard-grid { gap: 12px; }
+.practice-grid { gap: 12px; }
+.tag-filters { gap: 6px; }
+
+@media (max-width: 760px) {
+  .site-header { padding-top: 16px; padding-bottom: 16px; }
+  main { padding-left: 16px; padding-right: 16px; }
+  .section { padding-top: 40px; padding-bottom: 40px; }
+  .dashboard-panel,
+  .practice-card { padding: 16px; }
+  .term-row { padding-top: 16px; padding-bottom: 16px; }
+  .ghost-button,
+  .primary-button,
+  .filter-chip,
+  .taxonomy-action,
+  .category-chip,
+  .favorite-button,
+  .related-link,
+  .dashboard-term-button,
+  .dialog-close {
+    min-height: 40px;
+  }
+}
