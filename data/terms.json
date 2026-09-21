@@ -1,5 +1,52 @@
 [
   {
+    "id": "invisible-route-sign",
+    "term": "透明標識",
+    "english": "Invisible route sign",
+    "reading": "とうめいひょうしき",
+    "oneLine": "説明の構造や進む方向を、聞き手に強く意識させず先回りで共有する短い言葉・言い回し。",
+    "detail": "「透明標識」は、中村圭『説明は速さで決まる』で扱われる「透明ルート標識」を、この用語集では短く呼んだもの。説明を速く理解してもらうために、内容そのものを全部話す前に「これはどんな道筋の話か」を相手の頭に作る役割を持つ。たとえば「AからBへ」と置けば変化・転換の話だと分かり、「挑戦」と置けば課題→行動→突破、「卒業」と置けば現状の承認→終了→次の状態、という流れを予測しやすくなる。\n\nポイントは、単にキャッチーな言葉を使うことではない。短い表現の中に時間・因果・対立・補完などの関係を圧縮し、聞き手が自分の既存知識から残りの説明を復元できるようにすること。その意味で、透明標識は「説明を削る技術」より「理解のルートを先に共有する技術」と考えると分かりやすい。\n\nただし、同じ言葉から同じ意味を復元できるとは限らない。「挑戦」を前向きな成長と受け取る人もいれば、負担や無謀さと受け取る人もいる。透明標識は、話し手と聞き手に共有された言葉・スキーマがあるほど機能しやすい。短くすること自体ではなく、相手が正しく『解凍』できるかが重要。",
+    "example": "「担当者ごとの工夫を標準化します」と説明を続ける前に、「個人の工夫から、仕組みへ。」と置く。この一言で、後に続く話が『個人依存の状態から、再現可能な運用へ移す話』だと先に分かる。ほかにも「投稿数から、再訪理由へ」「注意力から、間違えにくい仕組みへ」のように、A→Bの形で説明のルートを先に示せる。",
+    "misconception": "「短いキャッチコピーを付ければ説明が速くなる」という意味ではない。標識が示す構造と本文の事実が一致し、相手がその言い回しを同じように解釈できて初めて機能する。また「挑戦」「卒業」などの言葉は問題の見え方も方向づけるため、分かりやすさと同時に、別の見方を隠していないかも点検したい。",
+    "context": "『説明は速さで決まる』を起点に、説明の短さではなく「相手の頭に理解ルートを先回りで作る」考え方を整理したときに覚えた。文章、企画書、プレゼン、会議の論点整理、コピーライティングに横断して使える。",
+    "learnedAt": "2026-09-21",
+    "tags": [
+      "説明",
+      "文章術",
+      "コピーライティング",
+      "認知",
+      "構造化",
+      "コミュニケーション"
+    ],
+    "categoryPath": [
+      "言語",
+      "説明・文章",
+      "情報設計"
+    ],
+    "related": [
+      "schema",
+      "meaningful-reception-learning",
+      "feedforward"
+    ],
+    "relations": {
+      "similar": [
+        "feedforward"
+      ],
+      "contrast": []
+    },
+    "visual": "",
+    "sources": [
+      {
+        "label": "博報堂｜『説明は速さで決まる』刊行案内",
+        "url": "https://www.hakuhodo.co.jp/news/publications/57587/"
+      },
+      {
+        "label": "きずな出版｜『説明は速さで決まる』",
+        "url": "https://www.kizuna-pub.jp/book/2750/"
+      }
+    ]
+  },
+  {
     "id": "steering-committee",
     "term": "ステアリング・コミッティー",
     "english": "Steering committee",
@@ -10,14 +57,34 @@
     "misconception": "『偉い人が集まる定例報告会』ではない。本来の価値は、現場では解けない重要論点について、権限を持つメンバーが方向性を決め、プロジェクトを事業目的へ戻すこと。また、プロジェクトマネージャー自身がステアリング・コミッティーと同義なわけでもない。",
     "context": "コンサルティングや大規模プロジェクトで頻出する『ステコミ』を、単なる会議名ではなく、実行チームと経営・スポンサーの間にあるガバナンス構造として理解するための語。",
     "learnedAt": "2026-08-23",
-    "tags": ["プロジェクトマネジメント", "ガバナンス", "意思決定", "コンサルティング"],
-    "categoryPath": ["ビジネス", "プロジェクトマネジメント", "ガバナンス"],
-    "related": ["multi-stakeholder-management"],
-    "relations": {"similar": [], "contrast": []},
+    "tags": [
+      "プロジェクトマネジメント",
+      "ガバナンス",
+      "意思決定",
+      "コンサルティング"
+    ],
+    "categoryPath": [
+      "ビジネス",
+      "プロジェクトマネジメント",
+      "ガバナンス"
+    ],
+    "related": [
+      "multi-stakeholder-management"
+    ],
+    "relations": {
+      "similar": [],
+      "contrast": []
+    },
     "visual": "",
     "sources": [
-      {"label": "PMI｜Commonly Used Governance Mechanism Project Delivery Capability", "url": "https://www.pmi.org/learning/library/governance-mechanism-project-delivery-capability-8279"},
-      {"label": "PMI｜Organizational Enablers for Project Governance", "url": "https://www.pmi.org/-/media/pmi/documents/public/pdf/research/organizational-enablers-project-governance.pdf"}
+      {
+        "label": "PMI｜Commonly Used Governance Mechanism Project Delivery Capability",
+        "url": "https://www.pmi.org/learning/library/governance-mechanism-project-delivery-capability-8279"
+      },
+      {
+        "label": "PMI｜Organizational Enablers for Project Governance",
+        "url": "https://www.pmi.org/-/media/pmi/documents/public/pdf/research/organizational-enablers-project-governance.pdf"
+      }
     ]
   },
   {
@@ -31,15 +98,36 @@
     "misconception": "ビジネス用語として生まれた言葉ではなく、もともとは破壊的な軍事行動を表す語。そのため『大量にやる』という軽い意味だけで使うと、相手や場面によっては表現が強すぎる。また、広く接触する施策が必ず非効率という意味でもなく、認知獲得など目的によっては広いリーチが合理的な場合もある。",
     "context": "『広く大量に打つ施策』と『対象を絞って精密に打つ施策』を対比するときに出てくる比喩。語源の重さも含めて理解し、使う場面を選びたい。",
     "learnedAt": "2026-08-23",
-    "tags": ["比喩", "マーケティング", "営業", "軍事用語"],
-    "categoryPath": ["言語", "比喩・表現", "ビジネス比喩"],
+    "tags": [
+      "比喩",
+      "マーケティング",
+      "営業",
+      "軍事用語"
+    ],
+    "categoryPath": [
+      "言語",
+      "比喩・表現",
+      "ビジネス比喩"
+    ],
     "related": [],
-    "relations": {"similar": [], "contrast": []},
+    "relations": {
+      "similar": [],
+      "contrast": []
+    },
     "visual": "",
     "sources": [
-      {"label": "コトバンク｜絨毯爆撃", "url": "https://kotobank.jp/word/%E7%B5%A8%E6%AF%AF%E7%88%86%E6%92%83-77212"},
-      {"label": "Oxford Advanced Learner's Dictionary｜carpet-bomb", "url": "https://www.oxfordlearnersdictionaries.com/us/definition/english/carpet-bomb"},
-      {"label": "Cambridge Dictionary｜carpet bombing", "url": "https://dictionary.cambridge.org/us/dictionary/english/carpet-bombing"}
+      {
+        "label": "コトバンク｜絨毯爆撃",
+        "url": "https://kotobank.jp/word/%E7%B5%A8%E6%AF%AF%E7%88%86%E6%92%83-77212"
+      },
+      {
+        "label": "Oxford Advanced Learner's Dictionary｜carpet-bomb",
+        "url": "https://www.oxfordlearnersdictionaries.com/us/definition/english/carpet-bomb"
+      },
+      {
+        "label": "Cambridge Dictionary｜carpet bombing",
+        "url": "https://dictionary.cambridge.org/us/dictionary/english/carpet-bombing"
+      }
     ]
   },
   {
@@ -53,14 +141,34 @@
     "misconception": "『文字の下半分』全体をディセンダーとは呼ばない。ベースラインより下へ伸びる部分だけを指す。また、フォントの数値として扱う descent / descender metric と、目に見える字形のディセンダーは文脈によって区別されることがある。",
     "context": "UIの微調整で文字の縦位置や揃い方を見るとき、『なぜpやgが入ると下側だけ違って見えるのか』を説明するための基本語として覚えておきたい。",
     "learnedAt": "2026-08-23",
-    "tags": ["デザイン", "タイポグラフィ", "文字", "UI"],
-    "categoryPath": ["デザイン", "タイポグラフィ", "文字構造"],
-    "related": ["baseline"],
-    "relations": {"similar": [], "contrast": []},
+    "tags": [
+      "デザイン",
+      "タイポグラフィ",
+      "文字",
+      "UI"
+    ],
+    "categoryPath": [
+      "デザイン",
+      "タイポグラフィ",
+      "文字構造"
+    ],
+    "related": [
+      "baseline"
+    ],
+    "relations": {
+      "similar": [],
+      "contrast": []
+    },
     "visual": "",
     "sources": [
-      {"label": "Adobe｜Typographic Terms", "url": "https://www.adobe.com/studio/print/pdf/typographic_terms.pdf"},
-      {"label": "Adobe Fonts FAQ｜Typographic glossary", "url": "https://helpx.adobe.com/uk/fonts/faq.html"}
+      {
+        "label": "Adobe｜Typographic Terms",
+        "url": "https://www.adobe.com/studio/print/pdf/typographic_terms.pdf"
+      },
+      {
+        "label": "Adobe Fonts FAQ｜Typographic glossary",
+        "url": "https://helpx.adobe.com/uk/fonts/faq.html"
+      }
     ]
   },
   {
@@ -74,14 +182,34 @@
     "misconception": "ベースラインは文字列の『一番下の線』ではない。ディセンダーを持つ文字はベースラインより下へ伸びる。またline-heightの上下中央や要素ボックスの下端とも別の概念。",
     "context": "UIの文字位置を1〜2px単位で調整するとき、単なるboxの中央揃えではなく『文字そのものがどの線に乗っているか』を見るための基準として使える。",
     "learnedAt": "2026-08-23",
-    "tags": ["デザイン", "タイポグラフィ", "文字", "UI"],
-    "categoryPath": ["デザイン", "タイポグラフィ", "文字構造"],
-    "related": ["descender"],
-    "relations": {"similar": [], "contrast": []},
+    "tags": [
+      "デザイン",
+      "タイポグラフィ",
+      "文字",
+      "UI"
+    ],
+    "categoryPath": [
+      "デザイン",
+      "タイポグラフィ",
+      "文字構造"
+    ],
+    "related": [
+      "descender"
+    ],
+    "relations": {
+      "similar": [],
+      "contrast": []
+    },
     "visual": "",
     "sources": [
-      {"label": "Adobe｜Typographic Terms", "url": "https://www.adobe.com/studio/print/pdf/typographic_terms.pdf"},
-      {"label": "Adobe Express｜Typography key words", "url": "https://www.adobe.com/express/learn/blog/key-words-for-designers"}
+      {
+        "label": "Adobe｜Typographic Terms",
+        "url": "https://www.adobe.com/studio/print/pdf/typographic_terms.pdf"
+      },
+      {
+        "label": "Adobe Express｜Typography key words",
+        "url": "https://www.adobe.com/express/learn/blog/key-words-for-designers"
+      }
     ]
   },
   {
@@ -95,15 +223,36 @@
     "misconception": "『ダッキング＝フェードアウト』ではない。フェードは時間に沿って音量を上げ下げする操作で、ダッキングは別の音やイベントをきっかけに対象音を一時的に引っ込めること。また『ダッキング＝サイドチェイン・コンプレッション』とも限らず、サイドチェインは代表的な実現方法の一つ。",
     "context": "複数の音が同時に鳴るとき、『どちらかを常に小さくする』のではなく、必要な瞬間だけ一方に道を譲らせる考え方。動画編集のBGM調整から、キックとベースの住み分けまでつながる基本的なミックス概念。",
     "learnedAt": "2026-08-22",
-    "tags": ["音楽", "音響", "ミキシング", "サイドチェイン"],
-    "categoryPath": ["芸術", "音楽", "音響・ミキシング"],
+    "tags": [
+      "音楽",
+      "音響",
+      "ミキシング",
+      "サイドチェイン"
+    ],
+    "categoryPath": [
+      "芸術",
+      "音楽",
+      "音響・ミキシング"
+    ],
     "related": [],
-    "relations": {"similar": [], "contrast": []},
+    "relations": {
+      "similar": [],
+      "contrast": []
+    },
     "visual": "",
     "sources": [
-      {"label": "Ableton Live 12 Manual｜Compressor Tips: Mixing a Voiceover", "url": "https://www.ableton.com/en/live-manual/12/live-audio-effect-reference/"},
-      {"label": "Ableton｜サイドチェインを理解する（前編）", "url": "https://www.ableton.com/ja/blog/sidechain-compression-part-1/"},
-      {"label": "Adobe Premiere｜Automatically duck audio", "url": "https://helpx.adobe.com/au/premiere/desktop/add-audio-effects/adjust-volume-and-levels/automatically-duck-audio.html"}
+      {
+        "label": "Ableton Live 12 Manual｜Compressor Tips: Mixing a Voiceover",
+        "url": "https://www.ableton.com/en/live-manual/12/live-audio-effect-reference/"
+      },
+      {
+        "label": "Ableton｜サイドチェインを理解する（前編）",
+        "url": "https://www.ableton.com/ja/blog/sidechain-compression-part-1/"
+      },
+      {
+        "label": "Adobe Premiere｜Automatically duck audio",
+        "url": "https://helpx.adobe.com/au/premiere/desktop/add-audio-effects/adjust-volume-and-levels/automatically-duck-audio.html"
+      }
     ]
   },
   {
@@ -117,15 +266,36 @@
     "misconception": "『安く買って高く売ること』全般をアービトラージとは呼ばない。将来値上がりすると予想して買うのは通常の投資・投機であり、純粋な裁定では同じ、または同等の価値を持つものの同時的な価格差を利用する。また現実には取引コストや執行リスクがあるため、理論上の無リスク利益と実務上の取引は完全には一致しない。",
     "context": "市場価格がなぜバラバラになり続けないのかを理解するための基本概念。『価格差がある→裁定取引が入る→価格差が縮む』という市場メカニズムとして覚えると、ETF、為替、金利、デリバティブなど多くの金融商品へつながる。",
     "learnedAt": "2026-08-21",
-    "tags": ["金融", "投資", "市場", "裁定取引"],
-    "categoryPath": ["ビジネス", "金融", "市場・取引"],
+    "tags": [
+      "金融",
+      "投資",
+      "市場",
+      "裁定取引"
+    ],
+    "categoryPath": [
+      "ビジネス",
+      "金融",
+      "市場・取引"
+    ],
     "related": [],
-    "relations": {"similar": [], "contrast": []},
+    "relations": {
+      "similar": [],
+      "contrast": []
+    },
     "visual": "",
     "sources": [
-      {"label": "Federal Reserve Board｜Arbitrage Keeps Rates Close to Each Other", "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20230327a.htm"},
-      {"label": "CFA Institute｜Market Organization and Structure", "url": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/market-organization-structure"},
-      {"label": "SEC｜Investor Bulletin: Exchange-Traded Funds (ETFs)", "url": "https://www.sec.gov/servlet/sec/investor/alerts/etfs.pdf"}
+      {
+        "label": "Federal Reserve Board｜Arbitrage Keeps Rates Close to Each Other",
+        "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20230327a.htm"
+      },
+      {
+        "label": "CFA Institute｜Market Organization and Structure",
+        "url": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/market-organization-structure"
+      },
+      {
+        "label": "SEC｜Investor Bulletin: Exchange-Traded Funds (ETFs)",
+        "url": "https://www.sec.gov/servlet/sec/investor/alerts/etfs.pdf"
+      }
     ]
   },
   {
@@ -139,14 +309,34 @@
     "misconception": "『年配のコンサルタントが担当すること』そのものではない。また『頭を使わない既知問題』でもない。複雑で個別性の高い問題だが、似た問題を解いた経験が大きな価値を持つことがポイント。Maisterの分類では、仕事の種類を表す概念として理解する方が正確。",
     "context": "コンサルティングの価値を『頭の良さ』だけで捉えず、Expertise（新しい解法を生む専門性）、Experience（過去の類似経験からくる判断）、Efficiency（既知手順を効率よく実行する力）のどこに価値がある案件かを見分けるための概念。",
     "learnedAt": "2026-08-21",
-    "tags": ["コンサルティング", "プロフェッショナルサービス", "経験知", "ビジネスモデル"],
-    "categoryPath": ["ビジネス", "コンサルティング", "プロフェッショナルサービス"],
-    "related": ["marvin-bower"],
-    "relations": {"similar": [], "contrast": []},
+    "tags": [
+      "コンサルティング",
+      "プロフェッショナルサービス",
+      "経験知",
+      "ビジネスモデル"
+    ],
+    "categoryPath": [
+      "ビジネス",
+      "コンサルティング",
+      "プロフェッショナルサービス"
+    ],
+    "related": [
+      "marvin-bower"
+    ],
+    "relations": {
+      "similar": [],
+      "contrast": []
+    },
     "visual": "",
     "sources": [
-      {"label": "Simon & Schuster｜Managing The Professional Service Firm", "url": "https://www.simonandschuster.com/books/Managing-The-Professional-Service-Firm/David-H-Maister/9781416586364"},
-      {"label": "Google Books｜Managing The Professional Service Firm", "url": "https://books.google.com/books/about/Managing_The_Professional_Service_Firm.html?id=1VEs-0Vz2YgC"}
+      {
+        "label": "Simon & Schuster｜Managing The Professional Service Firm",
+        "url": "https://www.simonandschuster.com/books/Managing-The-Professional-Service-Firm/David-H-Maister/9781416586364"
+      },
+      {
+        "label": "Google Books｜Managing The Professional Service Firm",
+        "url": "https://books.google.com/books/about/Managing_The_Professional_Service_Firm.html?id=1VEs-0Vz2YgC"
+      }
     ]
   },
   {
@@ -160,15 +350,38 @@
     "misconception": "McKinsey & Companyそのものを1926年に創業した人物ではない。創業者はJames O. McKinsey。Bowerは1933年に加わり、創業者の死後にファームを再構築し、その職業倫理・人材モデル・組織文化を確立した人物。また『グレイヘア・コンサルティング』という分類を提唱したのはBowerではなくDavid Maister。",
     "context": "コンサル業界を理解するとき、フレームワークだけでなく『なぜ大手ファームが若手を大量採用して育成するのか』『なぜクライアントへの独立した異論が職業倫理になるのか』『なぜ会社ではなくファームと呼ぶのか』といった制度の思想をたどる入口になる人物。",
     "learnedAt": "2026-08-21",
-    "tags": ["人物", "コンサルティング", "McKinsey", "プロフェッショナルファーム"],
-    "categoryPath": ["人物", "ビジネス", "コンサルティング"],
-    "related": ["grey-hair-consulting"],
-    "relations": {"similar": [], "contrast": []},
+    "tags": [
+      "人物",
+      "コンサルティング",
+      "McKinsey",
+      "プロフェッショナルファーム"
+    ],
+    "categoryPath": [
+      "人物",
+      "ビジネス",
+      "コンサルティング"
+    ],
+    "related": [
+      "grey-hair-consulting"
+    ],
+    "relations": {
+      "similar": [],
+      "contrast": []
+    },
     "visual": "",
     "sources": [
-      {"label": "McKinsey & Company｜History of our firm", "url": "https://www.mckinsey.com/about-us/overview/history-of-our-firm"},
-      {"label": "Harvard Business School｜Marvin Bower", "url": "https://www.hbs.edu/leadership/20th-century-leaders/details?profile=marvin_bower"},
-      {"label": "Wiley｜McKinsey's Marvin Bower", "url": "https://www.wiley-vch.de/en/areas-interest/finance-economics-law/business-management-13ba/general-introductory-business-management-13ba0/mckinsey-39-s-marvin-bower-978-0-471-65285-4"}
+      {
+        "label": "McKinsey & Company｜History of our firm",
+        "url": "https://www.mckinsey.com/about-us/overview/history-of-our-firm"
+      },
+      {
+        "label": "Harvard Business School｜Marvin Bower",
+        "url": "https://www.hbs.edu/leadership/20th-century-leaders/details?profile=marvin_bower"
+      },
+      {
+        "label": "Wiley｜McKinsey's Marvin Bower",
+        "url": "https://www.wiley-vch.de/en/areas-interest/finance-economics-law/business-management-13ba/general-introductory-business-management-13ba0/mckinsey-39-s-marvin-bower-978-0-471-65285-4"
+      }
     ]
   },
   {
@@ -182,10 +395,22 @@
     "misconception": "『直列＝悪い／古い』ではない。順序依存の作業や説明では直列化が有効なことも多い。問題になるのは、本来は並行・循環・相互作用で動くものまで、一本の順序や因果だけで捉えてしまうとき。また、幾何学的に直線であることそのものを意味するわけではない。",
     "context": "複雑なものを理解するときに、『これは本当にA→B→Cと直列に進むのか、それとも複数のものが並行・相互作用しているのか』を区別するための構造的な比喩として覚えておきたい。",
     "learnedAt": "2026-08-19",
-    "tags": ["構造", "比喩", "思考", "線形"],
-    "categoryPath": ["思考・構造", "構造", "線形・非線形"],
+    "tags": [
+      "構造",
+      "比喩",
+      "思考",
+      "線形"
+    ],
+    "categoryPath": [
+      "思考・構造",
+      "構造",
+      "線形・非線形"
+    ],
     "related": [],
-    "relations": {"similar": [], "contrast": []},
+    "relations": {
+      "similar": [],
+      "contrast": []
+    },
     "visual": "",
     "sources": []
   },
@@ -200,14 +425,32 @@
     "misconception": "『無料サービスではユーザー自身が商品である』という一言と完全に同義ではない。中心にあるのは、情報が豊富な環境で人間の注意が希少資源になり、その獲得・配分をめぐって競争が生まれるという構造。広告型以外のサービスや、オンライン以外のメディアにも当てはまりうる。",
     "context": "SNSやメディアの設計を『コンテンツの良し悪し』だけでなく、『有限な注意を誰がどう獲得し、何に変換しているか』という経済構造から見るための概念。",
     "learnedAt": "2026-08-19",
-    "tags": ["経済", "メディア", "デジタル", "注意"],
-    "categoryPath": ["人文・社会", "経済", "デジタル経済"],
+    "tags": [
+      "経済",
+      "メディア",
+      "デジタル",
+      "注意"
+    ],
+    "categoryPath": [
+      "人文・社会",
+      "経済",
+      "デジタル経済"
+    ],
     "related": [],
-    "relations": {"similar": [], "contrast": []},
+    "relations": {
+      "similar": [],
+      "contrast": []
+    },
     "visual": "",
     "sources": [
-      {"label": "Stanford Encyclopedia of Philosophy｜Attention", "url": "https://plato.stanford.edu/entries/attention/"},
-      {"label": "Stanford Graduate School of Education｜Untangling the web", "url": "https://ed.stanford.edu/news/untangling-web-new-book-shows-how-spot-misinformation-online"}
+      {
+        "label": "Stanford Encyclopedia of Philosophy｜Attention",
+        "url": "https://plato.stanford.edu/entries/attention/"
+      },
+      {
+        "label": "Stanford Graduate School of Education｜Untangling the web",
+        "url": "https://ed.stanford.edu/news/untangling-web-new-book-shows-how-spot-misinformation-online"
+      }
     ]
   },
   {
@@ -221,15 +464,36 @@
     "misconception": "確率分布は、観測したデータを棒グラフにした『度数分布』そのものではない。観測データから確率分布を推定することはあるが、確率分布は確率変数の不確実性を表す理論的なモデル。また連続分布では、確率密度の値が1を超えることがあっても、面積として計算される確率は0〜1の範囲に収まる。",
     "context": "平均や予測値だけでは見えない『どれくらい散らばるか』『どんな外れ方がありうるか』まで考えるための基本概念。統計モデルやシミュレーションを理解する入口になる。",
     "learnedAt": "2026-08-19",
-    "tags": ["統計", "確率", "数学", "データ分析"],
-    "categoryPath": ["数学・統計", "統計学", "確率"],
+    "tags": [
+      "統計",
+      "確率",
+      "数学",
+      "データ分析"
+    ],
+    "categoryPath": [
+      "数学・統計",
+      "統計学",
+      "確率"
+    ],
     "related": [],
-    "relations": {"similar": [], "contrast": []},
+    "relations": {
+      "similar": [],
+      "contrast": []
+    },
     "visual": "",
     "sources": [
-      {"label": "NIST CSRC Glossary｜Probability Distribution", "url": "https://csrc.nist.gov/glossary/term/probability_distribution"},
-      {"label": "NIST/SEMATECH e-Handbook｜Probability Distributions", "url": "https://www.itl.nist.gov/div898/handbook/eda/section3/eda36.htm"},
-      {"label": "NIST/SEMATECH e-Handbook｜What is a Probability Distribution", "url": "https://www.itl.nist.gov/div898/handbook/eda/section3/eda361.htm"}
+      {
+        "label": "NIST CSRC Glossary｜Probability Distribution",
+        "url": "https://csrc.nist.gov/glossary/term/probability_distribution"
+      },
+      {
+        "label": "NIST/SEMATECH e-Handbook｜Probability Distributions",
+        "url": "https://www.itl.nist.gov/div898/handbook/eda/section3/eda36.htm"
+      },
+      {
+        "label": "NIST/SEMATECH e-Handbook｜What is a Probability Distribution",
+        "url": "https://www.itl.nist.gov/div898/handbook/eda/section3/eda361.htm"
+      }
     ]
   },
   {
@@ -243,15 +507,38 @@
     "misconception": "『シャッフル＝単に裏拍を強くすること』ではない。中心にあるのは、拍の内部を均等な2分割ではなく3連符系の不均等な長短で感じること。またスウィングと完全に別物というより、近接し一部重なるリズム概念として捉える方がよい。",
     "context": "曲を聴いて『同じ8分音符なのに、なぜ跳ねて聞こえるのか』を説明するための基本語。ストレート、スウィング、シャッフルを聴き分ける入口になる。",
     "learnedAt": "2026-08-19",
-    "tags": ["音楽", "リズム", "ドラム", "グルーヴ"],
-    "categoryPath": ["芸術", "音楽", "リズム"],
-    "related": ["syncopation"],
-    "relations": {"similar": [], "contrast": []},
+    "tags": [
+      "音楽",
+      "リズム",
+      "ドラム",
+      "グルーヴ"
+    ],
+    "categoryPath": [
+      "芸術",
+      "音楽",
+      "リズム"
+    ],
+    "related": [
+      "syncopation"
+    ],
+    "relations": {
+      "similar": [],
+      "contrast": []
+    },
     "visual": "",
     "sources": [
-      {"label": "Berklee Online｜Funk and Rock Drum Rhythms", "url": "https://online.berklee.edu/takenote/basic-funk-for-drums/"},
-      {"label": "Berklee Online｜Country Music Guitar Essentials", "url": "https://online.berklee.edu/takenote/country-music-guitar-essentials-chicken-pickin-string-bending-and-more/"},
-      {"label": "ヤマハ｜ドラムの叩き方：技法のいろいろ", "url": "https://www.yamaha.com/ja/musical_instrument_guide/drums/play/play003.html"}
+      {
+        "label": "Berklee Online｜Funk and Rock Drum Rhythms",
+        "url": "https://online.berklee.edu/takenote/basic-funk-for-drums/"
+      },
+      {
+        "label": "Berklee Online｜Country Music Guitar Essentials",
+        "url": "https://online.berklee.edu/takenote/country-music-guitar-essentials-chicken-pickin-string-bending-and-more/"
+      },
+      {
+        "label": "ヤマハ｜ドラムの叩き方：技法のいろいろ",
+        "url": "https://www.yamaha.com/ja/musical_instrument_guide/drums/play/play003.html"
+      }
     ]
   },
   {
@@ -265,13 +552,28 @@
     "misconception": "『男前＝イケメン』だけではない。辞書的にも容姿だけでなく性格・態度を評価する意味がある。一方で、何を『男らしい』と評価するかには文化的・時代的な価値観が含まれる。",
     "context": "外見を表す語だと思っていたときに、会話では『振る舞いが潔い』『気風がいい』という人物評にも使われることを区別して理解するための語。",
     "learnedAt": "2026-08-19",
-    "tags": ["日本語", "語彙", "人物評", "表現"],
-    "categoryPath": ["言語", "日本語", "語彙・表現"],
+    "tags": [
+      "日本語",
+      "語彙",
+      "人物評",
+      "表現"
+    ],
+    "categoryPath": [
+      "言語",
+      "日本語",
+      "語彙・表現"
+    ],
     "related": [],
-    "relations": {"similar": [], "contrast": []},
+    "relations": {
+      "similar": [],
+      "contrast": []
+    },
     "visual": "",
     "sources": [
-      {"label": "コトバンク｜男前（デジタル大辞泉・精選版 日本国語大辞典）", "url": "https://kotobank.jp/word/%E7%94%B7%E5%89%8D-453381"}
+      {
+        "label": "コトバンク｜男前（デジタル大辞泉・精選版 日本国語大辞典）",
+        "url": "https://kotobank.jp/word/%E7%94%B7%E5%89%8D-453381"
+      }
     ]
   },
   {
@@ -285,16 +587,40 @@
     "misconception": "『共感が強い人ほど善良で、公平な判断ができる』とは限らない。共感は他者の状態を感じたり理解したりする働きであり、その対象の選び方や、理解を何に使うかによって結果は変わる。また『共感のダークサイド』は一つの統一された診断名・理論名ではない。",
     "context": "共感を無条件の美徳として扱わず、『誰への共感か』『その共感で誰が見えなくなるか』『理解を何に使うか』『共感する側が消耗していないか』まで考えるための視点。",
     "learnedAt": "2026-08-19",
-    "tags": ["心理学", "共感", "社会心理学", "組織"],
-    "categoryPath": ["人文・社会", "心理学", "社会心理学"],
+    "tags": [
+      "心理学",
+      "共感",
+      "社会心理学",
+      "組織"
+    ],
+    "categoryPath": [
+      "人文・社会",
+      "心理学",
+      "社会心理学"
+    ],
     "related": [],
-    "relations": {"similar": [], "contrast": []},
+    "relations": {
+      "similar": [],
+      "contrast": []
+    },
     "visual": "",
     "sources": [
-      {"label": "Association for Psychological Science｜The Dark Side of Empathy", "url": "https://www.psychologicalscience.org/news/minds-business/the-dark-side-of-empathy.html"},
-      {"label": "Mikkelsen, Geraldi & Clegg (2026)｜The Dark Side of Empathy and Organization Studies", "url": "https://doi.org/10.1177/01708406261459079"},
-      {"label": "Huang et al. (2025)｜The Dark Side of Empathy, PubMed", "url": "https://pubmed.ncbi.nlm.nih.gov/39793690/"},
-      {"label": "Bubandt & Willerslev (2015)｜The Dark Side of Empathy, Cambridge Core", "url": "https://www.cambridge.org/core/journals/comparative-studies-in-society-and-history/article/abs/dark-side-of-empathy-mimesis-deception-and-the-magic-of-alterity/85824CFBB75904604BD0FB253957F040"}
+      {
+        "label": "Association for Psychological Science｜The Dark Side of Empathy",
+        "url": "https://www.psychologicalscience.org/news/minds-business/the-dark-side-of-empathy.html"
+      },
+      {
+        "label": "Mikkelsen, Geraldi & Clegg (2026)｜The Dark Side of Empathy and Organization Studies",
+        "url": "https://doi.org/10.1177/01708406261459079"
+      },
+      {
+        "label": "Huang et al. (2025)｜The Dark Side of Empathy, PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39793690/"
+      },
+      {
+        "label": "Bubandt & Willerslev (2015)｜The Dark Side of Empathy, Cambridge Core",
+        "url": "https://www.cambridge.org/core/journals/comparative-studies-in-society-and-history/article/abs/dark-side-of-empathy-mimesis-deception-and-the-magic-of-alterity/85824CFBB75904604BD0FB253957F040"
+      }
     ]
   },
   {
@@ -308,16 +634,42 @@
     "misconception": "『スケルツォ』という名前から、コミカルで軽い小品だと思わないこと。語源は『冗談』だが、ショパンの4曲は高度な技巧と大きな構成、強い劇性を備えた独立した演奏会用ピアノ作品。",
     "context": "クラシック音楽で『スケルツォ』という言葉を見たとき、一般的な楽章形式としてのスケルツォと、ショパンが独立作品として発展させた4曲を区別して理解するために覚えておきたい。",
     "learnedAt": "2026-08-18",
-    "tags": ["音楽", "クラシック", "ショパン", "ピアノ"],
-    "categoryPath": ["芸術", "音楽", "クラシック音楽"],
-    "related": ["syncopation"],
-    "relations": {"similar": [], "contrast": []},
+    "tags": [
+      "音楽",
+      "クラシック",
+      "ショパン",
+      "ピアノ"
+    ],
+    "categoryPath": [
+      "芸術",
+      "音楽",
+      "クラシック音楽"
+    ],
+    "related": [
+      "syncopation"
+    ],
+    "relations": {
+      "similar": [],
+      "contrast": []
+    },
     "visual": "",
     "sources": [
-      {"label": "Towarzystwo im. Fryderyka Chopina｜Scherza", "url": "https://tifc.chopin.pl/accordions/scherza/"},
-      {"label": "chopin.pl｜Life and Works", "url": "https://www.chopin.pl/biografia_tworczosci.en.html"},
-      {"label": "chopin.pl｜Works Catalogue", "url": "https://www.chopin.pl/katalog_part_09.en.html"},
-      {"label": "ピティナ・ピアノ曲事典｜スケルツォ 第4番 ホ長調 Op.54", "url": "https://enc.piano.or.jp/musics/469"}
+      {
+        "label": "Towarzystwo im. Fryderyka Chopina｜Scherza",
+        "url": "https://tifc.chopin.pl/accordions/scherza/"
+      },
+      {
+        "label": "chopin.pl｜Life and Works",
+        "url": "https://www.chopin.pl/biografia_tworczosci.en.html"
+      },
+      {
+        "label": "chopin.pl｜Works Catalogue",
+        "url": "https://www.chopin.pl/katalog_part_09.en.html"
+      },
+      {
+        "label": "ピティナ・ピアノ曲事典｜スケルツォ 第4番 ホ長調 Op.54",
+        "url": "https://enc.piano.or.jp/musics/469"
+      }
     ]
   },
   {
@@ -331,15 +683,36 @@
     "misconception": "three.jsは3Dモデルを作るモデリングソフトでも、WebGLそのものでもない。3DモデルはBlenderなどで制作して読み込むことも多く、three.jsは主にそれらをブラウザ上へ配置・描画・操作するためのライブラリ。",
     "context": "Web制作で『ブラウザ上に立体物を置く』『3D空間を操作する』実装を考えるとき、WebGLを直接書くより入りやすい代表的な選択肢として覚えておきたい。",
     "learnedAt": "2026-08-18",
-    "tags": ["Web", "JavaScript", "3D", "WebGL"],
-    "categoryPath": ["Web", "JavaScript", "3D"],
+    "tags": [
+      "Web",
+      "JavaScript",
+      "3D",
+      "WebGL"
+    ],
+    "categoryPath": [
+      "Web",
+      "JavaScript",
+      "3D"
+    ],
     "related": [],
-    "relations": {"similar": [], "contrast": []},
+    "relations": {
+      "similar": [],
+      "contrast": []
+    },
     "visual": "",
     "sources": [
-      {"label": "three.js Manual｜Fundamentals", "url": "https://threejs.org/manual/en/fundamentals.html"},
-      {"label": "three.js Manual｜Creating a scene", "url": "https://threejs.org/manual/en/creating-a-scene.html"},
-      {"label": "three.js Manual｜Installation", "url": "https://threejs.org/manual/en/installation.html"}
+      {
+        "label": "three.js Manual｜Fundamentals",
+        "url": "https://threejs.org/manual/en/fundamentals.html"
+      },
+      {
+        "label": "three.js Manual｜Creating a scene",
+        "url": "https://threejs.org/manual/en/creating-a-scene.html"
+      },
+      {
+        "label": "three.js Manual｜Installation",
+        "url": "https://threejs.org/manual/en/installation.html"
+      }
     ]
   },
   {
@@ -353,15 +726,38 @@
     "misconception": "創設者Bruce Mau本人の現在の個人活動と、Bruce Mau Designという組織をそのまま同一視しない。BMDは彼が1985年に創設したスタジオで、現在も彼の方法論に影響を受けている一方、2026年時点の公式サイトではStagwell Networkの一員として活動している。",
     "context": "ブランド戦略、グラフィック、空間、デジタルを横断して扱うデザイン会社の事例として覚えておきたい企業。",
     "learnedAt": "2026-08-18",
-    "tags": ["企業", "デザイン", "ブランディング", "デザインスタジオ"],
-    "categoryPath": ["企業", "デザイン", "ブランド・デザイン"],
-    "related": ["wordmark"],
-    "relations": {"similar": [], "contrast": []},
+    "tags": [
+      "企業",
+      "デザイン",
+      "ブランディング",
+      "デザインスタジオ"
+    ],
+    "categoryPath": [
+      "企業",
+      "デザイン",
+      "ブランド・デザイン"
+    ],
+    "related": [
+      "wordmark"
+    ],
+    "relations": {
+      "similar": [],
+      "contrast": []
+    },
     "visual": "",
     "sources": [
-      {"label": "Bruce Mau Design｜About", "url": "https://www.brucemaudesign.com/about"},
-      {"label": "Bruce Mau Design｜Contact", "url": "https://www.brucemaudesign.com/contact"},
-      {"label": "Bruce Mau Design｜THE ONITSUKA", "url": "https://www.brucemaudesign.com/work/the-onitsuka"}
+      {
+        "label": "Bruce Mau Design｜About",
+        "url": "https://www.brucemaudesign.com/about"
+      },
+      {
+        "label": "Bruce Mau Design｜Contact",
+        "url": "https://www.brucemaudesign.com/contact"
+      },
+      {
+        "label": "Bruce Mau Design｜THE ONITSUKA",
+        "url": "https://www.brucemaudesign.com/work/the-onitsuka"
+      }
     ]
   },
   {
@@ -375,15 +771,36 @@
     "misconception": "「自分の気持ちをうまく言葉にできないこと」すべてを指すわけではない。共有された解釈資源の欠落や偏りによって、ある人や集団が自分の社会的経験を理解・伝達するうえで不当に不利になることがポイント。",
     "context": "個人の説明力だけを見るのではなく、『その経験を説明する言葉や概念を、社会の側は用意できているか』と問い直すための概念。新しい言葉が生まれること自体が、見えなかった経験を社会的に見えるようにする場合がある。",
     "learnedAt": "2026-08-18",
-    "tags": ["哲学", "社会認識論", "認識的不正義", "権力"],
-    "categoryPath": ["人文・社会", "哲学", "社会認識論"],
+    "tags": [
+      "哲学",
+      "社会認識論",
+      "認識的不正義",
+      "権力"
+    ],
+    "categoryPath": [
+      "人文・社会",
+      "哲学",
+      "社会認識論"
+    ],
     "related": [],
-    "relations": {"similar": [], "contrast": []},
+    "relations": {
+      "similar": [],
+      "contrast": []
+    },
     "visual": "",
     "sources": [
-      {"label": "Miranda Fricker (2007)｜Hermeneutical Injustice, Oxford Academic", "url": "https://academic.oup.com/book/32817/chapter-abstract/275001188"},
-      {"label": "Stanford Encyclopedia of Philosophy｜Social Epistemology", "url": "https://plato.stanford.edu/entries/epistemology-social/"},
-      {"label": "Routledge Encyclopedia of Philosophy｜Epistemic Injustice", "url": "https://www.rep.routledge.com/articles/thematic/epistemic-injustice/v-1/sections/hermeneutical-injustice"}
+      {
+        "label": "Miranda Fricker (2007)｜Hermeneutical Injustice, Oxford Academic",
+        "url": "https://academic.oup.com/book/32817/chapter-abstract/275001188"
+      },
+      {
+        "label": "Stanford Encyclopedia of Philosophy｜Social Epistemology",
+        "url": "https://plato.stanford.edu/entries/epistemology-social/"
+      },
+      {
+        "label": "Routledge Encyclopedia of Philosophy｜Epistemic Injustice",
+        "url": "https://www.rep.routledge.com/articles/thematic/epistemic-injustice/v-1/sections/hermeneutical-injustice"
+      }
     ]
   },
   {
@@ -397,15 +814,36 @@
     "misconception": "関係者全員の要望を同じ比重で受け入れ、全員を満足させることではない。影響力・関心・正当性・役割などを整理し、異なる利害を透明なプロセスで扱いながら、目的達成に必要な関与と意思決定を設計することが中心。",
     "context": "関係者が多い案件を『調整が大変』で終わらせず、誰と誰の利害がどう結びついているかを構造として捉えるために役立つ概念。",
     "learnedAt": "2026-08-17",
-    "tags": ["プロジェクトマネジメント", "ステークホルダー", "合意形成", "ガバナンス"],
-    "categoryPath": ["ビジネス", "プロジェクトマネジメント", "ステークホルダー"],
+    "tags": [
+      "プロジェクトマネジメント",
+      "ステークホルダー",
+      "合意形成",
+      "ガバナンス"
+    ],
+    "categoryPath": [
+      "ビジネス",
+      "プロジェクトマネジメント",
+      "ステークホルダー"
+    ],
     "related": [],
-    "relations": {"similar": [], "contrast": []},
+    "relations": {
+      "similar": [],
+      "contrast": []
+    },
     "visual": "",
     "sources": [
-      {"label": "PMI｜Project Stakeholder Management", "url": "https://www.pmi.org/learning/library/project-stakeholder-management-5216"},
-      {"label": "UNDP｜Multi-Stakeholder Engagement Processes", "url": "https://www.undp.org/publications/multi-stakeholder-engagement-processes"},
-      {"label": "OECD｜Ensuring efficient stakeholder engagement", "url": "https://www.oecd.org/en/publications/compendium-of-international-organisations-practices_846a5fa0-en/full-report/component-11.html"}
+      {
+        "label": "PMI｜Project Stakeholder Management",
+        "url": "https://www.pmi.org/learning/library/project-stakeholder-management-5216"
+      },
+      {
+        "label": "UNDP｜Multi-Stakeholder Engagement Processes",
+        "url": "https://www.undp.org/publications/multi-stakeholder-engagement-processes"
+      },
+      {
+        "label": "OECD｜Ensuring efficient stakeholder engagement",
+        "url": "https://www.oecd.org/en/publications/compendium-of-international-organisations-practices_846a5fa0-en/full-report/component-11.html"
+      }
     ]
   },
   {
@@ -418,14 +856,36 @@
     "example": "来季の来場者数を考えるとき、直近数年の来場実績、曜日、対戦相手、販売進捗、天候などのデータから『この条件なら何人くらい来そうか』を予測する。これは現在までの情報から未来を読むフォアキャスティング。",
     "context": "未来を考えるとき、『今から先を見る』方法と『理想の未来から逆算する』方法を区別するために覚えておきたい概念。",
     "learnedAt": "2026-08-17",
-    "tags": ["戦略", "未来予測", "計画", "意思決定"],
-    "categoryPath": ["ビジネス", "戦略", "未来設計"],
-    "related": ["backcasting"],
-    "relations": {"similar": [], "contrast": ["backcasting"]},
+    "tags": [
+      "戦略",
+      "未来予測",
+      "計画",
+      "意思決定"
+    ],
+    "categoryPath": [
+      "ビジネス",
+      "戦略",
+      "未来設計"
+    ],
+    "related": [
+      "backcasting"
+    ],
+    "relations": {
+      "similar": [],
+      "contrast": [
+        "backcasting"
+      ]
+    },
     "visual": "",
     "sources": [
-      {"label": "UK Government Office for Science｜The Futures Toolkit", "url": "https://www.gov.uk/government/publications/futures-toolkit-for-policy-makers-and-analysts/the-futures-toolkit-html"},
-      {"label": "Petropoulos et al.｜Forecasting: theory and practice", "url": "https://arxiv.org/abs/2012.03854"}
+      {
+        "label": "UK Government Office for Science｜The Futures Toolkit",
+        "url": "https://www.gov.uk/government/publications/futures-toolkit-for-policy-makers-and-analysts/the-futures-toolkit-html"
+      },
+      {
+        "label": "Petropoulos et al.｜Forecasting: theory and practice",
+        "url": "https://arxiv.org/abs/2012.03854"
+      }
     ]
   },
   {
@@ -439,14 +899,36 @@
     "misconception": "未来予測の精度を上げる手法ではない。『最も起こりそうな未来』を当てるのではなく、『実現したい未来』を先に置いて、そのために必要な条件と行動を逆算する。",
     "context": "長期目標を『今できることの積み上げ』だけで考えると発想が小さくなりやすい。理想側から現在を見るための思考法として、フォアキャスティングと対で覚える。",
     "learnedAt": "2026-08-17",
-    "tags": ["戦略", "未来設計", "計画", "意思決定"],
-    "categoryPath": ["ビジネス", "戦略", "未来設計"],
-    "related": ["forecasting"],
-    "relations": {"similar": [], "contrast": ["forecasting"]},
+    "tags": [
+      "戦略",
+      "未来設計",
+      "計画",
+      "意思決定"
+    ],
+    "categoryPath": [
+      "ビジネス",
+      "戦略",
+      "未来設計"
+    ],
+    "related": [
+      "forecasting"
+    ],
+    "relations": {
+      "similar": [],
+      "contrast": [
+        "forecasting"
+      ]
+    },
     "visual": "",
     "sources": [
-      {"label": "UK Government Office for Science｜The Futures Toolkit: Backcasting", "url": "https://www.gov.uk/government/publications/futures-toolkit-for-policy-makers-and-analysts/the-futures-toolkit-html"},
-      {"label": "John B. Robinson (1990)｜Futures under glass", "url": "https://doi.org/10.1016/0016-3287(90)90018-D"}
+      {
+        "label": "UK Government Office for Science｜The Futures Toolkit: Backcasting",
+        "url": "https://www.gov.uk/government/publications/futures-toolkit-for-policy-makers-and-analysts/the-futures-toolkit-html"
+      },
+      {
+        "label": "John B. Robinson (1990)｜Futures under glass",
+        "url": "https://doi.org/10.1016/0016-3287(90)90018-D"
+      }
     ]
   },
   {
@@ -459,13 +941,29 @@
     "example": "『ワーキングメモリ』を学ぶ前に、まず『人は情報を一時的に頭に置きながら考える』という既知の感覚を確認し、その上で音韻ループや視空間スケッチパッドという新しい概念を位置づける。説明を受ける形式でも、既有知識と結びつけて理解しているので、有意味受容学習になる。",
     "context": "『説明を聞いて学ぶこと』と『自分で発見して学ぶこと』を単純に優劣で分けず、説明を受ける学習でも深く理解できることを整理するために役立つ概念。",
     "learnedAt": "2026-08-17",
-    "tags": ["教育心理学", "学習理論", "学習", "オーズベル"],
-    "related": ["schema"],
-    "relations": {"similar": [], "contrast": []},
+    "tags": [
+      "教育心理学",
+      "学習理論",
+      "学習",
+      "オーズベル"
+    ],
+    "related": [
+      "schema"
+    ],
+    "relations": {
+      "similar": [],
+      "contrast": []
+    },
     "visual": "",
     "sources": [
-      {"label": "コトバンク｜有意味受容学習", "url": "https://kotobank.jp/word/%E6%9C%89%E6%84%8F%E5%91%B3%E5%8F%97%E5%AE%B9%E5%AD%A6%E7%BF%92-2099874"},
-      {"label": "J-STAGE｜日本における有意味受容学習の展開", "url": "https://www.jstage.jst.go.jp/article/sjst/50/3/50_KJ00006659483/_article/-char/ja"}
+      {
+        "label": "コトバンク｜有意味受容学習",
+        "url": "https://kotobank.jp/word/%E6%9C%89%E6%84%8F%E5%91%B3%E5%8F%97%E5%AE%B9%E5%AD%A6%E7%BF%92-2099874"
+      },
+      {
+        "label": "J-STAGE｜日本における有意味受容学習の展開",
+        "url": "https://www.jstage.jst.go.jp/article/sjst/50/3/50_KJ00006659483/_article/-char/ja"
+      }
     ]
   },
   {
@@ -478,12 +976,27 @@
     "example": "初めて入るカフェでも、『席を取る→注文する→受け取る→飲食する』という流れを自然に予測できる。過去の経験から形成された『カフェ／飲食店のスキーマ』が、新しい状況の理解を助けている。",
     "context": "知識や経験がどう整理され、新しい情報の理解・記憶・学習にどう影響するかを考えるための基本概念。",
     "learnedAt": "2026-08-17",
-    "tags": ["認知心理学", "認知科学", "記憶", "学習"],
-    "related": ["meaningful-reception-learning", "visuospatial-sketchpad", "phonological-loop"],
-    "relations": {"similar": [], "contrast": []},
+    "tags": [
+      "認知心理学",
+      "認知科学",
+      "記憶",
+      "学習"
+    ],
+    "related": [
+      "meaningful-reception-learning",
+      "visuospatial-sketchpad",
+      "phonological-loop"
+    ],
+    "relations": {
+      "similar": [],
+      "contrast": []
+    },
     "visual": "",
     "sources": [
-      {"label": "APA Dictionary of Psychology｜schema", "url": "https://dictionary.apa.org/schema"}
+      {
+        "label": "APA Dictionary of Psychology｜schema",
+        "url": "https://dictionary.apa.org/schema"
+      }
     ]
   },
   {
@@ -496,14 +1009,33 @@
     "example": "初めて行く会場までの地図を数秒見てから歩き始め、頭の中で『次の角を右、その後まっすぐ』と位置関係を保つ。こうした視覚・空間情報の一時保持に、視空間スケッチパッドが関わると考えられる。",
     "context": "ワーキングメモリを『一つの短期記憶箱』ではなく、扱う情報の種類ごとに役割分担する仕組みとして理解するときの主要概念。",
     "learnedAt": "2026-08-17",
-    "tags": ["認知心理学", "認知科学", "記憶", "ワーキングメモリ"],
-    "related": ["phonological-loop"],
-    "relations": {"similar": [], "contrast": []},
+    "tags": [
+      "認知心理学",
+      "認知科学",
+      "記憶",
+      "ワーキングメモリ"
+    ],
+    "related": [
+      "phonological-loop"
+    ],
+    "relations": {
+      "similar": [],
+      "contrast": []
+    },
     "visual": "",
     "sources": [
-      {"label": "Baddeley (1992)｜Working memory, Science / PubMed", "url": "https://pubmed.ncbi.nlm.nih.gov/1736359/"},
-      {"label": "Baddeley (1998)｜Working memory, PubMed", "url": "https://pubmed.ncbi.nlm.nih.gov/9759336/"},
-      {"label": "Baddeley (2003)｜Working memory: looking back and looking forward", "url": "https://doi.org/10.1038/nrn1201"}
+      {
+        "label": "Baddeley (1992)｜Working memory, Science / PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/1736359/"
+      },
+      {
+        "label": "Baddeley (1998)｜Working memory, PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/9759336/"
+      },
+      {
+        "label": "Baddeley (2003)｜Working memory: looking back and looking forward",
+        "url": "https://doi.org/10.1038/nrn1201"
+      }
     ]
   },
   {
@@ -516,14 +1048,33 @@
     "example": "店員から『整理番号は 5817 です』と聞き、入力するまで『ごー・はち・いち・なな』と頭の中で繰り返す。この音声情報の一時保持と反復が、音韻ループの代表的な働き。",
     "context": "『頭の中で声に出さず繰り返すと覚えやすい』現象を、ワーキングメモリの仕組みとして説明するときに役立つ概念。",
     "learnedAt": "2026-08-17",
-    "tags": ["認知心理学", "認知科学", "記憶", "ワーキングメモリ"],
-    "related": ["visuospatial-sketchpad"],
-    "relations": {"similar": [], "contrast": []},
+    "tags": [
+      "認知心理学",
+      "認知科学",
+      "記憶",
+      "ワーキングメモリ"
+    ],
+    "related": [
+      "visuospatial-sketchpad"
+    ],
+    "relations": {
+      "similar": [],
+      "contrast": []
+    },
     "visual": "",
     "sources": [
-      {"label": "Baddeley (1992)｜Working memory, Science / PubMed", "url": "https://pubmed.ncbi.nlm.nih.gov/1736359/"},
-      {"label": "Baddeley (2003)｜Working memory: looking back and looking forward", "url": "https://doi.org/10.1038/nrn1201"},
-      {"label": "Baddeley (2012)｜Working Memory: Theories, Models, and Controversies", "url": "https://doi.org/10.1146/annurev-psych-120710-100422"}
+      {
+        "label": "Baddeley (1992)｜Working memory, Science / PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/1736359/"
+      },
+      {
+        "label": "Baddeley (2003)｜Working memory: looking back and looking forward",
+        "url": "https://doi.org/10.1038/nrn1201"
+      },
+      {
+        "label": "Baddeley (2012)｜Working Memory: Theories, Models, and Controversies",
+        "url": "https://doi.org/10.1146/annurev-psych-120710-100422"
+      }
     ]
   },
   {
@@ -536,14 +1087,31 @@
     "example": "ブランド名『ABC』を、既成フォントでそのまま打つのではなく、Aの形を独自に調整し、文字間や太さまで固定して毎回同じ形で使う。この文字ロゴ部分がワードマーク。",
     "context": "ロゴを『文字部分』と『図形・シンボル部分』に分けて考えるときに役立つ用語。ブランドガイドラインやロゴ制作の会話で、何を指しているかを明確にしやすい。",
     "learnedAt": "2026-08-17",
-    "tags": ["デザイン", "ブランディング", "ロゴ", "タイポグラフィ"],
+    "tags": [
+      "デザイン",
+      "ブランディング",
+      "ロゴ",
+      "タイポグラフィ"
+    ],
     "related": [],
-    "relations": {"similar": [], "contrast": []},
+    "relations": {
+      "similar": [],
+      "contrast": []
+    },
     "visual": "",
     "sources": [
-      {"label": "Adobe Learn｜Design a wordmark", "url": "https://www.adobe.com/learn/indesign/web/wordmark-logo"},
-      {"label": "Collins English Dictionary｜wordmark", "url": "https://www.collinsdictionary.com/dictionary/english/wordmark"},
-      {"label": "特許庁｜商標法第5条第3項に規定する標準文字について", "url": "https://www.jpo.go.jp/system/laws/rule/guideline/trademark/syouhyou_5_3.html"}
+      {
+        "label": "Adobe Learn｜Design a wordmark",
+        "url": "https://www.adobe.com/learn/indesign/web/wordmark-logo"
+      },
+      {
+        "label": "Collins English Dictionary｜wordmark",
+        "url": "https://www.collinsdictionary.com/dictionary/english/wordmark"
+      },
+      {
+        "label": "特許庁｜商標法第5条第3項に規定する標準文字について",
+        "url": "https://www.jpo.go.jp/system/laws/rule/guideline/trademark/syouhyou_5_3.html"
+      }
     ]
   },
   {
@@ -556,15 +1124,35 @@
     "example": "音楽：4拍子で強く感じやすい拍をあえて避け、拍と拍の間や弱い位置に音を置く。\n比喩：『このプレゼンはシンコペーションが効いている』＝一定の説明リズムの中で、意外な位置に短い問いや強い言葉を置き、聞き手の予想を少し外している。",
     "context": "音楽用語としての意味を土台に、『予想される位置をあえて外す』『流れの中に意図的なずれをつくる』という比喩としても使える概念として整理した。",
     "learnedAt": "2026-08-17",
-    "tags": ["音楽", "リズム", "表現", "比喩"],
+    "tags": [
+      "音楽",
+      "リズム",
+      "表現",
+      "比喩"
+    ],
     "related": [],
-    "relations": {"similar": [], "contrast": []},
+    "relations": {
+      "similar": [],
+      "contrast": []
+    },
     "visual": "",
     "sources": [
-      {"label": "Open Music Theory｜Syncopation in pop/rock music", "url": "https://openmusictheory.github.io/syncopation.html"},
-      {"label": "Cambridge Dictionary｜syncopation", "url": "https://dictionary.cambridge.org/dictionary/english/syncopation"},
-      {"label": "Merriam-Webster｜syncopation", "url": "https://www.merriam-webster.com/dictionary/syncopation"},
-      {"label": "Merriam-Webster｜syncopate", "url": "https://www.merriam-webster.com/dictionary/syncopate"}
+      {
+        "label": "Open Music Theory｜Syncopation in pop/rock music",
+        "url": "https://openmusictheory.github.io/syncopation.html"
+      },
+      {
+        "label": "Cambridge Dictionary｜syncopation",
+        "url": "https://dictionary.cambridge.org/dictionary/english/syncopation"
+      },
+      {
+        "label": "Merriam-Webster｜syncopation",
+        "url": "https://www.merriam-webster.com/dictionary/syncopation"
+      },
+      {
+        "label": "Merriam-Webster｜syncopate",
+        "url": "https://www.merriam-webster.com/dictionary/syncopate"
+      }
     ]
   },
   {
@@ -577,14 +1165,31 @@
     "example": "イベント施策がうまくいった担当者に、『一番手応えがあった瞬間は？』『そのとき自分は何をしていた？』『周囲はどう動いていた？』『もう一度やるなら何を再現する？』と聞き、成功を生んだ行動を具体化する。",
     "context": "『行動経済学の用語』として気になった言葉。調べると、より近い領域は行動科学・コーチング・組織開発で、成功体験を再現可能な行動へ変換するための質問法だった。",
     "learnedAt": "2026-08-17",
-    "tags": ["行動科学", "コーチング", "組織開発", "リフレクション"],
+    "tags": [
+      "行動科学",
+      "コーチング",
+      "組織開発",
+      "リフレクション"
+    ],
     "related": [],
-    "relations": {"similar": [], "contrast": []},
+    "relations": {
+      "similar": [],
+      "contrast": []
+    },
     "visual": "",
     "sources": [
-      {"label": "Learning Design Members｜ヒーロー・インタビュー", "url": "https://jhclub.jmam.co.jp/acv/magazine/content?content_id=14358"},
-      {"label": "日立システムズ｜自律型人材をつくるチームマネジメント", "url": "https://www.hitachi-systems.com/report/story/izumi/08.html"},
-      {"label": "出版書誌データベース｜リフレクション入門", "url": "https://www.books.or.jp/book-details/9784762028496"}
+      {
+        "label": "Learning Design Members｜ヒーロー・インタビュー",
+        "url": "https://jhclub.jmam.co.jp/acv/magazine/content?content_id=14358"
+      },
+      {
+        "label": "日立システムズ｜自律型人材をつくるチームマネジメント",
+        "url": "https://www.hitachi-systems.com/report/story/izumi/08.html"
+      },
+      {
+        "label": "出版書誌データベース｜リフレクション入門",
+        "url": "https://www.books.or.jp/book-details/9784762028496"
+      }
     ]
   },
   {
@@ -597,11 +1202,25 @@
     "example": "検索欄に「用語を検索」、メール欄に「name@example.com」と薄く表示する。",
     "context": "",
     "learnedAt": "2026-08-17",
-    "tags": ["Web", "UI", "フォーム"],
-    "related": ["tooltip"],
-    "relations": {"similar": [], "contrast": []},
+    "tags": [
+      "Web",
+      "UI",
+      "フォーム"
+    ],
+    "related": [
+      "tooltip"
+    ],
+    "relations": {
+      "similar": [],
+      "contrast": []
+    },
     "visual": "placeholder",
-    "sources": [{"label": "MDN", "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Attributes/placeholder"}]
+    "sources": [
+      {
+        "label": "MDN",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Attributes/placeholder"
+      }
+    ]
   },
   {
     "id": "tooltip",
@@ -613,11 +1232,26 @@
     "example": "ゴミ箱アイコンにカーソルを合わせると「削除」と表示される。",
     "context": "WebページやUIを改善するとき、アイコンだけでは操作の意味が伝わりにくい場面の補助として覚えた。",
     "learnedAt": "2026-08-17",
-    "tags": ["Web", "UI", "UX"],
-    "related": ["placeholder", "popup"],
-    "relations": {"similar": [], "contrast": []},
+    "tags": [
+      "Web",
+      "UI",
+      "UX"
+    ],
+    "related": [
+      "placeholder",
+      "popup"
+    ],
+    "relations": {
+      "similar": [],
+      "contrast": []
+    },
     "visual": "tooltip",
-    "sources": [{"label": "W3C WAI-ARIA APG", "url": "https://www.w3.org/WAI/ARIA/apg/patterns/tooltip/"}]
+    "sources": [
+      {
+        "label": "W3C WAI-ARIA APG",
+        "url": "https://www.w3.org/WAI/ARIA/apg/patterns/tooltip/"
+      }
+    ]
   },
   {
     "id": "modal",
@@ -629,11 +1263,30 @@
     "example": "「この投稿を削除しますか？」という確認画面が開き、閉じるまで元画面を触れない。",
     "context": "",
     "learnedAt": "2026-08-17",
-    "tags": ["Web", "UI", "UX"],
-    "related": ["dialog", "popup"],
-    "relations": {"similar": ["dialog"], "contrast": ["dialog"]},
+    "tags": [
+      "Web",
+      "UI",
+      "UX"
+    ],
+    "related": [
+      "dialog",
+      "popup"
+    ],
+    "relations": {
+      "similar": [
+        "dialog"
+      ],
+      "contrast": [
+        "dialog"
+      ]
+    },
     "visual": "modal",
-    "sources": [{"label": "W3C WAI-ARIA APG", "url": "https://www.w3.org/WAI-ARIA/apg/patterns/dialog-modal/"}]
+    "sources": [
+      {
+        "label": "W3C WAI-ARIA APG",
+        "url": "https://www.w3.org/WAI-ARIA/apg/patterns/dialog-modal/"
+      }
+    ]
   },
   {
     "id": "dialog",
@@ -645,11 +1298,34 @@
     "example": "ファイル名を入力して「保存」「キャンセル」を選ぶ小さな画面。",
     "context": "",
     "learnedAt": "2026-08-17",
-    "tags": ["Web", "UI", "UX"],
-    "related": ["modal", "popup"],
-    "relations": {"similar": ["modal"], "contrast": ["modal"]},
+    "tags": [
+      "Web",
+      "UI",
+      "UX"
+    ],
+    "related": [
+      "modal",
+      "popup"
+    ],
+    "relations": {
+      "similar": [
+        "modal"
+      ],
+      "contrast": [
+        "modal"
+      ]
+    },
     "visual": "dialog",
-    "sources": [{"label": "MDN <dialog>", "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/dialog"}, {"label": "W3C WAI-ARIA APG", "url": "https://www.w3.org/WAI-ARIA/apg/patterns/dialog-modal/"}]
+    "sources": [
+      {
+        "label": "MDN <dialog>",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/dialog"
+      },
+      {
+        "label": "W3C WAI-ARIA APG",
+        "url": "https://www.w3.org/WAI-ARIA/apg/patterns/dialog-modal/"
+      }
+    ]
   },
   {
     "id": "popup",
@@ -661,11 +1337,30 @@
     "example": "プロフィール画像を押すと、アカウントメニューがその場に浮かんで表示される。",
     "context": "",
     "learnedAt": "2026-08-17",
-    "tags": ["Web", "UI"],
-    "related": ["tooltip", "dialog", "dropdown"],
-    "relations": {"similar": [], "contrast": []},
+    "tags": [
+      "Web",
+      "UI"
+    ],
+    "related": [
+      "tooltip",
+      "dialog",
+      "dropdown"
+    ],
+    "relations": {
+      "similar": [],
+      "contrast": []
+    },
     "visual": "popup",
-    "sources": [{"label": "MDN Popover API", "url": "https://developer.mozilla.org/en-US/docs/Web/API/Popover_API"}, {"label": "Apple HIG Popovers", "url": "https://developer.apple.com/design/human-interface-guidelines/popovers/"}]
+    "sources": [
+      {
+        "label": "MDN Popover API",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Popover_API"
+      },
+      {
+        "label": "Apple HIG Popovers",
+        "url": "https://developer.apple.com/design/human-interface-guidelines/popovers/"
+      }
+    ]
   },
   {
     "id": "dropdown",
@@ -677,11 +1372,28 @@
     "example": "「並び順」を押すと「新しい順・古い順・名前順」が表示される。",
     "context": "",
     "learnedAt": "2026-08-17",
-    "tags": ["Web", "UI", "ナビゲーション"],
-    "related": ["pull-down", "popup"],
-    "relations": {"similar": ["pull-down"], "contrast": []},
+    "tags": [
+      "Web",
+      "UI",
+      "ナビゲーション"
+    ],
+    "related": [
+      "pull-down",
+      "popup"
+    ],
+    "relations": {
+      "similar": [
+        "pull-down"
+      ],
+      "contrast": []
+    },
     "visual": "dropdown",
-    "sources": [{"label": "W3C Disclosure Navigation", "url": "https://www.w3.org/WAI-ARIA/apg/patterns/disclosure/examples/disclosure-navigation/"}]
+    "sources": [
+      {
+        "label": "W3C Disclosure Navigation",
+        "url": "https://www.w3.org/WAI-ARIA/apg/patterns/disclosure/examples/disclosure-navigation/"
+      }
+    ]
   },
   {
     "id": "pull-down",
@@ -693,11 +1405,27 @@
     "example": "都道府県欄を押すと候補一覧が開き、「埼玉県」を選択できる。",
     "context": "",
     "learnedAt": "2026-08-17",
-    "tags": ["Web", "UI", "フォーム"],
-    "related": ["dropdown"],
-    "relations": {"similar": ["dropdown"], "contrast": []},
+    "tags": [
+      "Web",
+      "UI",
+      "フォーム"
+    ],
+    "related": [
+      "dropdown"
+    ],
+    "relations": {
+      "similar": [
+        "dropdown"
+      ],
+      "contrast": []
+    },
     "visual": "pull-down",
-    "sources": [{"label": "W3C Disclosure Navigation", "url": "https://www.w3.org/WAI-ARIA/apg/patterns/disclosure/examples/disclosure-navigation/"}]
+    "sources": [
+      {
+        "label": "W3C Disclosure Navigation",
+        "url": "https://www.w3.org/WAI-ARIA/apg/patterns/disclosure/examples/disclosure-navigation/"
+      }
+    ]
   },
   {
     "id": "accordion",
@@ -709,11 +1437,30 @@
     "example": "「チケットについて」を押すと、その回答だけが下に展開される。",
     "context": "",
     "learnedAt": "2026-08-17",
-    "tags": ["Web", "UI", "情報設計"],
-    "related": ["dropdown", "drawer"],
-    "relations": {"similar": [], "contrast": []},
+    "tags": [
+      "Web",
+      "UI",
+      "情報設計"
+    ],
+    "related": [
+      "dropdown",
+      "drawer"
+    ],
+    "relations": {
+      "similar": [],
+      "contrast": []
+    },
     "visual": "accordion",
-    "sources": [{"label": "W3C WAI-ARIA APG", "url": "https://www.w3.org/WAI-ARIA/apg/patterns/accordion/"}, {"label": "W3C Disclosure Pattern", "url": "https://www.w3.org/WAI-ARIA/apg/patterns/disclosure/"}]
+    "sources": [
+      {
+        "label": "W3C WAI-ARIA APG",
+        "url": "https://www.w3.org/WAI-ARIA/apg/patterns/accordion/"
+      },
+      {
+        "label": "W3C Disclosure Pattern",
+        "url": "https://www.w3.org/WAI-ARIA/apg/patterns/disclosure/"
+      }
+    ]
   },
   {
     "id": "toggle",
@@ -725,11 +1472,28 @@
     "example": "「お気に入り」ボタンを押すたびに、登録済み／未登録が切り替わる。",
     "context": "",
     "learnedAt": "2026-08-17",
-    "tags": ["Web", "UI", "操作"],
-    "related": ["switch", "accordion"],
-    "relations": {"similar": ["switch"], "contrast": []},
+    "tags": [
+      "Web",
+      "UI",
+      "操作"
+    ],
+    "related": [
+      "switch",
+      "accordion"
+    ],
+    "relations": {
+      "similar": [
+        "switch"
+      ],
+      "contrast": []
+    },
     "visual": "toggle",
-    "sources": [{"label": "W3C Button Pattern", "url": "https://www.w3.org/WAI-ARIA/apg/patterns/button/"}]
+    "sources": [
+      {
+        "label": "W3C Button Pattern",
+        "url": "https://www.w3.org/WAI-ARIA/apg/patterns/button/"
+      }
+    ]
   },
   {
     "id": "switch",
@@ -741,11 +1505,27 @@
     "example": "「通知を受け取る」をONにすると、以後通知が届く。",
     "context": "",
     "learnedAt": "2026-08-17",
-    "tags": ["Web", "UI", "フォーム"],
-    "related": ["toggle"],
-    "relations": {"similar": ["toggle"], "contrast": []},
+    "tags": [
+      "Web",
+      "UI",
+      "フォーム"
+    ],
+    "related": [
+      "toggle"
+    ],
+    "relations": {
+      "similar": [
+        "toggle"
+      ],
+      "contrast": []
+    },
     "visual": "switch",
-    "sources": [{"label": "W3C Switch Pattern", "url": "https://www.w3.org/WAI-ARIA/apg/patterns/switch/"}]
+    "sources": [
+      {
+        "label": "W3C Switch Pattern",
+        "url": "https://www.w3.org/WAI-ARIA/apg/patterns/switch/"
+      }
+    ]
   },
   {
     "id": "toast",
@@ -757,11 +1537,28 @@
     "example": "コピー操作の直後、画面下に「コピーしました」と数秒だけ表示される。",
     "context": "",
     "learnedAt": "2026-08-17",
-    "tags": ["Web", "UI", "フィードバック"],
-    "related": ["snackbar", "popup"],
-    "relations": {"similar": ["snackbar"], "contrast": []},
+    "tags": [
+      "Web",
+      "UI",
+      "フィードバック"
+    ],
+    "related": [
+      "snackbar",
+      "popup"
+    ],
+    "relations": {
+      "similar": [
+        "snackbar"
+      ],
+      "contrast": []
+    },
     "visual": "toast",
-    "sources": [{"label": "W3C Alert Pattern", "url": "https://www.w3.org/WAI-ARIA/apg/patterns/alert/"}]
+    "sources": [
+      {
+        "label": "W3C Alert Pattern",
+        "url": "https://www.w3.org/WAI-ARIA/apg/patterns/alert/"
+      }
+    ]
   },
   {
     "id": "snackbar",
@@ -773,11 +1570,31 @@
     "example": "「メモを削除しました　元に戻す」と画面下に表示される。",
     "context": "",
     "learnedAt": "2026-08-17",
-    "tags": ["Web", "UI", "フィードバック"],
-    "related": ["toast"],
-    "relations": {"similar": ["toast"], "contrast": []},
+    "tags": [
+      "Web",
+      "UI",
+      "フィードバック"
+    ],
+    "related": [
+      "toast"
+    ],
+    "relations": {
+      "similar": [
+        "toast"
+      ],
+      "contrast": []
+    },
     "visual": "snackbar",
-    "sources": [{"label": "Material Design 3", "url": "https://m3.material.io/"}, {"label": "W3C Alert Pattern", "url": "https://www.w3.org/WAI-ARIA/apg/patterns/alert/"}]
+    "sources": [
+      {
+        "label": "Material Design 3",
+        "url": "https://m3.material.io/"
+      },
+      {
+        "label": "W3C Alert Pattern",
+        "url": "https://www.w3.org/WAI-ARIA/apg/patterns/alert/"
+      }
+    ]
   },
   {
     "id": "breadcrumb",
@@ -789,11 +1606,26 @@
     "example": "ホーム ＞ チケット ＞ シーズンチケット ＞ 申込方法",
     "context": "",
     "learnedAt": "2026-08-17",
-    "tags": ["Web", "UI", "ナビゲーション"],
-    "related": ["global-navigation", "local-navigation"],
-    "relations": {"similar": [], "contrast": []},
+    "tags": [
+      "Web",
+      "UI",
+      "ナビゲーション"
+    ],
+    "related": [
+      "global-navigation",
+      "local-navigation"
+    ],
+    "relations": {
+      "similar": [],
+      "contrast": []
+    },
     "visual": "breadcrumb",
-    "sources": [{"label": "W3C Breadcrumb Pattern", "url": "https://www.w3.org/WAI-ARIA/apg/patterns/breadcrumb/"}]
+    "sources": [
+      {
+        "label": "W3C Breadcrumb Pattern",
+        "url": "https://www.w3.org/WAI-ARIA/apg/patterns/breadcrumb/"
+      }
+    ]
   },
   {
     "id": "global-navigation",
@@ -805,11 +1637,29 @@
     "example": "クラブ公式サイトの上部に、全ページ共通で「NEWS / TICKET / TEAM / CLUB」が並ぶ。",
     "context": "",
     "learnedAt": "2026-08-17",
-    "tags": ["Web", "UI", "ナビゲーション"],
-    "related": ["local-navigation", "breadcrumb", "drawer"],
-    "relations": {"similar": ["local-navigation"], "contrast": []},
+    "tags": [
+      "Web",
+      "UI",
+      "ナビゲーション"
+    ],
+    "related": [
+      "local-navigation",
+      "breadcrumb",
+      "drawer"
+    ],
+    "relations": {
+      "similar": [
+        "local-navigation"
+      ],
+      "contrast": []
+    },
     "visual": "global-navigation",
-    "sources": [{"label": "W3C Disclosure Navigation", "url": "https://www.w3.org/WAI-ARIA/apg/patterns/disclosure/examples/disclosure-navigation/"}]
+    "sources": [
+      {
+        "label": "W3C Disclosure Navigation",
+        "url": "https://www.w3.org/WAI-ARIA/apg/patterns/disclosure/examples/disclosure-navigation/"
+      }
+    ]
   },
   {
     "id": "local-navigation",
@@ -821,11 +1671,28 @@
     "example": "「チケット」ページ内だけに「価格 / 座席 / 購入方法 / FAQ」のメニューが表示される。",
     "context": "",
     "learnedAt": "2026-08-17",
-    "tags": ["Web", "UI", "ナビゲーション"],
-    "related": ["global-navigation", "breadcrumb"],
-    "relations": {"similar": ["global-navigation"], "contrast": []},
+    "tags": [
+      "Web",
+      "UI",
+      "ナビゲーション"
+    ],
+    "related": [
+      "global-navigation",
+      "breadcrumb"
+    ],
+    "relations": {
+      "similar": [
+        "global-navigation"
+      ],
+      "contrast": []
+    },
     "visual": "local-navigation",
-    "sources": [{"label": "W3C Disclosure Navigation", "url": "https://www.w3.org/WAI-ARIA/apg/patterns/disclosure/examples/disclosure-navigation/"}]
+    "sources": [
+      {
+        "label": "W3C Disclosure Navigation",
+        "url": "https://www.w3.org/WAI-ARIA/apg/patterns/disclosure/examples/disclosure-navigation/"
+      }
+    ]
   },
   {
     "id": "drawer",
@@ -837,11 +1704,26 @@
     "example": "スマホでメニューボタンを押すと、左端からサイトメニューがスライドして現れる。",
     "context": "",
     "learnedAt": "2026-08-17",
-    "tags": ["Web", "UI", "ナビゲーション"],
-    "related": ["global-navigation", "popup"],
-    "relations": {"similar": [], "contrast": []},
+    "tags": [
+      "Web",
+      "UI",
+      "ナビゲーション"
+    ],
+    "related": [
+      "global-navigation",
+      "popup"
+    ],
+    "relations": {
+      "similar": [],
+      "contrast": []
+    },
     "visual": "drawer",
-    "sources": [{"label": "Material Design 3", "url": "https://m3.material.io/"}]
+    "sources": [
+      {
+        "label": "Material Design 3",
+        "url": "https://m3.material.io/"
+      }
+    ]
   },
   {
     "id": "hero",
@@ -853,9 +1735,16 @@
     "example": "イベントLPの最上部に、イベント名・開催日・メインビジュアル・「チケット購入」ボタンをまとめて置く。",
     "context": "",
     "learnedAt": "2026-08-17",
-    "tags": ["Web", "UI", "デザイン"],
+    "tags": [
+      "Web",
+      "UI",
+      "デザイン"
+    ],
     "related": [],
-    "relations": {"similar": [], "contrast": []},
+    "relations": {
+      "similar": [],
+      "contrast": []
+    },
     "visual": "hero",
     "sources": []
   },
@@ -869,11 +1758,23 @@
     "example": "760px未満では2列カードを1列にする、という場合の「760px」がブレークポイント。",
     "context": "",
     "learnedAt": "2026-08-17",
-    "tags": ["Web", "CSS", "レスポンシブ"],
+    "tags": [
+      "Web",
+      "CSS",
+      "レスポンシブ"
+    ],
     "related": [],
-    "relations": {"similar": [], "contrast": []},
+    "relations": {
+      "similar": [],
+      "contrast": []
+    },
     "visual": "breakpoint",
-    "sources": [{"label": "MDN Responsive design", "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Responsive_Design"}]
+    "sources": [
+      {
+        "label": "MDN Responsive design",
+        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Responsive_Design"
+      }
+    ]
   },
   {
     "id": "progress-bar",
@@ -885,11 +1786,29 @@
     "example": "ファイルアップロード中に、バーが0%から100%へ伸びていく。",
     "context": "",
     "learnedAt": "2026-08-17",
-    "tags": ["Web", "UI", "フィードバック"],
-    "related": ["spinner"],
-    "relations": {"similar": ["spinner"], "contrast": ["spinner"]},
+    "tags": [
+      "Web",
+      "UI",
+      "フィードバック"
+    ],
+    "related": [
+      "spinner"
+    ],
+    "relations": {
+      "similar": [
+        "spinner"
+      ],
+      "contrast": [
+        "spinner"
+      ]
+    },
     "visual": "progress-bar",
-    "sources": [{"label": "Apple HIG Progress indicators", "url": "https://developer.apple.com/design/human-interface-guidelines/progress-indicators"}]
+    "sources": [
+      {
+        "label": "Apple HIG Progress indicators",
+        "url": "https://developer.apple.com/design/human-interface-guidelines/progress-indicators"
+      }
+    ]
   },
   {
     "id": "spinner",
@@ -901,11 +1820,29 @@
     "example": "検索結果を取得している数秒間、円形アイコンがくるくる回る。",
     "context": "",
     "learnedAt": "2026-08-17",
-    "tags": ["Web", "UI", "フィードバック"],
-    "related": ["progress-bar"],
-    "relations": {"similar": ["progress-bar"], "contrast": ["progress-bar"]},
+    "tags": [
+      "Web",
+      "UI",
+      "フィードバック"
+    ],
+    "related": [
+      "progress-bar"
+    ],
+    "relations": {
+      "similar": [
+        "progress-bar"
+      ],
+      "contrast": [
+        "progress-bar"
+      ]
+    },
     "visual": "spinner",
-    "sources": [{"label": "Apple HIG Progress indicators", "url": "https://developer.apple.com/design/human-interface-guidelines/progress-indicators"}]
+    "sources": [
+      {
+        "label": "Apple HIG Progress indicators",
+        "url": "https://developer.apple.com/design/human-interface-guidelines/progress-indicators"
+      }
+    ]
   },
   {
     "id": "feedforward",
@@ -917,10 +1854,24 @@
     "example": "「削除」ではなく「このメモを削除」と表示し、押す前から何が起こるか分かるようにする。",
     "context": "",
     "learnedAt": "2026-08-17",
-    "tags": ["UI", "UX", "デザイン"],
-    "related": ["tooltip"],
-    "relations": {"similar": [], "contrast": []},
+    "tags": [
+      "UI",
+      "UX",
+      "デザイン"
+    ],
+    "related": [
+      "tooltip"
+    ],
+    "relations": {
+      "similar": [],
+      "contrast": []
+    },
     "visual": "feedforward",
-    "sources": [{"label": "Don Norman, The Design of Everyday Things", "url": "https://jnd.org/books/the-design-of-everyday-things-revised-and-expanded-edition/"}]
+    "sources": [
+      {
+        "label": "Don Norman, The Design of Everyday Things",
+        "url": "https://jnd.org/books/the-design-of-everyday-things-revised-and-expanded-edition/"
+      }
+    ]
   }
 ]
