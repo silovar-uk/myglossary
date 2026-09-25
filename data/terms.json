@@ -1,5 +1,46 @@
 [
   {
+    "id": "curl-noise",
+    "term": "カールノイズ",
+    "english": "Curl noise",
+    "reading": "かーるのいず",
+    "oneLine": "CGで炎や煙のような、渦を含む自然な流れを作るために使われるプロシージャルなノイズ手法。",
+    "detail": "カールノイズ（curl noise）は、コンピュータグラフィックスで流体らしい乱流を手軽に作るための手法。ノイズから作ったベクトル場にカール（curl）という演算を使い、発散のない（divergence-free）速度場を生成する。これにより、粒子が不自然に一点へ吸い込まれたり湧き出したりしにくく、煙・蒸気・炎のような、くるくると巻きながら流れる動きを作りやすい。\n\n2007年の論文「Curl-Noise for Procedural Fluid Flow」では、Perlin noiseをもとに、流体らしい乱流速度場を高速かつ制御しやすく生成する方法として整理されている。厳密な流体シミュレーションを毎回解くのではなく、必要な位置で速度を計算できるため、映像・ゲーム・パーティクル表現などで使いやすい。\n\n火の揺れを考えるときは、「炎そのものの物理現象名」ではなく、「炎らしい揺らぎをCGで作る技術」と捉えるのが正確。炎の輪郭や火の粉を、単純なランダム移動ではなく、上昇しながら横へ巻く・渦になる・細かく揺らぐ、といった動きにしたいときに相性がよい。",
+    "example": "焚き火の炎をパーティクルで表現するとき、粒子をただ上方向へ動かすだけだと直線的で人工的に見える。上向きの流れにカールノイズ由来の速度場を重ねると、炎が左右へ揺れたり、小さな渦を作ったりしながら立ち上がる動きを作れる。",
+    "misconception": "現実の炎が「カールノイズ」という現象で揺れているわけではない。カールノイズはCG上で流体らしい動きを生成する手法。実際の炎の動きは、浮力、温度差、周囲の気流、乱流などの物理現象によって生じる。",
+    "context": "火の揺れ方や、炎を自然に見せる動きを調べる中で知った。単なるランダムな揺れではなく、「渦を持つ流れ」を作る考え方として覚えておきたい。",
+    "learnedAt": "2026-09-25",
+    "tags": [
+      "CG",
+      "アニメーション",
+      "ノイズ",
+      "流体",
+      "炎",
+      "パーティクル"
+    ],
+    "categoryPath": [
+      "デザイン",
+      "CG・モーション",
+      "プロシージャル表現"
+    ],
+    "related": [],
+    "relations": {
+      "similar": [],
+      "contrast": []
+    },
+    "visual": "",
+    "sources": [
+      {
+        "label": "Bridson, Hourihan, Nordenstam｜Curl-Noise for Procedural Fluid Flow (SIGGRAPH 2007)",
+        "url": "https://www.cs.ubc.ca/~rbridson/docs/bridson-siggraph2007-curlnoise.pdf"
+      },
+      {
+        "label": "Robert Bridson｜Graphics publications and curl-noise resources",
+        "url": "https://www.cs.ubc.ca/~rbridson/"
+      }
+    ]
+  },
+  {
     "id": "invisible-route-sign",
     "term": "透明標識",
     "english": "Invisible route sign",
