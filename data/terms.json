@@ -1954,5 +1954,282 @@
         "url": "https://jnd.org/books/the-design-of-everyday-things-revised-and-expanded-edition/"
       }
     ]
+  },
+  {
+    "id": "intersectionality",
+    "term": "インターセクショナリティー",
+    "english": "Intersectionality / 交差性",
+    "reading": "いんたーせくしょなりてぃー",
+    "oneLine": "人の経験や不利益を、性別・人種・階級・障害など一つの属性だけで切らず、複数の社会的カテゴリーと権力関係が交差して生まれるものとして捉える分析枠組み。",
+    "detail": "インターセクショナリティー（intersectionality、交差性）は、法学者キンバリー・クレンショー（Kimberlé Crenshaw）が1989年の論文で提示した概念。出発点は、黒人女性が経験する差別を「人種差別」と「性差別」に別々に分けて扱うだけでは、その経験の一部が制度や議論からこぼれ落ちる、という問題だった。\n\n大事なのは、属性を単純に足し算する考え方ではないこと。たとえば「女性であることによる不利益＋黒人であることによる不利益」と機械的に合算するのではなく、その二つが交差した位置で、黒人女性に特有の扱われ方や見えにくさが生まれることを見る。後には階級、障害、年齢、性的指向、移民 status など、さまざまな社会的位置と権力関係を分析する枠組みへ広がった。\n\nしたがって、インターセクショナリティーは「人には複数の属性がある」というだけの話でも、「少数派の属性をたくさん列挙する」方法でもない。誰がどの制度・規範・権力関係の中に置かれ、その組み合わせによってどんな経験が生じ、何が見落とされるのかを問うためのレンズとして使う。",
+    "example": "職場の昇進データを男女だけで比較すると「女性全体」の傾向は見える。しかし、人種や障害、雇用形態などを交差させて見ると、女性という同じ大分類の中でも経験が大きく異なる場合がある。インターセクショナリティーは、その差を単なる例外として処理せず、制度や評価基準が誰にどう作用しているかを分析する。",
+    "misconception": "「差別の数を数えること」や「不利な属性を足し算して序列化すること」ではない。複数のカテゴリーが相互に作用し、単独では説明しにくい経験や構造が生まれる点を見る。また、個人のアイデンティティだけでなく、制度・規範・権力関係の側を分析することが重要。",
+    "context": "複数の属性や立場が絡む問題を、一つの軸だけで説明して取りこぼさないための基本概念として整理した。組織、マーケティング、制度設計、社会課題の分析でも「平均的な一人」を前提にしすぎていないかを点検する視点になる。",
+    "learnedAt": "2026-09-27",
+    "tags": [
+      "社会理論",
+      "差別",
+      "権力",
+      "アイデンティティ",
+      "社会構造",
+      "分析枠組み"
+    ],
+    "categoryPath": [
+      "人文・社会",
+      "社会理論",
+      "権力・差別"
+    ],
+    "related": [
+      "intersectional-discrimination",
+      "multiple-discrimination",
+      "matrix-of-domination",
+      "social-location",
+      "positionality"
+    ],
+    "relations": {
+      "similar": [],
+      "contrast": [
+        "multiple-discrimination"
+      ]
+    },
+    "visual": "",
+    "sources": [
+      {
+        "label": "Kimberlé Crenshaw (1989)｜Demarginalizing the Intersection of Race and Sex",
+        "url": "https://chicagounbound.uchicago.edu/uclf/vol1989/iss1/8/"
+      },
+      {
+        "label": "Kimberlé Crenshaw (1991)｜Mapping the Margins, Stanford Law Review / JSTOR",
+        "url": "https://www.jstor.org/stable/1229039"
+      },
+      {
+        "label": "UN Women｜Intersectionality resource guide and toolkit",
+        "url": "https://www.unwomen.org/en/digital-library/publications/2022/01/intersectionality-resource-guide-and-toolkit"
+      }
+    ]
+  },
+  {
+    "id": "intersectional-discrimination",
+    "term": "交差的差別",
+    "english": "Intersectional discrimination",
+    "reading": "こうさてきさべつ",
+    "oneLine": "複数の差別事由が同時に、しかも分離できない形で作用し、その組み合わせに固有の差別を生むこと。",
+    "detail": "交差的差別（intersectional discrimination）は、複数の差別事由が別々に存在するだけでなく、互いに作用して一体となり、単一の軸では捉えにくい差別を生む状態。欧州のジェンダー平等分野では、「複合差別（multiple discrimination）」の一形態として整理されることがある。\n\nたとえば、ある人が「女性だから不利益を受けた場面」と「人種的背景によって不利益を受けた場面」を別々に経験するなら、それぞれを分けて検討できる。一方、黒人女性に対する扱いが、黒人男性にも白人女性にも同じ形では現れず、その交差した位置に特有の不利益として生じるなら、交差的差別として捉える方が実態に近い。\n\nインターセクショナリティーが広い分析枠組みであるのに対し、交差的差別は、その枠組みで捉えられる具体的な差別現象を指す言葉として使いやすい。",
+    "example": "採用基準が「女性一般」や「特定人種一般」には明示的な不利益を与えていないように見えても、特定の人種に属する女性だけが一貫して排除されている場合、二つの軸を別々に調べるだけでは原因を捉え損ねる可能性がある。",
+    "misconception": "「差別を二つ以上受けたら自動的に交差的差別」という意味ではない。差別事由が別々に作用している場合は、加算的・複合的な差別として区別できる。交差的差別では、複数の事由の相互作用そのものが問題になる。",
+    "context": "インターセクショナリティーを抽象概念で終わらせず、実際の制度・運用・ケースを見るときの具体語として覚えておきたい。",
+    "learnedAt": "2026-09-27",
+    "tags": [
+      "差別",
+      "人権",
+      "社会理論",
+      "法",
+      "交差性"
+    ],
+    "categoryPath": [
+      "人文・社会",
+      "社会理論",
+      "権力・差別"
+    ],
+    "related": [
+      "intersectionality",
+      "multiple-discrimination"
+    ],
+    "relations": {
+      "similar": [
+        "multiple-discrimination"
+      ],
+      "contrast": []
+    },
+    "visual": "",
+    "sources": [
+      {
+        "label": "European Institute for Gender Equality｜multiple discrimination",
+        "url": "https://eige.europa.eu/publications-resources/thesaurus/terms/1069"
+      },
+      {
+        "label": "Publications Office of the EU｜Intersectional discrimination in EU gender equality and non-discrimination law",
+        "url": "https://op.europa.eu/en/publication-detail/-/publication/d73a9221-b7c3-40f6-8414-8a48a2157a2f"
+      }
+    ]
+  },
+  {
+    "id": "multiple-discrimination",
+    "term": "複合差別",
+    "english": "Multiple discrimination",
+    "reading": "ふくごうさべつ",
+    "oneLine": "一人が二つ以上の差別事由によって不利益を受けることを広く指す概念。",
+    "detail": "複合差別（multiple discrimination）は、性別、人種・民族、宗教、障害、年齢、性的指向など、複数の差別事由に基づく差別を経験する状況を広くまとめる言葉。欧州ジェンダー平等研究所（EIGE）は、複数の事由に基づく差別を包む上位概念として扱い、その中に「加算的な差別」と「交差的差別」を区別している。\n\nここで重要なのは、複数あることと、交差していることを分けること。別々の場面で別々の理由による差別を受ける場合も複合差別に含められるが、交差的差別では複数の事由が分離できない形で作用する。つまり、multiple discrimination は広い傘、intersectional discrimination はその中でも相互作用に注目した概念、と整理すると分かりやすい。",
+    "example": "障害のある女性が、ある場面では性別を理由に不利益を受け、別の場面では障害を理由に不利益を受ける。二つの経験が独立して説明できるなら、複合差別のうち「複数の事由が別々に作用する」例として整理できる。",
+    "misconception": "複合差別と交差的差別は完全な同義語ではない。複合差別は複数の差別事由を扱う広い概念で、交差的差別はそれらが相互作用し、切り分けにくい固有の不利益をつくる場合を指す。",
+    "context": "インターセクショナリティー周辺で混同しやすい言葉を切り分けるために追加した。",
+    "learnedAt": "2026-09-27",
+    "tags": [
+      "差別",
+      "人権",
+      "社会理論",
+      "法"
+    ],
+    "categoryPath": [
+      "人文・社会",
+      "社会理論",
+      "権力・差別"
+    ],
+    "related": [
+      "intersectionality",
+      "intersectional-discrimination"
+    ],
+    "relations": {
+      "similar": [
+        "intersectional-discrimination"
+      ],
+      "contrast": [
+        "intersectionality"
+      ]
+    },
+    "visual": "",
+    "sources": [
+      {
+        "label": "European Institute for Gender Equality｜multiple discrimination",
+        "url": "https://eige.europa.eu/publications-resources/thesaurus/terms/1069"
+      },
+      {
+        "label": "Council of Europe｜Intersectionality and Multiple Discrimination",
+        "url": "https://www.coe.int/en/web/gender-matters/intersectionality-and-multiple-discrimination"
+      }
+    ]
+  },
+  {
+    "id": "matrix-of-domination",
+    "term": "支配のマトリクス",
+    "english": "Matrix of domination",
+    "reading": "しはいのまとりくす",
+    "oneLine": "人種・階級・ジェンダーなど複数の権力関係が、社会の中でどう組み合わさり配置されているかを捉える概念。",
+    "detail": "「支配のマトリクス（matrix of domination）」は、社会学者パトリシア・ヒル・コリンズ（Patricia Hill Collins）のブラック・フェミニスト思想と結びつく概念。人種、階級、ジェンダーなどの抑圧を、互いに独立した一本ずつの線ではなく、特定の社会・時代の中で組み合わさって働く権力構造として捉える。\n\nインターセクショナリティーが「複数の社会的カテゴリーや権力関係が交差すると何が起きるか」を分析するレンズだとすれば、支配のマトリクスは「その交差を生む権力関係が社会の中でどう組織されているか」に焦点を当てる。コリンズの議論では、権力は制度や組織だけでなく、文化的な意味づけや日常的な対人関係にもまたがって作用する。\n\nそのため、個人がどの属性を持つかだけでなく、法律、組織、慣行、文化、対人関係といった複数の水準をつないで考えるときに有効な概念。",
+    "example": "ある職場で昇進格差があるとき、個人の偏見だけを見るのではなく、採用経路、評価制度、管理職像、働き方の規範、日常のネットワーク形成などが互いにどう結びついて格差を再生産しているかを見る。",
+    "misconception": "「差別される属性の一覧」ではない。誰がどの属性を持つかより、複数の権力関係が社会の制度・文化・日常実践の中でどう組み合わさっているかを見る概念。",
+    "context": "インターセクショナリティーを個人の属性リストに縮めず、社会構造と権力配置まで見るための隣接概念として整理した。",
+    "learnedAt": "2026-09-27",
+    "tags": [
+      "社会学",
+      "権力",
+      "社会構造",
+      "ブラック・フェミニズム",
+      "差別"
+    ],
+    "categoryPath": [
+      "人文・社会",
+      "社会理論",
+      "権力・差別"
+    ],
+    "related": [
+      "intersectionality",
+      "social-location",
+      "positionality"
+    ],
+    "relations": {
+      "similar": [
+        "intersectionality"
+      ],
+      "contrast": []
+    },
+    "visual": "",
+    "sources": [
+      {
+        "label": "Wiley Blackwell Encyclopedia of Sociology｜Matrix of Domination",
+        "url": "https://doi.org/10.1002/9781405165518.wbeosm054"
+      },
+      {
+        "label": "Wiley Blackwell Encyclopedia of Gender and Sexuality Studies｜Matrix of Domination",
+        "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/9781118663219.wbegss611"
+      }
+    ]
+  },
+  {
+    "id": "social-location",
+    "term": "社会的位置",
+    "english": "Social location",
+    "reading": "しゃかいてきいち",
+    "oneLine": "ジェンダー、人種、階級、年齢、障害などの社会的カテゴリーと、それに結びつく権力関係の中で、自分がどこに位置しているかを表す考え方。",
+    "detail": "社会的位置（social location）は、個人を一つの属性だけでなく、ジェンダー、人種、階級、年齢、障害、宗教、性的指向、地理的条件など複数の社会的要因の組み合わせの中に置いて考える概念。ポイントは、それらが単なるプロフィール項目ではなく、社会の中で資源・機会・権力へどうアクセスできるかと結びついていること。\n\nインターセクショナリティーと組み合わせると、「この人は何者か」ではなく、「この社会のどの位置に置かれ、どの制度や規範からどんな影響を受けやすいか」を考えやすくなる。社会的位置は誰にでもあり、多数派・優位な立場も無色透明な標準ではなく、特定の社会的位置として捉える。",
+    "example": "同じ「30代の会社員」でも、性別、雇用形態、家族責任、障害の有無、国籍、居住地などによって、使える制度や直面する制約は変わる。こうした複数の条件と権力関係の中での位置を社会的位置として捉える。",
+    "misconception": "マイノリティにだけ存在する位置ではない。誰もが社会的位置を持つ。また、属性の羅列だけでなく、それぞれが社会制度や権力とどう結びつくかまで含めて考える。",
+    "context": "インターセクショナリティーを「他人の属性を見る道具」にせず、自分を含む全員が社会のどこに位置しているかを考える補助線として追加した。",
+    "learnedAt": "2026-09-27",
+    "tags": [
+      "社会学",
+      "アイデンティティ",
+      "権力",
+      "社会構造",
+      "交差性"
+    ],
+    "categoryPath": [
+      "人文・社会",
+      "社会理論",
+      "位置・視点"
+    ],
+    "related": [
+      "intersectionality",
+      "positionality",
+      "matrix-of-domination"
+    ],
+    "relations": {
+      "similar": [
+        "positionality"
+      ],
+      "contrast": []
+    },
+    "visual": "",
+    "sources": [
+      {
+        "label": "Springer｜Social Location, Positionality, and Intersectionality",
+        "url": "https://link.springer.com/chapter/10.1007/978-3-030-85668-7_2"
+      }
+    ]
+  },
+  {
+    "id": "positionality",
+    "term": "ポジショナリティ",
+    "english": "Positionality",
+    "reading": "ぽじしょなりてぃ",
+    "oneLine": "自分の社会的位置が、何を見やすく／見落としやすくし、知識や判断の視点にどう影響するかを自覚する考え方。",
+    "detail": "ポジショナリティ（positionality）は、自分が置かれた社会的位置や経験が、世界の見え方、問いの立て方、何を当然と感じるかに影響することを捉える概念。フェミニスト理論や質的研究では、研究者や観察者を「どこにも属さない中立な目」とみなさず、その人自身の立場が知識形成にどう関わるかを検討するために使われる。\n\n社会的位置（social location）が「社会構造の中でどこにいるか」に重心があるのに対し、ポジショナリティは「その位置から何がどう見えるか」「自分の位置をどう認識し、知識や判断にどう織り込むか」に重心がある。これは「主観だから何でもよい」という話ではなく、むしろ自分の視点の条件を明示して、見落としや偏りを点検するための方法。",
+    "example": "あるサービスの利用者調査を設計するとき、調査者自身が都市部在住・フルタイム勤務・デジタル機器に慣れた立場なら、その前提を無意識に標準としやすい。自分のポジショナリティを意識することで、地方在住者や非正規雇用者、デジタル利用に制約のある人の経験を見落としていないかを点検できる。",
+    "misconception": "「立場が違えば真実は全部別」という相対主義と同義ではない。自分の立場が観察や解釈に影響しうることを認め、その条件を明示して分析の質を上げるための概念。",
+    "context": "インターセクショナリティーを使う側も社会の外にいるわけではない、という自己点検の視点として追加した。",
+    "learnedAt": "2026-09-27",
+    "tags": [
+      "社会理論",
+      "研究方法",
+      "視点",
+      "アイデンティティ",
+      "自己省察"
+    ],
+    "categoryPath": [
+      "人文・社会",
+      "社会理論",
+      "位置・視点"
+    ],
+    "related": [
+      "social-location",
+      "intersectionality"
+    ],
+    "relations": {
+      "similar": [
+        "social-location"
+      ],
+      "contrast": []
+    },
+    "visual": "",
+    "sources": [
+      {
+        "label": "Linda Alcoff (1988)｜Cultural Feminism versus Post-Structuralism",
+        "url": "https://doi.org/10.1086/494426"
+      },
+      {
+        "label": "Springer｜Social Location, Positionality, and Intersectionality",
+        "url": "https://link.springer.com/chapter/10.1007/978-3-030-85668-7_2"
+      }
+    ]
   }
 ]
