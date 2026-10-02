@@ -2421,5 +2421,57 @@
         "url": "https://businesswales.gov.wales/topics-and-guidance/starting-a-business/start-and-business-planning/types-market-research"
       }
     ]
+  },
+  {
+    "id": "papageno",
+    "term": "パパゲーノ",
+    "english": "Papageno / Papageno effect",
+    "reading": "ぱぱげーの",
+    "oneLine": "モーツァルトのオペラ『魔笛』に登場する鳥刺しの男。現代では、危機を乗り越える物語が自殺予防に働く「パパゲーノ効果」の名前の由来としても知られる。",
+    "detail": "パパゲーノ（Papageno）は、ヴォルフガング・アマデウス・モーツァルト作曲、エマヌエル・シカネーダー台本のオペラ『魔笛』（Die Zauberflöte、1791年）の登場人物。鳥を捕ることを仕事にする、素朴で人間臭く、喜劇的な役どころで、初演では台本を書いたシカネーダー自身が演じた。物語の英雄タミーノとは対照的に、崇高な使命よりも食事や恋愛、平穏な暮らしを望む人物として描かれる。\n\n終盤でパパゲーノは、愛するパパゲーナを失ったと思い詰め、死を考える。しかし三人の童子に別の選択肢を思い出させられ、魔法の鈴を使うことで状況が変わり、パパゲーナと再会する。この場面をもとに、自殺に関するメディア研究では「危機を経験した人が、支援や対処法によって危機を乗り越える物語」が受け手に保護的な影響を与える可能性を「パパゲーノ効果（Papageno effect）」と呼ぶ。\n\nこの用語は2010年、トーマス・ニーダークローテンターラーらがオーストリアの自殺報道を分析した研究で提示した。研究では、危機の中で自殺以外の対処法を選んだ人を扱う記事が、その後の自殺率低下と関連していた。WHOも現在、危機からの回復、希望、支援の利用可能性を伝える報道の重要性を説明する際にパパゲーノ効果を取り上げている。\n\nただし、「前向きな話なら何でも人を救う」という単純な効果ではない。2022年の個人参加者データを用いたメタ分析では、希望や回復を描くメディア物語は、自殺リスクに一定の脆弱性がある人の自殺念慮を小さく低下させる効果が示された一方、援助希求の態度・意図については明確な差が確認されなかった。したがって、パパゲーノ効果は万能な処方箋ではなく、「危機の描き方には、模倣を促す方向だけでなく、対処や回復の選択肢を見せる方向もある」と理解するのが正確。",
+    "example": "自殺を扱う記事で、出来事の刺激的な描写や方法の詳細を強調するのではなく、「本人がどんな困難に直面し、誰に相談し、どんな対処法を使い、どう危機を抜けたか」を中心に描く。こうした希望・回復・対処の物語が、パパゲーノ効果を生みうる報道の典型例になる。",
+    "misconception": "「パパゲーノ」そのものが心理学用語なのではない。元は『魔笛』の登場人物で、「パパゲーノ効果」はそこから名づけられたメディア効果の概念。また、ウェルテル効果の単純な反対語として「良い話を載せれば必ず自殺が減る」と理解するのも誤り。効果は内容、受け手、文脈によって変わり、研究上もすべての指標で一貫した効果が示されているわけではない。",
+    "context": "『パパゲーノ』という名前を見たときに、①『魔笛』の喜劇的な人物、②危機で別の選択肢を示される物語、③そこから派生した自殺予防・メディア研究の「パパゲーノ効果」という三層をつなげて覚える。メディア、PR、広報でセンシティブな出来事を扱う際にも、何を強調して物語化するかを考える補助線になる。",
+    "learnedAt": "2026-10-02",
+    "tags": [
+      "音楽",
+      "オペラ",
+      "モーツァルト",
+      "魔笛",
+      "メディア",
+      "心理学",
+      "自殺予防",
+      "パパゲーノ効果",
+      "ウェルテル効果"
+    ],
+    "categoryPath": [
+      "人文・社会",
+      "メディア・心理",
+      "自殺予防"
+    ],
+    "related": [],
+    "relations": {
+      "similar": [],
+      "contrast": []
+    },
+    "visual": "",
+    "sources": [
+      {
+        "label": "Metropolitan Opera｜The Magic Flute: Plot and Creation",
+        "url": "https://www.metopera.org/discover/education/educator-guides/the-magic-flute/the-operas-plot-and-creation/"
+      },
+      {
+        "label": "Niederkrotenthaler et al. (2010)｜Role of media reports in completed and prevented suicide: Werther v. Papageno effects",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/20807970/"
+      },
+      {
+        "label": "WHO｜Preventing suicide: a resource for media professionals, update 2023",
+        "url": "https://www.who.int/publications/i/item/9789240076846"
+      },
+      {
+        "label": "Niederkrotenthaler et al. (2022)｜Effects of media stories of hope and recovery on suicidal ideation and help-seeking",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/35122759/"
+      }
+    ]
   }
 ]
