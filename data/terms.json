@@ -2270,5 +2270,156 @@
         "url": "https://www.gary-klein.com/books/the-power-of-intuition"
       }
     ]
+  },
+  {
+    "id": "due-diligence",
+    "term": "デューデリジェンス（DD）",
+    "english": "Due Diligence (DD)",
+    "reading": "でゅーでりじぇんす",
+    "oneLine": "M&Aや投資の前に、対象企業・事業の実態、収益力、リスクなどを精査し、価格・契約条件・実行判断に反映する調査プロセス。",
+    "detail": "デューデリジェンス（Due Diligence、DD）は、M&Aや出資などの意思決定に先立ち、対象企業・事業の実態を複数の観点から詳しく調べるプロセス。日本語では「買収監査」と訳されることもあるが、会計監査だけを指すものではない。\n\n調査領域は案件によって異なり、代表的にはビジネスDD、財務DD（FDD）、税務DD、法務DD（LDD）、IT DD、人事DDなどがある。中小企業基盤整備機構は、DDの目的を、対象会社の財務状況・収益力・税務リスク・法務リスクなどを把握し、企業価値算定やM&A実行の意思決定に必要な情報を集めることと整理している。\n\n重要なのは、DDが「問題がないか調べる作業」だけではないこと。経済産業省の海外M&Aに関する資料では、法務・財務上のリスク把握に加え、ビジネスDDで自社戦略との適合性を確認し、買収後の価値創造やPMIまで見据えることの重要性も示されている。つまりDDのアウトプットは、買う・買わないだけでなく、いくらで買うか、どんな条件を契約に入れるか、買収後に何をするかにもつながる。",
+    "example": "ある企業の買収を検討するとき、BDDで市場成長性や事業計画を検証し、FDDで実態収益や簿外債務を確認し、LDDで重要契約や訴訟リスクを調べる。それぞれの結果を合わせ、買収価格、契約条件、最終的な投資判断へ反映する。",
+    "misconception": "DD＝財務監査、または「悪いところ探し」ではない。財務・法務・税務・事業など複数領域の調査を総称する言葉で、案件によって範囲も深さも変わる。また、BDDはDDと並列の概念ではなく、DDの一類型。",
+    "context": "M&Aや投資案件で「DDに入る」「BDDを回す」といった言い方を正確に理解するための基礎語。まずDDを上位概念として押さえると、FDD・LDD・BDDなどの違いが整理しやすい。",
+    "learnedAt": "2026-10-02",
+    "tags": [
+      "M&A",
+      "投資",
+      "コンサルティング",
+      "DD",
+      "デューデリジェンス",
+      "企業価値"
+    ],
+    "categoryPath": [
+      "ビジネス",
+      "M&A",
+      "デューデリジェンス"
+    ],
+    "related": [
+      "business-due-diligence"
+    ],
+    "relations": {
+      "similar": [],
+      "contrast": []
+    },
+    "visual": "",
+    "sources": [
+      {
+        "label": "中小企業基盤整備機構｜Q33 デューデリジェンスとは何ですか？",
+        "url": "https://www.smrj.go.jp/supporter/tool/guidebook/succession2/fbrion00000020bo-att/jver9n000000d06d.pdf"
+      },
+      {
+        "label": "経済産業省｜海外資本活用の基本的なプロセス",
+        "url": "https://www.meti.go.jp/policy/investment/5references/pdf/guidebook_kaigaishihon.pdf"
+      },
+      {
+        "label": "経済産業省｜デューデリジェンス実施目的の再定義",
+        "url": "https://www.meti.go.jp/policy/external_economy/toshi/kaigaima/image/20190409003-2.pdf"
+      }
+    ]
+  },
+  {
+    "id": "business-due-diligence",
+    "term": "ビジネスDD（BDD）",
+    "english": "Business Due Diligence (BDD) / Commercial Due Diligence",
+    "reading": "びじねすでゅーでりじぇんす",
+    "oneLine": "DDのうち、市場・競争優位・事業計画の蓋然性・シナジーなどを分析し、対象事業の将来性と価値を検証する調査。",
+    "detail": "ビジネスDD（Business Due Diligence、BDD）は、M&Aなどの際に対象会社・事業の「将来どれだけ稼げるか、その前提は妥当か」を事業面から検証するデューデリジェンス。ファームによってはCommercial Due Diligence（CDD、コマーシャルDD）と呼んだり、BDDとCDDを近い意味で扱ったりする。\n\nPwCは、BDDを市場状況（マクロ環境・競合動向など）と対象会社・事業の強みや課題を分析し、対象会社が作成した事業計画の妥当性を検証・必要に応じて修正するものと整理している。一般に、売上、原価、販管費、営業利益またはEBITDAあたりまでの事業計画を、外部環境と内部環境の両面から検証する。\n\nKPMGも、対象事業の市場性、競争優位性とその持続可能性、リスク、事業計画の蓋然性を評価し、修正事業計画の作成につなげると説明している。さらにBDDは、バリュエーションの入力情報になるだけでなく、買収後のシナジー、価値創出施策、PMIの検討にもつながる。\n\n実務では、①市場規模・成長率、②顧客・競合、③競争優位の源泉、④売上・利益ドライバー、⑤事業計画の前提、⑥アップサイド／ベース／リスクケース、⑦シナジーやディスシナジー、といった論点を仮説ベースで掘ることが多い。",
+    "example": "買収候補のスポーツ映像会社が「5年で売上2倍」という計画を出している場合、BDDでは市場成長率、顧客数、単価、解約率、競合状況、設備・人員の制約などを分解し、その売上計画がどの条件なら成立するかを検証する。結果は買収価格やPMIの施策にも反映される。",
+    "misconception": "BDDはDDそのものの別名ではない。DDという大きな調査の中の「事業面」を担当する一類型。また、市場規模を検索して競合表を作るだけでもない。最終的には事業計画の数字やバリュエーション、買収後の価値創造につながる形で仮説を検証する。",
+    "context": "戦略コンサルやFAS、M&A案件で頻出する略語。FDDが過去・現在の財務実態を深く見るのに対し、BDDは市場や競争構造を踏まえて将来の事業計画を検証する、と置くと理解しやすい。",
+    "learnedAt": "2026-10-02",
+    "tags": [
+      "M&A",
+      "コンサルティング",
+      "BDD",
+      "ビジネスDD",
+      "Commercial DD",
+      "事業計画",
+      "市場分析",
+      "競合分析",
+      "PMI"
+    ],
+    "categoryPath": [
+      "ビジネス",
+      "M&A",
+      "デューデリジェンス"
+    ],
+    "related": [
+      "due-diligence",
+      "desk-research"
+    ],
+    "relations": {
+      "similar": [],
+      "contrast": []
+    },
+    "visual": "",
+    "sources": [
+      {
+        "label": "PwC Japan｜M&Aを成功に導くビジネスDDの進め方 第1回",
+        "url": "https://www.pwc.com/jp/ja/knowledge/journal/marr-dd/ma-200129.html"
+      },
+      {
+        "label": "KPMG Japan｜経営戦略：ビジネスデューデリジェンス",
+        "url": "https://kpmg.com/jp/ja/services/advisory/deal-advisory/strategy.html"
+      },
+      {
+        "label": "KPMG Japan｜デューデリジェンス",
+        "url": "https://kpmg.com/jp/ja/services/advisory/deal-advisory/merger-acquisition-pmi/due-diligence.html"
+      },
+      {
+        "label": "経済産業省｜デューデリジェンス実施目的の再定義",
+        "url": "https://www.meti.go.jp/policy/external_economy/toshi/kaigaima/image/20190409003-2.pdf"
+      }
+    ]
+  },
+  {
+    "id": "desk-research",
+    "term": "デスクリサーチ",
+    "english": "Desk Research / Secondary Research",
+    "reading": "ですくりさーち",
+    "oneLine": "既存の統計、レポート、論文、IR資料、Web情報などを収集・評価・分析し、新たに一次データを取らずに仮説や市場理解をつくる調査。",
+    "detail": "デスクリサーチ（desk research）は、すでに存在する情報を収集・整理・分析する調査手法。secondary research（二次調査）とも呼ばれる。インタビュー、アンケート、観察などで自ら新しいデータを取得するprimary research（一次調査）と対比される。\n\n情報源には、政府統計、官公庁資料、業界団体、企業のIR・有価証券報告書、調査会社のレポート、学術論文、新聞・業界誌、Webサイト、プレスリリース、過去の社内調査などがある。英国政府系のデジタルサービス資料でも、desk researchは既存の調査やデータを使って、調査対象について既に何が分かっているかを把握し、その後の一次調査の焦点を定める方法として扱われている。\n\nコンサル実務では「とりあえず検索する」ことではなく、①問いを定義する、②必要なファクトを分解する、③情報源の優先順位を決める、④取得条件・定義・時点を確認する、⑤複数ソースでクロスチェックする、⑥示唆へつなげる、という一連の作業として行う。BDDでは市場規模、成長率、競合、顧客動向、規制などの仮説形成・検証に頻繁に使う。",
+    "example": "「国内スポーツ映像市場は今後5年で伸びるか」を調べるなら、最初に市場を放映権、制作、配信、機材などに分解し、官公庁統計、各社IR、リーグ資料、業界レポート、ニュースを当たる。同じ『市場規模』でも定義や対象年度が違うため、数字を並べるだけでなく前提をそろえて比較する。",
+    "misconception": "デスクリサーチ＝Google検索ではない。検索は手段の一つで、重要なのは問い・定義・情報源・時点・調査方法をそろえ、ソースの信頼性や偏りを評価しながら複数資料を突き合わせること。また、日本語で「デスクトップリサーチ」と呼ばれることもあるが、英語で一般的なのは desk research / secondary research。",
+    "context": "コンサルティングで最も頻繁に使う基礎動作の一つ。インタビューやアンケートへ進む前に、まず既存情報でどこまで分かるかを押さえ、残った未知を一次調査へ回すと、調査全体を効率化できる。",
+    "learnedAt": "2026-10-02",
+    "tags": [
+      "リサーチ",
+      "コンサルティング",
+      "デスクリサーチ",
+      "デスクトップリサーチ",
+      "Desk Research",
+      "Secondary Research",
+      "二次調査",
+      "情報収集"
+    ],
+    "categoryPath": [
+      "ビジネス",
+      "コンサルティング",
+      "リサーチ"
+    ],
+    "related": [
+      "business-due-diligence"
+    ],
+    "relations": {
+      "similar": [],
+      "contrast": []
+    },
+    "visual": "",
+    "sources": [
+      {
+        "label": "U.S. Digital.gov｜Desk research",
+        "url": "https://digital.gov/guides/hcd/discovery-operations/desk-research"
+      },
+      {
+        "label": "UK Department for Education｜Desk Research in Discovery",
+        "url": "https://dfedigital.blog.gov.uk/2023/12/20/desk-research-in-discovery/"
+      },
+      {
+        "label": "Business Wales｜Types of Market Research",
+        "url": "https://businesswales.gov.wales/topics-and-guidance/starting-a-business/start-and-business-planning/types-market-research"
+      }
+    ]
   }
 ]
