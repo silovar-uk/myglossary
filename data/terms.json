@@ -2473,5 +2473,65 @@
         "url": "https://pubmed.ncbi.nlm.nih.gov/35122759/"
       }
     ]
+  },
+  {
+    "id": "innovation-theater",
+    "term": "イノベーションシアター",
+    "english": "Innovation Theater / Innovation Theatre",
+    "reading": "いのべーしょんしあたー",
+    "oneLine": "イノベーションらしい活動は目立つ一方で、実装・意思決定・事業成果への接続が弱く、「革新しているように見えること」が実質に先行している状態。",
+    "detail": "イノベーションシアター（innovation theater / innovation theatre）は、ハッカソン、アクセラレーター、イノベーションラボ、デザイン思考研修、PoC、先端技術の導入など、見た目には「イノベーション活動」と分かりやすい取り組みを行っているものの、それが実際の製品・サービス、業務変革、意思決定、収益・利益・市場シェアなどの成果へ十分につながっていない状態を批判的に表す言葉。Steve Blankが2019年のHarvard Business Review記事などで広めた概念として知られる。\n\n重要なのは、ハッカソンやデザイン思考、PoCそのものがイノベーションシアターなのではないこと。Strategyzerも、これらの手法は適切に使えば価値を生み、価値創出につながらない使われ方をしたときに「シアター」になると整理している。つまり問題は活動の種類ではなく、その活動が何に接続されているかにある。\n\n2024年のTechnovation掲載研究は、イノベーションシアターを「イノベーションプロセスに影響を与えない表面的・流行的な活動」と定義し、組織がイノベーティブであると正当化・演出するための象徴的行動として分析した。背景には、明確な戦略・資源・能力の不足といったハード要因、文化などのソフト要因、外部から革新的に見られたいという正当性の圧力があるとされる。\n\n実務では、「何件アイデアを出したか」「何回ワークショップをしたか」「何件PoCをしたか」という活動量だけで判断せず、①次の意思決定が定義されているか、②本番実装へ移す責任者・予算・権限があるか、③顧客価値や業務成果を検証する指標があるか、④続行・転換・中止を決めるゲートがあるか、⑤既存事業側へ受け渡す経路があるか、を見ると「活動」と「実質」を分けやすい。",
+    "example": "会社が毎年ハッカソンを開催し、生成AIのPoCを数十件実施し、イノベーションラボも設置している。しかし、PoC後に誰が本番導入を判断するか決まっておらず、予算も事業部のオーナーもなく、成功指標も「実施件数」のまま。翌年も新しいPoCだけが増える。この場合、個々の活動に価値がないとは限らないが、組織全体としてはイノベーションシアターに陥っている可能性が高い。",
+    "misconception": "「新規事業が失敗した」「PoCが事業化しなかった」だけでイノベーションシアターとは限らない。イノベーションには失敗がつきもので、検証の結果として合理的に中止することはむしろ健全。問題なのは、学習や意思決定につながらない活動を繰り返したり、実装経路がないまま活動量や外向きの演出だけを成果として扱ったりすること。また、広報や社内啓発の効果まで無価値と決めつける言葉でもない。MIT MIxは、こうした活動にも認知向上などの副次的便益があり得ると指摘している。",
+    "context": "新規事業、DX、AI活用、オープンイノベーションなどを評価するときに、「活動しているか」ではなく「実装・意思決定・価値創出へどうつながるか」を問うための診断語。コンサル実務では、PoC件数やイベント数の多さに引っ張られず、戦略→実験→判断→実装→スケールの接続を見る補助線として使える。",
+    "learnedAt": "2026-10-05",
+    "tags": [
+      "イノベーション",
+      "新規事業",
+      "DX",
+      "PoC",
+      "組織",
+      "意思決定",
+      "KPI",
+      "価値創出",
+      "コンサルティング"
+    ],
+    "categoryPath": [
+      "ビジネス",
+      "イノベーション",
+      "組織・実行"
+    ],
+    "related": [
+      "grandstanding"
+    ],
+    "relations": {
+      "similar": [
+        "grandstanding"
+      ],
+      "contrast": []
+    },
+    "visual": "",
+    "sources": [
+      {
+        "label": "Harvard Business Review｜Why Companies Do “Innovation Theater” Instead of Actual Innovation",
+        "url": "https://hbr.org/2019/10/why-companies-do-innovation-theater-instead-of-actual-innovation"
+      },
+      {
+        "label": "Steve Blank｜Why Companies and Government Do “Innovation Theater” Instead of Actual Innovation",
+        "url": "https://steveblank.com/2019/10/15/between-a-rock-and-a-hard-place-organizational-and-innovation-theater/"
+      },
+      {
+        "label": "Granados, Ayala, Ramos-Mejia (2024)｜Is it substantive or just symbolic? Understanding innovation theater in organisations",
+        "url": "https://doi.org/10.1016/j.technovation.2023.102880"
+      },
+      {
+        "label": "MIT Mission Innovation Experimental｜What is Innovation?",
+        "url": "https://mix.mit.edu/what-is-innovation/"
+      },
+      {
+        "label": "Strategyzer｜Demystify innovation theater",
+        "url": "https://www.strategyzer.com/library/demystify-innovation-theater"
+      }
+    ]
   }
 ]
