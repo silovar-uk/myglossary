@@ -2580,5 +2580,58 @@
         "url": "https://prsj.or.jp/dictionary/%E3%83%97%E3%83%AD%E3%83%9C%E3%83%8E%EF%BC%88pro-bono%EF%BC%89/"
       }
     ]
+  },
+  {
+    "id": "cagr",
+    "term": "CAGR（年平均成長率）",
+    "english": "Compound Annual Growth Rate",
+    "reading": "しーえーじーあーる",
+    "oneLine": "一定期間の増減を、毎年同じ割合で複利成長したと仮定して年率に換算した指標。市場規模や売上高の成長を期間の違いをならして比較する。",
+    "detail": "CAGRはCompound Annual Growth Rateの略で、一般に「年平均成長率」または「年平均成長率（複利）」と訳される。市場規模、企業の売上高、ユーザー数、投資額などが、ある時点から別の時点までどの程度伸びたかを、1年当たりの一定の成長率として表す指標。各年の伸び率を単純平均するのではなく、複利の考え方で期首値から期末値を再現する。英語では「シー・エー・ジー・アール」とアルファベットを読む用法も、「ケイガー」と読む用法もある。\n\n計算式：CAGR = (期末値 ÷ 期首値)^(1 ÷ 年数) − 1。例えば2022年末に100億円、2025年末に133.1億円なら、期間は「4年度分」ではなく3年間。CAGRは(133.1÷100)^(1÷3)−1 = 0.10、つまり年10%。ExcelやGoogle Sheetsなら、期首値をA2、期末値をB2、経過年数をC2として「=(B2/A2)^(1/C2)-1」と入力し、表示形式をパーセントにする。\n\nCAGRが表すのは「最初と最後をつなぐなら、毎年何%の複利成長に相当するか」であって、実際の各年の伸び率ではない。途中に急成長・停滞・減少があっても、両端の値が同じならCAGRは同じになる。そのため、長期トレンドの比較には便利だが、年度別推移やボラティリティ（変動の大きさ）を確認する目的には向かない。市場調査や事業計画では、対象市場の定義、期間の起点・終点、実績か予測か、金額の通貨・名目／実質をそろえて使うことが重要。",
+    "example": "スポーツ映像市場の規模が2022年に100億円、2025年に133.1億円だったと仮定する。「3年間で33.1%増」と表すだけでなく、「CAGR 10.0%（2022→2025年、3年間）」と記すと、他市場との年率比較がしやすくなる。市場A：CAGR 10%・現在規模100億円、市場B：CAGR 3%・現在規模1,000億円なら、成長率が高いAが必ずしも事業機会の大きい市場とは限らない。規模、利益率、参入余地、顧客の支払意思、競争環境まで併せて判断する。",
+    "misconception": "「3年間で30%伸びたからCAGRは10%」という単純な割り算は誤り（100→130の3年間ならCAGRは約9.14%）。また、CAGR 10%は毎年実際に10%ずつ成長したという意味でも、今後も10%成長するという保証でもない。期首値が0のときは割り算ができず、期首値が負のときや符号が変わる場合も、通常の成長率指標としては適切に解釈できない。2022→2025は3年であり、観測年の数4では割らないことにも注意。",
+    "context": "市場調査、事業計画、企業分析（売上高の推移）、新規事業の市場選定で頻出する基礎指標。「伸びている市場か」を定量的に示す入口として使い、その後で市場規模の絶対額、成長要因、利益率、競争優位性、実績値と予測値の違いを確認する。成長率だけで市場の魅力度を決めないための基礎知識。",
+    "learnedAt": "2026-10-09",
+    "tags": [
+      "CAGR",
+      "年平均成長率",
+      "複利",
+      "市場分析",
+      "市場規模",
+      "成長率",
+      "売上高",
+      "KPI",
+      "コンサルティング",
+      "企業分析",
+      "Excel"
+    ],
+    "categoryPath": [
+      "ビジネス",
+      "市場・企業分析",
+      "成長指標"
+    ],
+    "related": [
+      "business-due-diligence",
+      "desk-research"
+    ],
+    "relations": {
+      "similar": [],
+      "contrast": []
+    },
+    "visual": "",
+    "sources": [
+      {
+        "label": "CFA Institute｜The Myth of Volatility Drag (Part 1)：CAGRと幾何平均",
+        "url": "https://rpc.cfainstitute.org/blogs/enterprising-investor/2015/the-myth-of-volatility-drag-part-1"
+      },
+      {
+        "label": "Microsoft Support｜Excelで年間平均成長率（CAGR）を計算する",
+        "url": "https://support.microsoft.com/ja-jp/excel/calculate-a-compound-annual-growth-rate-cagr-in-excel"
+      },
+      {
+        "label": "SEC Investor.gov｜Compound Annual Growth Rate (CAGR)",
+        "url": "https://www.investor.gov/introduction-investing/investing-basics/glossary/compound-annual-growth-rate-cagr"
+      }
+    ]
   }
 ]
