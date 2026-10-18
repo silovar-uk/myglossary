@@ -2737,5 +2737,53 @@
         "url": "https://oxfordhealth.nhs.uk/camhs/self-care/sleep/relaxation/ground-yourself/"
       }
     ]
+  },
+  {
+    "id": "cathedral",
+    "term": "カテドラル",
+    "english": "Cathedral",
+    "reading": "かてどらる",
+    "oneLine": "司教の正式な座（司教座）が置かれる、キリスト教の教区の中心的な教会。日本語では「司教座聖堂」。",
+    "detail": "カテドラル（cathedral）は、キリスト教で司教の座が置かれ、その司教が管轄する地域「教区」の中心となる教会を指す。日本語では「司教座聖堂」と呼ぶ。大きく豪華な建物を意味する言葉と思われがちだが、本来の定義は建築物の大きさや様式ではなく、教会組織の中での役割によって決まる。\n\n語源はラテン語の「カテドラ（cathedra、椅子・座）」。これはギリシャ語の「カテドラ（kathedra、座る場所）」に由来する。司教が信徒を教え導き、儀式を執り行う権威を示す「司教座」がある聖堂、という意味からカテドラルと呼ばれる。司教は教区を統括する聖職者であり、司教座聖堂は教区の「母教会」として礼拝や教区全体の行事の中心になる。\n\nたとえば東京都文京区の「東京カテドラル聖マリア大聖堂」は、カトリック東京大司教区の司教座聖堂。現在の建物は丹下健三の設計で1964年に完成した現代建築で、カテドラルが必ずしも中世ヨーロッパのゴシック様式であるとは限らないことも分かる。カトリック教会だけでなく、英国国教会など司教制を持つ教会にもカテドラルがある。",
+    "example": "旅行先で「大きくて立派な教会＝カテドラル」と考えるのではなく、「この建物は教区を統括する司教の座があるのか？」と確かめる。東京カテドラル聖マリア大聖堂はカテドラルだが、規模の大きい一般の教会がすべてカテドラルというわけではない。",
+    "misconception": "「カテドラル＝大きい教会」「カテドラル＝ゴシック建築」ではない。中心となるのは司教座の有無という教会制度上の区分。また、日本語の「大聖堂」は建物の名前や一般的な呼称としても使われ、常に厳密な意味でのカテドラルを指すとは限らない。",
+    "context": "ヨーロッパの街歩きや建築・宗教史の文章に出てくる言葉を、建物の見た目ではなく「教区と司教座の関係」から理解するために覚える。",
+    "learnedAt": "2026-10-18",
+    "tags": [
+      "キリスト教",
+      "宗教",
+      "教会建築",
+      "語源",
+      "文化・歴史"
+    ],
+    "categoryPath": [
+      "文化・歴史",
+      "宗教",
+      "キリスト教"
+    ],
+    "related": [],
+    "relations": {
+      "similar": [],
+      "contrast": []
+    },
+    "visual": "",
+    "sources": [
+      {
+        "label": "カトリック東京大司教区｜東京カテドラル聖マリア大聖堂",
+        "url": "https://tokyo.catholic.jp/archdiocese/cathedral/"
+      },
+      {
+        "label": "Church of England｜Glossary（Cathedral）",
+        "url": "https://www.churchofengland.org/glossary?page=1"
+      },
+      {
+        "label": "Association of English Cathedrals｜What is a cathedral?",
+        "url": "https://englishcathedrals.co.uk/cathedrals/about-cathedrals/what-is-a-cathedral/"
+      },
+      {
+        "label": "カトリック東京大司教区｜東京教区ニュース第364号（名称の説明）",
+        "url": "https://tokyo.catholic.jp/info/news/35872/"
+      }
+    ]
   }
 ]
